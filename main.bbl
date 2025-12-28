@@ -1,0 +1,341 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{BrownGilman1960}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fd2441fc444a775b7c17f801434c0148}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6bc95889c056a4f861886ebc8270c61a}{%
+           family={Gilman},
+           familyi={G\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=a6e0b8e3dfaf3f32da48c9aa33d0d44f}{%
+           family={Sebeok},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{8979f3832729c838c21086ea7c924ac2}
+      \strng{fullhash}{8979f3832729c838c21086ea7c924ac2}
+      \strng{bibnamehash}{8979f3832729c838c21086ea7c924ac2}
+      \strng{authorbibnamehash}{8979f3832729c838c21086ea7c924ac2}
+      \strng{authornamehash}{8979f3832729c838c21086ea7c924ac2}
+      \strng{authorfullhash}{8979f3832729c838c21086ea7c924ac2}
+      \strng{editorbibnamehash}{a6e0b8e3dfaf3f32da48c9aa33d0d44f}
+      \strng{editornamehash}{a6e0b8e3dfaf3f32da48c9aa33d0d44f}
+      \strng{editorfullhash}{a6e0b8e3dfaf3f32da48c9aa33d0d44f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Style in Language}
+      \field{title}{The Pronouns of Power and Solidarity}
+      \field{year}{1960}
+      \field{pages}{253\bibrangedash 276}
+      \range{pages}{24}
+    \endentry
+    \entry{bybee2010}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5e362377bb52fdc66f4fe8de0e9f8a23}{%
+           family={Bybee},
+           familyi={B\bibinitperiod},
+           given={Joan\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{fullhash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{bibnamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{authorbibnamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{authornamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{authorfullhash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Language, Usage, and Cognition}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.1017/CBO9780511750526
+      \endverb
+    \endentry
+    \entry{Dickey1997}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=482292d5ff89b15ea4b30507b298a442}{%
+           family={Dickey},
+           familyi={D\bibinitperiod},
+           given={Eleanor},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{482292d5ff89b15ea4b30507b298a442}
+      \strng{fullhash}{482292d5ff89b15ea4b30507b298a442}
+      \strng{bibnamehash}{482292d5ff89b15ea4b30507b298a442}
+      \strng{authorbibnamehash}{482292d5ff89b15ea4b30507b298a442}
+      \strng{authornamehash}{482292d5ff89b15ea4b30507b298a442}
+      \strng{authorfullhash}{482292d5ff89b15ea4b30507b298a442}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Linguistics}
+      \field{number}{2}
+      \field{title}{Forms of Address and Terms of Reference}
+      \field{volume}{33}
+      \field{year}{1997}
+      \field{pages}{255\bibrangedash 274}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1017/S0022226797006488
+      \endverb
+    \endentry
+    \entry{Huddleston2002}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d4a7987d3fffab21c9756f8ce95ab03e}{%
+           family={Huddleston},
+           familyi={H\bibinitperiod},
+           given={Rodney},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2925d6199ca3c6f0b208850cac579716}{%
+           family={Pullum},
+           familyi={P\bibinitperiod},
+           given={Geoffrey\bibnamedelima K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{fullhash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{bibnamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorbibnamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authornamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorfullhash}{58d8597746591ceb120f0343a4e9b21f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The {C}ambridge Grammar of the {E}nglish Language}
+      \field{year}{2002}
+      \verb{doi}
+      \verb 10.1017/9781316423530
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{BrownGilman1960}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fd2441fc444a775b7c17f801434c0148}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6bc95889c056a4f861886ebc8270c61a}{%
+           family={Gilman},
+           familyi={G\bibinitperiod},
+           given={Albert},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=a6e0b8e3dfaf3f32da48c9aa33d0d44f}{%
+           family={Sebeok},
+           familyi={S\bibinitperiod},
+           given={Thomas\bibnamedelima A.},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{8979f3832729c838c21086ea7c924ac2}
+      \strng{fullhash}{8979f3832729c838c21086ea7c924ac2}
+      \strng{bibnamehash}{8979f3832729c838c21086ea7c924ac2}
+      \strng{authorbibnamehash}{8979f3832729c838c21086ea7c924ac2}
+      \strng{authornamehash}{8979f3832729c838c21086ea7c924ac2}
+      \strng{authorfullhash}{8979f3832729c838c21086ea7c924ac2}
+      \strng{editorbibnamehash}{a6e0b8e3dfaf3f32da48c9aa33d0d44f}
+      \strng{editornamehash}{a6e0b8e3dfaf3f32da48c9aa33d0d44f}
+      \strng{editorfullhash}{a6e0b8e3dfaf3f32da48c9aa33d0d44f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Style in Language}
+      \field{title}{The Pronouns of Power and Solidarity}
+      \field{year}{1960}
+      \field{pages}{253\bibrangedash 276}
+      \range{pages}{24}
+    \endentry
+    \entry{bybee2010}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5e362377bb52fdc66f4fe8de0e9f8a23}{%
+           family={Bybee},
+           familyi={B\bibinitperiod},
+           given={Joan\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{fullhash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{bibnamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{authorbibnamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{authornamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{authorfullhash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Language, Usage, and Cognition}
+      \field{year}{2010}
+      \verb{doi}
+      \verb 10.1017/CBO9780511750526
+      \endverb
+    \endentry
+    \entry{Dickey1997}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=482292d5ff89b15ea4b30507b298a442}{%
+           family={Dickey},
+           familyi={D\bibinitperiod},
+           given={Eleanor},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{482292d5ff89b15ea4b30507b298a442}
+      \strng{fullhash}{482292d5ff89b15ea4b30507b298a442}
+      \strng{bibnamehash}{482292d5ff89b15ea4b30507b298a442}
+      \strng{authorbibnamehash}{482292d5ff89b15ea4b30507b298a442}
+      \strng{authornamehash}{482292d5ff89b15ea4b30507b298a442}
+      \strng{authorfullhash}{482292d5ff89b15ea4b30507b298a442}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Linguistics}
+      \field{number}{2}
+      \field{title}{Forms of Address and Terms of Reference}
+      \field{volume}{33}
+      \field{year}{1997}
+      \field{pages}{255\bibrangedash 274}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1017/S0022226797006488
+      \endverb
+    \endentry
+    \entry{Huddleston2002}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d4a7987d3fffab21c9756f8ce95ab03e}{%
+           family={Huddleston},
+           familyi={H\bibinitperiod},
+           given={Rodney},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2925d6199ca3c6f0b208850cac579716}{%
+           family={Pullum},
+           familyi={P\bibinitperiod},
+           given={Geoffrey\bibnamedelima K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{fullhash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{bibnamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorbibnamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authornamehash}{58d8597746591ceb120f0343a4e9b21f}
+      \strng{authorfullhash}{58d8597746591ceb120f0343a4e9b21f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The {C}ambridge Grammar of the {E}nglish Language}
+      \field{year}{2002}
+      \verb{doi}
+      \verb 10.1017/9781316423530
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
