@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  28 DEC 2025 13:10
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  28 DEC 2025 13:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3497,6 +3497,12 @@ deital in morpho-
  []
 
 
+Overfull \hbox (38.0355pt too wide) in paragraph at lines 121--122
+[]\TU/EBGaramond(0)/b/n/12 The framework extends readily to names and titles. [
+]R. Brown and Ford ([][]1961[][]) applied the power/solidarity
+ []
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -3504,7 +3510,87 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4] (./main.aux)
+[4]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6]
+Overfull \hbox (5.6206pt too wide) in paragraph at lines 219--220
+[]\TU/EBGaramond(0)/m/it/12 Mother \TU/EBGaramond(0)/b/n/12 and \TU/EBGaramond(
+0)/m/it/12 Father\TU/EBGaramond(0)/b/n/12 , more formal and lower-frequency, ar
+e grammatical as bare singulars but marked. 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[9]
+Overfull \hbox (0.60052pt too wide) in paragraph at lines 306--307
+\TU/EBGaramond(0)/b/n/12 other. Sociolinguists studying address forms haven’t e
+xamined determiner syntax; syntacticians study-
+ []
+
+
+Overfull \hbox (0.63391pt too wide) in paragraph at lines 312--313
+\TU/EBGaramond(0)/b/n/12 name. It still appeared bare, still referred uniquely,
+ still carried the grammatical signature of frequency-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11] (./main.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -3514,18 +3600,18 @@ L3 programming layer <2023-11-01>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: A0DC2B9B8D3E80C2FFAAAABC2C9EF13B;1997.
+(rerunfilecheck)             Checksum: 0BC28782D970536A642FBAC0A83D40D2;6091.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36246 strings out of 474935
- 729197 string characters out of 5761827
+ 36291 strings out of 474935
+ 730455 string characters out of 5761827
  1936161 words of memory out of 5000000
- 57624 multiletter control sequences out of 15000+600000
+ 57669 multiletter control sequences out of 15000+600000
  565945 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  122i,12n,124p,1001b,8651s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (4 pages).
+Output written on main.pdf (11 pages).

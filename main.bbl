@@ -19,14 +19,91 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
-    \entry{BrownGilman1960}{inbook}{}
+    \entry{BrownLevinson1987}{book}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=fd2441fc444a775b7c17f801434c0148}{%
+        {{un=1,uniquepart=given,hash=b813054095f6303db2d75a6ea9ffbbcb}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Penelope},
+           giveni={P\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e8cabdf8db416e17d05ff9d4d9c41faf}{%
+           family={Levinson},
+           familyi={L\bibinitperiod},
+           given={Stephen\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{405e8873bda0445547ad344115b40e92}
+      \strng{fullhash}{405e8873bda0445547ad344115b40e92}
+      \strng{bibnamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authorbibnamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authornamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authorfullhash}{405e8873bda0445547ad344115b40e92}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Politeness: {S}ome Universals in Language Usage}
+      \field{year}{1987}
+      \verb{doi}
+      \verb 10.1017/CBO9780511813085
+      \endverb
+    \endentry
+    \entry{BrownFord1961}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=fd2441fc444a775b7c17f801434c0148}{%
            family={Brown},
            familyi={B\bibinitperiod},
            given={Roger},
            giveni={R\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=82fbd3d267e1c0993fea017efce655bd}{%
+           family={Ford},
+           familyi={F\bibinitperiod},
+           given={Marguerite},
+           giveni={M\bibinitperiod},
            givenun=0}}%
+      }
+      \strng{namehash}{22f6f7c92bbdffaf73273f2c2b92d29a}
+      \strng{fullhash}{22f6f7c92bbdffaf73273f2c2b92d29a}
+      \strng{bibnamehash}{22f6f7c92bbdffaf73273f2c2b92d29a}
+      \strng{authorbibnamehash}{22f6f7c92bbdffaf73273f2c2b92d29a}
+      \strng{authornamehash}{22f6f7c92bbdffaf73273f2c2b92d29a}
+      \strng{authorfullhash}{22f6f7c92bbdffaf73273f2c2b92d29a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Abnormal and Social Psychology}
+      \field{number}{2}
+      \field{title}{Address in {A}merican {E}nglish}
+      \field{volume}{62}
+      \field{year}{1961}
+      \field{pages}{375\bibrangedash 385}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1037/h0042862
+      \endverb
+    \endentry
+    \entry{BrownGilman1960}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=fd2441fc444a775b7c17f801434c0148}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=6bc95889c056a4f861886ebc8270c61a}{%
            family={Gilman},
            familyi={G\bibinitperiod},
@@ -60,7 +137,6 @@
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Style in Language}
@@ -68,6 +144,40 @@
       \field{year}{1960}
       \field{pages}{253\bibrangedash 276}
       \range{pages}{24}
+    \endentry
+    \entry{bybee2006}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5e362377bb52fdc66f4fe8de0e9f8a23}{%
+           family={Bybee},
+           familyi={B\bibinitperiod},
+           given={Joan\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{fullhash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{bibnamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{authorbibnamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{authornamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{authorfullhash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Language}
+      \field{number}{4}
+      \field{title}{From Usage to Grammar: {T}he Mind's Response to Repetition}
+      \field{volume}{82}
+      \field{year}{2006}
+      \field{pages}{711\bibrangedash 733}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1353/lan.2006.0186
+      \endverb
     \endentry
     \entry{bybee2010}{book}{}
       \name{author}{1}{}{%
@@ -90,6 +200,7 @@
       \strng{authorbibnamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
       \strng{authornamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
       \strng{authorfullhash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -135,6 +246,74 @@
       \verb{doi}
       \verb 10.1017/S0022226797006488
       \endverb
+    \endentry
+    \entry{Hill2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a9a172ac161d6183e02f5305813e0655}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Virginia},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{fullhash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{bibnamehash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{authorbibnamehash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{authornamehash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{authorfullhash}{a9a172ac161d6183e02f5305813e0655}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Glossa: a journal of general linguistics}
+      \field{number}{1}
+      \field{title}{The syntactization of kinship in vocative phrases}
+      \field{volume}{7}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.16995/glossa.5765
+      \endverb
+    \endentry
+    \entry{Traugott1993}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=135f909cbdeeaf8fa1fc16ccbcd8cb13}{%
+           family={Hopper},
+           familyi={H\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17b2a7ad8ab6b1207dd612a78d6c4554}{%
+           family={Traugott},
+           familyi={T\bibinitperiod},
+           given={Elizabeth\bibnamedelima Closs},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{644abd36365d243212ba43fa5216288f}
+      \strng{fullhash}{644abd36365d243212ba43fa5216288f}
+      \strng{bibnamehash}{644abd36365d243212ba43fa5216288f}
+      \strng{authorbibnamehash}{644abd36365d243212ba43fa5216288f}
+      \strng{authornamehash}{644abd36365d243212ba43fa5216288f}
+      \strng{authorfullhash}{644abd36365d243212ba43fa5216288f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Grammaticalization}
+      \field{year}{1993}
     \endentry
     \entry{Huddleston2002}{book}{}
       \name{author}{2}{}{%
@@ -178,14 +357,91 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
-    \entry{BrownGilman1960}{inbook}{}
+    \entry{BrownLevinson1987}{book}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=fd2441fc444a775b7c17f801434c0148}{%
+        {{un=1,uniquepart=given,hash=b813054095f6303db2d75a6ea9ffbbcb}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Penelope},
+           giveni={P\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e8cabdf8db416e17d05ff9d4d9c41faf}{%
+           family={Levinson},
+           familyi={L\bibinitperiod},
+           given={Stephen\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{405e8873bda0445547ad344115b40e92}
+      \strng{fullhash}{405e8873bda0445547ad344115b40e92}
+      \strng{bibnamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authorbibnamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authornamehash}{405e8873bda0445547ad344115b40e92}
+      \strng{authorfullhash}{405e8873bda0445547ad344115b40e92}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Politeness: {S}ome Universals in Language Usage}
+      \field{year}{1987}
+      \verb{doi}
+      \verb 10.1017/CBO9780511813085
+      \endverb
+    \endentry
+    \entry{BrownFord1961}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=fd2441fc444a775b7c17f801434c0148}{%
            family={Brown},
            familyi={B\bibinitperiod},
            given={Roger},
            giveni={R\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=82fbd3d267e1c0993fea017efce655bd}{%
+           family={Ford},
+           familyi={F\bibinitperiod},
+           given={Marguerite},
+           giveni={M\bibinitperiod},
            givenun=0}}%
+      }
+      \strng{namehash}{22f6f7c92bbdffaf73273f2c2b92d29a}
+      \strng{fullhash}{22f6f7c92bbdffaf73273f2c2b92d29a}
+      \strng{bibnamehash}{22f6f7c92bbdffaf73273f2c2b92d29a}
+      \strng{authorbibnamehash}{22f6f7c92bbdffaf73273f2c2b92d29a}
+      \strng{authornamehash}{22f6f7c92bbdffaf73273f2c2b92d29a}
+      \strng{authorfullhash}{22f6f7c92bbdffaf73273f2c2b92d29a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Abnormal and Social Psychology}
+      \field{number}{2}
+      \field{title}{Address in {A}merican {E}nglish}
+      \field{volume}{62}
+      \field{year}{1961}
+      \field{pages}{375\bibrangedash 385}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1037/h0042862
+      \endverb
+    \endentry
+    \entry{BrownGilman1960}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=fd2441fc444a775b7c17f801434c0148}{%
+           family={Brown},
+           familyi={B\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=6bc95889c056a4f861886ebc8270c61a}{%
            family={Gilman},
            familyi={G\bibinitperiod},
@@ -219,7 +475,6 @@
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Style in Language}
@@ -227,6 +482,40 @@
       \field{year}{1960}
       \field{pages}{253\bibrangedash 276}
       \range{pages}{24}
+    \endentry
+    \entry{bybee2006}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5e362377bb52fdc66f4fe8de0e9f8a23}{%
+           family={Bybee},
+           familyi={B\bibinitperiod},
+           given={Joan\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{fullhash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{bibnamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{authorbibnamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{authornamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \strng{authorfullhash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Language}
+      \field{number}{4}
+      \field{title}{From Usage to Grammar: {T}he Mind's Response to Repetition}
+      \field{volume}{82}
+      \field{year}{2006}
+      \field{pages}{711\bibrangedash 733}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1353/lan.2006.0186
+      \endverb
     \endentry
     \entry{bybee2010}{book}{}
       \name{author}{1}{}{%
@@ -249,6 +538,7 @@
       \strng{authorbibnamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
       \strng{authornamehash}{5e362377bb52fdc66f4fe8de0e9f8a23}
       \strng{authorfullhash}{5e362377bb52fdc66f4fe8de0e9f8a23}
+      \field{extraname}{2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -294,6 +584,74 @@
       \verb{doi}
       \verb 10.1017/S0022226797006488
       \endverb
+    \endentry
+    \entry{Hill2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a9a172ac161d6183e02f5305813e0655}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Virginia},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{fullhash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{bibnamehash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{authorbibnamehash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{authornamehash}{a9a172ac161d6183e02f5305813e0655}
+      \strng{authorfullhash}{a9a172ac161d6183e02f5305813e0655}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Glossa: a journal of general linguistics}
+      \field{number}{1}
+      \field{title}{The syntactization of kinship in vocative phrases}
+      \field{volume}{7}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.16995/glossa.5765
+      \endverb
+    \endentry
+    \entry{Traugott1993}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=135f909cbdeeaf8fa1fc16ccbcd8cb13}{%
+           family={Hopper},
+           familyi={H\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17b2a7ad8ab6b1207dd612a78d6c4554}{%
+           family={Traugott},
+           familyi={T\bibinitperiod},
+           given={Elizabeth\bibnamedelima Closs},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{644abd36365d243212ba43fa5216288f}
+      \strng{fullhash}{644abd36365d243212ba43fa5216288f}
+      \strng{bibnamehash}{644abd36365d243212ba43fa5216288f}
+      \strng{authorbibnamehash}{644abd36365d243212ba43fa5216288f}
+      \strng{authornamehash}{644abd36365d243212ba43fa5216288f}
+      \strng{authorfullhash}{644abd36365d243212ba43fa5216288f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Grammaticalization}
+      \field{year}{1993}
     \endentry
     \entry{Huddleston2002}{book}{}
       \name{author}{2}{}{%
