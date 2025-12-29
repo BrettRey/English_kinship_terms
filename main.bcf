@@ -3088,9 +3088,8 @@
     <bcf:citekey order="25" intorder="1">Traugott1993</bcf:citekey>
     <bcf:citekey order="26" intorder="1">bybee2010</bcf:citekey>
     <bcf:citekey order="27" intorder="1">bybee2010</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">Dixon1972</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">Braun1988</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">Hodgkin1927</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">Bloch2006</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">Hodgkin1927</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
