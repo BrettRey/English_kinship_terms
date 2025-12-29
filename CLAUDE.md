@@ -8,7 +8,29 @@ Paper arguing that the English naming taboo (children addressing parents by kins
 
 **Working title:** English kinship terms: From taboo to syntax
 **Author:** Brett Reynolds (Humber Polytechnic / University of Toronto)
-**Status:** Gap analysis complete; drafting not started
+**Status:** Complete draft in main.tex; revision phase
+
+## File Structure
+
+```
+English_kinship_terms/
+├── main.tex              # Complete draft (~380 lines)
+├── references.bib        # Bibliography
+├── local-preamble.tex    # Font overrides for house style
+├── main.pdf              # Compiled output
+├── notes/
+│   ├── English kinship terms-taboo to syntax.md  # Gap analysis
+│   ├── drafting-plan.md  # Section-by-section outline
+│   └── advisory/         # Advisory board notes
+├── drafts/
+│   └── section1-opening.md  # Early draft of opening
+├── literature/           # Reference PDFs and notes
+│   ├── hill2022vocatives.pdf
+│   ├── cgel-ch5.20.pdf
+│   ├── bloch2006malagasy.pdf
+│   └── [other sources]
+└── .house-style/         # Symlinked house style
+```
 
 ## Core Argument
 
@@ -50,17 +72,12 @@ This paper requires strict category–function distinctions:
 
 ## Building the Document
 
-When a main.tex is created:
-
 ```bash
-# Using Makefile (preferred)
-make              # Full build with bibliography
-make quick        # Single pass (no bib update)
-make clean        # Remove build artifacts
-
-# Manual build (XeLaTeX required for house style)
+# XeLaTeX required (not LuaLaTeX)
 xelatex main.tex && biber main && xelatex main.tex && xelatex main.tex
 ```
+
+Note: This project has `local-preamble.tex` to handle font substitutions. The house-style preamble expects specific fonts (EB Garamond, Charis SIL).
 
 ## House Style (Critical Conventions)
 
@@ -84,13 +101,23 @@ xelatex main.tex && biber main && xelatex main.tex && xelatex main.tex
 - `\citep{key}` parenthetical
 - `\textcite{key}` narrative
 
-## Next Steps
+## Paper Structure (Current Draft)
 
-1. Draft introduction connecting the two literatures
-2. Systematically apply CGEL proper noun/name apparatus to kinship terms
-3. Document the distributional evidence (corpus work on *Mom*, *Dad*)
-4. Propose grammaticalization pathway
-5. Address cross-linguistic evidence (English taboo is "weak" compared to Chinese, Vietnamese)
+1. **Introduction** (§1) - The *Parent Trap* opening; two facts that should be connected; proposed mechanism; CGEL framework; deitality connection
+2. **The naming taboo** (§2) - Cross-cultural taboos; power/solidarity; parent-child asymmetry; politeness and face
+3. **Kinship terms with proper-name status** (§3) - CGEL framework; bare singular pattern; gradience across kin terms; vocatives and subjects
+4. **From taboo to syntax** (§4) - Frequency argument; grammaticalization pathway; CHILDES corpus evidence
+5. **Cross-linguistic predictions: Malagasy** (§5) - Determiner system; naming taboo; predictions
+6. **Objections and alternatives** (§6) - Vocative generalization; semantic uniqueness; sir/ma'am; lexical specification
+7. **Conclusion** (§7) - Return to *Parent Trap*
+
+## Remaining Tasks
+
+- [ ] Verify *Parent Trap* dialogue against script
+- [ ] Tighten prose (target ~60 words per paragraph)
+- [ ] Consider additional felt moments (*Family Guy*, *Shameless*)
+- [ ] Diachronic trajectory of bare kin-term stabilization (acknowledged gap)
+- [ ] Variation across class/region/ethnicity (acknowledged gap)
 
 ## Related Projects
 
