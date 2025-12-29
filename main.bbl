@@ -19,6 +19,38 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{Adamek2012}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db84431a4c905d1ae53f04194f8180ca}{%
+           family={Adamek},
+           familyi={A\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Leiden University}%
+      }
+      \list{location}{1}{%
+        {Leiden}%
+      }
+      \strng{namehash}{db84431a4c905d1ae53f04194f8180ca}
+      \strng{fullhash}{db84431a4c905d1ae53f04194f8180ca}
+      \strng{bibnamehash}{db84431a4c905d1ae53f04194f8180ca}
+      \strng{authorbibnamehash}{db84431a4c905d1ae53f04194f8180ca}
+      \strng{authornamehash}{db84431a4c905d1ae53f04194f8180ca}
+      \strng{authorfullhash}{db84431a4c905d1ae53f04194f8180ca}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Good Son Is Sad If He Hears the Name of His Father: The Tabooing of Names in {C}hina as a Way of Implementing Social Values}
+      \field{type}{phdthesis}
+      \field{year}{2012}
+    \endentry
     \entry{BrownLevinson1987}{book}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=b813054095f6303db2d75a6ea9ffbbcb}{%
@@ -384,10 +416,107 @@
       \field{year}{2002}
       \verb{doi}
       \verb 10.1017/9781316423530
+      \endverb
+    \endentry
+    \entry{Luong1990}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c75dfc52da68772202f42454b05ba83b}{%
+           family={Luong},
+           familyi={L\bibinitperiod},
+           given={Hy\bibnamedelima V.},
+           giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {John Benjamins}%
+      }
+      \strng{namehash}{c75dfc52da68772202f42454b05ba83b}
+      \strng{fullhash}{c75dfc52da68772202f42454b05ba83b}
+      \strng{bibnamehash}{c75dfc52da68772202f42454b05ba83b}
+      \strng{authorbibnamehash}{c75dfc52da68772202f42454b05ba83b}
+      \strng{authornamehash}{c75dfc52da68772202f42454b05ba83b}
+      \strng{authorfullhash}{c75dfc52da68772202f42454b05ba83b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Discursive Practices and Linguistic Meanings: The {V}ietnamese System of Person Reference}
+      \field{year}{1990}
+      \verb{doi}
+      \verb 10.1075/pbns.9
+      \endverb
+    \endentry
+    \entry{Tang2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=953980b6d41c8a16859b2c325b24ab31}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Giang},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{953980b6d41c8a16859b2c325b24ab31}
+      \strng{fullhash}{953980b6d41c8a16859b2c325b24ab31}
+      \strng{bibnamehash}{953980b6d41c8a16859b2c325b24ab31}
+      \strng{authorbibnamehash}{953980b6d41c8a16859b2c325b24ab31}
+      \strng{authornamehash}{953980b6d41c8a16859b2c325b24ab31}
+      \strng{authorfullhash}{953980b6d41c8a16859b2c325b24ab31}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Southeast Asian American Education and Advancement}
+      \field{number}{1}
+      \field{title}{Cross-Linguistic Analysis of {V}ietnamese and {E}nglish with Implications for {V}ietnamese Language Acquisition and Maintenance in the {U}nited {S}tates}
+      \field{volume}{2}
+      \field{year}{2007}
+      \verb{doi}
+      \verb 10.7771/2153-8999.1085
       \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{Adamek2012}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=db84431a4c905d1ae53f04194f8180ca}{%
+           family={Adamek},
+           familyi={A\bibinitperiod},
+           given={Piotr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Leiden University}%
+      }
+      \list{location}{1}{%
+        {Leiden}%
+      }
+      \strng{namehash}{db84431a4c905d1ae53f04194f8180ca}
+      \strng{fullhash}{db84431a4c905d1ae53f04194f8180ca}
+      \strng{bibnamehash}{db84431a4c905d1ae53f04194f8180ca}
+      \strng{authorbibnamehash}{db84431a4c905d1ae53f04194f8180ca}
+      \strng{authornamehash}{db84431a4c905d1ae53f04194f8180ca}
+      \strng{authorfullhash}{db84431a4c905d1ae53f04194f8180ca}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Good Son Is Sad If He Hears the Name of His Father: The Tabooing of Names in {C}hina as a Way of Implementing Social Values}
+      \field{type}{phdthesis}
+      \field{year}{2012}
+    \endentry
     \entry{BrownLevinson1987}{book}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=b813054095f6303db2d75a6ea9ffbbcb}{%
@@ -753,6 +882,71 @@
       \field{year}{2002}
       \verb{doi}
       \verb 10.1017/9781316423530
+      \endverb
+    \endentry
+    \entry{Luong1990}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c75dfc52da68772202f42454b05ba83b}{%
+           family={Luong},
+           familyi={L\bibinitperiod},
+           given={Hy\bibnamedelima V.},
+           giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {John Benjamins}%
+      }
+      \strng{namehash}{c75dfc52da68772202f42454b05ba83b}
+      \strng{fullhash}{c75dfc52da68772202f42454b05ba83b}
+      \strng{bibnamehash}{c75dfc52da68772202f42454b05ba83b}
+      \strng{authorbibnamehash}{c75dfc52da68772202f42454b05ba83b}
+      \strng{authornamehash}{c75dfc52da68772202f42454b05ba83b}
+      \strng{authorfullhash}{c75dfc52da68772202f42454b05ba83b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Discursive Practices and Linguistic Meanings: The {V}ietnamese System of Person Reference}
+      \field{year}{1990}
+      \verb{doi}
+      \verb 10.1075/pbns.9
+      \endverb
+    \endentry
+    \entry{Tang2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=953980b6d41c8a16859b2c325b24ab31}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Giang},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{953980b6d41c8a16859b2c325b24ab31}
+      \strng{fullhash}{953980b6d41c8a16859b2c325b24ab31}
+      \strng{bibnamehash}{953980b6d41c8a16859b2c325b24ab31}
+      \strng{authorbibnamehash}{953980b6d41c8a16859b2c325b24ab31}
+      \strng{authornamehash}{953980b6d41c8a16859b2c325b24ab31}
+      \strng{authorfullhash}{953980b6d41c8a16859b2c325b24ab31}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Southeast Asian American Education and Advancement}
+      \field{number}{1}
+      \field{title}{Cross-Linguistic Analysis of {V}ietnamese and {E}nglish with Implications for {V}ietnamese Language Acquisition and Maintenance in the {U}nited {S}tates}
+      \field{volume}{2}
+      \field{year}{2007}
+      \verb{doi}
+      \verb 10.7771/2153-8999.1085
       \endverb
     \endentry
   \enddatalist
