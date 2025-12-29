@@ -51,6 +51,57 @@
       \field{type}{phdthesis}
       \field{year}{2012}
     \endentry
+    \entry{Bloch2006}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=26d7b530dbe612ea2d7718a3dac6912e}{%
+           family={Bloch},
+           familyi={B\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=297774d8ac43b8adc591ab68c49324df}{%
+           family={Bruck},
+           familyi={B\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod},
+           prefix={vom},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=a58a75a1a57e57b94ee4ec3c02106596}{%
+           family={Bodenhorn},
+           familyi={B\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{fullhash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{bibnamehash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{authorbibnamehash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{authornamehash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{authorfullhash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{editorbibnamehash}{f7b144d623c455267e2920436f78342a}
+      \strng{editornamehash}{f7b144d623c455267e2920436f78342a}
+      \strng{editorfullhash}{f7b144d623c455267e2920436f78342a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Anthropology of Names and Naming}
+      \field{title}{Teknonymy and the evocation of the social'' among the {Z}afimaniry of {M}adagascar}
+      \field{year}{2006}
+      \field{pages}{97\bibrangedash 114}
+      \range{pages}{18}
+    \endentry
     \entry{BrownLevinson1987}{book}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=b813054095f6303db2d75a6ea9ffbbcb}{%
@@ -279,6 +330,43 @@
       \verb 10.1017/S0022226797006488
       \endverb
     \endentry
+    \entry{ElbertPukui1979}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=040d5d29d2bdcaa92dbc1e2cee53e202}{%
+           family={Elbert},
+           familyi={E\bibinitperiod},
+           given={Samuel\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c252b3fedf5b020f0db196ba8a855ab}{%
+           family={Pukui},
+           familyi={P\bibinitperiod},
+           given={Mary\bibnamedelima Kawena},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Honolulu}%
+      }
+      \list{publisher}{1}{%
+        {University of Hawaii Press}%
+      }
+      \strng{namehash}{f6cf27b648f96db484192ab54796a496}
+      \strng{fullhash}{f6cf27b648f96db484192ab54796a496}
+      \strng{bibnamehash}{f6cf27b648f96db484192ab54796a496}
+      \strng{authorbibnamehash}{f6cf27b648f96db484192ab54796a496}
+      \strng{authornamehash}{f6cf27b648f96db484192ab54796a496}
+      \strng{authorfullhash}{f6cf27b648f96db484192ab54796a496}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hawaiian Grammar}
+      \field{year}{1979}
+    \endentry
     \entry{Hill2022}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a9a172ac161d6183e02f5305813e0655}{%
@@ -418,14 +506,65 @@
       \verb 10.1017/9781316423530
       \endverb
     \endentry
-    \entry{Luong1990}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c75dfc52da68772202f42454b05ba83b}{%
-           family={Luong},
-           familyi={L\bibinitperiod},
-           given={Hy\bibnamedelima V.},
-           giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod},
+    \entry{IrvineGunner2018}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7380b6279fe51e8d4888355e4100caf8}{%
+           family={Irvine},
+           familyi={I\bibinitperiod},
+           given={Judith\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=940fe03d8f4c526777789e23342d7992}{%
+           family={Gunner},
+           familyi={G\bibinitperiod},
+           given={Liz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2fba63cc858fa2f34910b13436d52b0e}
+      \strng{fullhash}{2fba63cc858fa2f34910b13436d52b0e}
+      \strng{bibnamehash}{2fba63cc858fa2f34910b13436d52b0e}
+      \strng{authorbibnamehash}{2fba63cc858fa2f34910b13436d52b0e}
+      \strng{authornamehash}{2fba63cc858fa2f34910b13436d52b0e}
+      \strng{authorfullhash}{2fba63cc858fa2f34910b13436d52b0e}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Anthropological Quarterly}
+      \field{number}{1}
+      \field{title}{With Respect to {Z}ulu: {R}evisiting ukuhlonipha}
+      \field{volume}{91}
+      \field{year}{2018}
+      \field{pages}{173\bibrangedash 207}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1353/anq.2018.0005
+      \endverb
+    \endentry
+    \entry{Keenan2008}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28bdcd9731106a1a3f3224038bc7d46a}{%
+           family={Keenan},
+           familyi={K\bibinitperiod},
+           given={Edward\bibnamedelima L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=c667a12313cd9b17898606b7852a3b2b}{%
+           family={Donohue},
+           familyi={D\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=033f960d19f9c0d96c64f3257f2b953c}{%
+           family={Wichmann},
+           familyi={W\bibinitperiod},
+           given={Soren},
+           giveni={S\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Amsterdam}%
@@ -433,55 +572,59 @@
       \list{publisher}{1}{%
         {John Benjamins}%
       }
-      \strng{namehash}{c75dfc52da68772202f42454b05ba83b}
-      \strng{fullhash}{c75dfc52da68772202f42454b05ba83b}
-      \strng{bibnamehash}{c75dfc52da68772202f42454b05ba83b}
-      \strng{authorbibnamehash}{c75dfc52da68772202f42454b05ba83b}
-      \strng{authornamehash}{c75dfc52da68772202f42454b05ba83b}
-      \strng{authorfullhash}{c75dfc52da68772202f42454b05ba83b}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \strng{namehash}{28bdcd9731106a1a3f3224038bc7d46a}
+      \strng{fullhash}{28bdcd9731106a1a3f3224038bc7d46a}
+      \strng{bibnamehash}{28bdcd9731106a1a3f3224038bc7d46a}
+      \strng{authorbibnamehash}{28bdcd9731106a1a3f3224038bc7d46a}
+      \strng{authornamehash}{28bdcd9731106a1a3f3224038bc7d46a}
+      \strng{authorfullhash}{28bdcd9731106a1a3f3224038bc7d46a}
+      \strng{editorbibnamehash}{689fa77ad486f6aecc6e0eb66bdc5ac5}
+      \strng{editornamehash}{689fa77ad486f6aecc6e0eb66bdc5ac5}
+      \strng{editorfullhash}{689fa77ad486f6aecc6e0eb66bdc5ac5}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Discursive Practices and Linguistic Meanings: The {V}ietnamese System of Person Reference}
-      \field{year}{1990}
+      \field{booktitle}{The Grammar of Possession: Inalienability, Incorporation and Possessor Ascension in {A}ustronesian Languages}
+      \field{title}{The definiteness of subjects and objects in {M}alagasy}
+      \field{year}{2008}
       \verb{doi}
-      \verb 10.1075/pbns.9
+      \verb 10.1075/tsl.81.12kee
       \endverb
     \endentry
-    \entry{Tang2007}{article}{}
+    \entry{Opler1941}{book}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=953980b6d41c8a16859b2c325b24ab31}{%
-           family={Tang},
-           familyi={T\bibinitperiod},
-           given={Giang},
-           giveni={G\bibinitperiod},
+        {{un=0,uniquepart=base,hash=3c592e8bafcc71e7393c3f7217a19796}{%
+           family={Opler},
+           familyi={O\bibinitperiod},
+           given={Morris\bibnamedelima Edward},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{953980b6d41c8a16859b2c325b24ab31}
-      \strng{fullhash}{953980b6d41c8a16859b2c325b24ab31}
-      \strng{bibnamehash}{953980b6d41c8a16859b2c325b24ab31}
-      \strng{authorbibnamehash}{953980b6d41c8a16859b2c325b24ab31}
-      \strng{authornamehash}{953980b6d41c8a16859b2c325b24ab31}
-      \strng{authorfullhash}{953980b6d41c8a16859b2c325b24ab31}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{3c592e8bafcc71e7393c3f7217a19796}
+      \strng{fullhash}{3c592e8bafcc71e7393c3f7217a19796}
+      \strng{bibnamehash}{3c592e8bafcc71e7393c3f7217a19796}
+      \strng{authorbibnamehash}{3c592e8bafcc71e7393c3f7217a19796}
+      \strng{authornamehash}{3c592e8bafcc71e7393c3f7217a19796}
+      \strng{authorfullhash}{3c592e8bafcc71e7393c3f7217a19796}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Southeast Asian American Education and Advancement}
-      \field{number}{1}
-      \field{title}{Cross-Linguistic Analysis of {V}ietnamese and {E}nglish with Implications for {V}ietnamese Language Acquisition and Maintenance in the {U}nited {S}tates}
-      \field{volume}{2}
-      \field{year}{2007}
-      \verb{doi}
-      \verb 10.7771/2153-8999.1085
-      \endverb
+      \field{title}{An {A}pache Life-Way: {T}he Economic, Social, and Religious Institutions of the {C}hiricahua {I}ndians}
+      \field{year}{1941}
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
@@ -517,6 +660,57 @@
       \field{type}{phdthesis}
       \field{year}{2012}
     \endentry
+    \entry{Bloch2006}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=26d7b530dbe612ea2d7718a3dac6912e}{%
+           family={Bloch},
+           familyi={B\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=297774d8ac43b8adc591ab68c49324df}{%
+           family={Bruck},
+           familyi={B\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod},
+           prefix={vom},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=a58a75a1a57e57b94ee4ec3c02106596}{%
+           family={Bodenhorn},
+           familyi={B\bibinitperiod},
+           given={Barbara},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{fullhash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{bibnamehash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{authorbibnamehash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{authornamehash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{authorfullhash}{26d7b530dbe612ea2d7718a3dac6912e}
+      \strng{editorbibnamehash}{f7b144d623c455267e2920436f78342a}
+      \strng{editornamehash}{f7b144d623c455267e2920436f78342a}
+      \strng{editorfullhash}{f7b144d623c455267e2920436f78342a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Anthropology of Names and Naming}
+      \field{title}{Teknonymy and the evocation of the social'' among the {Z}afimaniry of {M}adagascar}
+      \field{year}{2006}
+      \field{pages}{97\bibrangedash 114}
+      \range{pages}{18}
+    \endentry
     \entry{BrownLevinson1987}{book}{}
       \name{author}{2}{}{%
         {{un=1,uniquepart=given,hash=b813054095f6303db2d75a6ea9ffbbcb}{%
@@ -745,6 +939,43 @@
       \verb 10.1017/S0022226797006488
       \endverb
     \endentry
+    \entry{ElbertPukui1979}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=040d5d29d2bdcaa92dbc1e2cee53e202}{%
+           family={Elbert},
+           familyi={E\bibinitperiod},
+           given={Samuel\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c252b3fedf5b020f0db196ba8a855ab}{%
+           family={Pukui},
+           familyi={P\bibinitperiod},
+           given={Mary\bibnamedelima Kawena},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Honolulu}%
+      }
+      \list{publisher}{1}{%
+        {University of Hawaii Press}%
+      }
+      \strng{namehash}{f6cf27b648f96db484192ab54796a496}
+      \strng{fullhash}{f6cf27b648f96db484192ab54796a496}
+      \strng{bibnamehash}{f6cf27b648f96db484192ab54796a496}
+      \strng{authorbibnamehash}{f6cf27b648f96db484192ab54796a496}
+      \strng{authornamehash}{f6cf27b648f96db484192ab54796a496}
+      \strng{authorfullhash}{f6cf27b648f96db484192ab54796a496}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Hawaiian Grammar}
+      \field{year}{1979}
+    \endentry
     \entry{Hill2022}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a9a172ac161d6183e02f5305813e0655}{%
@@ -884,14 +1115,65 @@
       \verb 10.1017/9781316423530
       \endverb
     \endentry
-    \entry{Luong1990}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c75dfc52da68772202f42454b05ba83b}{%
-           family={Luong},
-           familyi={L\bibinitperiod},
-           given={Hy\bibnamedelima V.},
-           giveni={H\bibinitperiod\bibinitdelim V\bibinitperiod},
+    \entry{IrvineGunner2018}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7380b6279fe51e8d4888355e4100caf8}{%
+           family={Irvine},
+           familyi={I\bibinitperiod},
+           given={Judith\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
            givenun=0}}%
+        {{un=0,uniquepart=base,hash=940fe03d8f4c526777789e23342d7992}{%
+           family={Gunner},
+           familyi={G\bibinitperiod},
+           given={Liz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2fba63cc858fa2f34910b13436d52b0e}
+      \strng{fullhash}{2fba63cc858fa2f34910b13436d52b0e}
+      \strng{bibnamehash}{2fba63cc858fa2f34910b13436d52b0e}
+      \strng{authorbibnamehash}{2fba63cc858fa2f34910b13436d52b0e}
+      \strng{authornamehash}{2fba63cc858fa2f34910b13436d52b0e}
+      \strng{authorfullhash}{2fba63cc858fa2f34910b13436d52b0e}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Anthropological Quarterly}
+      \field{number}{1}
+      \field{title}{With Respect to {Z}ulu: {R}evisiting ukuhlonipha}
+      \field{volume}{91}
+      \field{year}{2018}
+      \field{pages}{173\bibrangedash 207}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.1353/anq.2018.0005
+      \endverb
+    \endentry
+    \entry{Keenan2008}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28bdcd9731106a1a3f3224038bc7d46a}{%
+           family={Keenan},
+           familyi={K\bibinitperiod},
+           given={Edward\bibnamedelima L.},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=c667a12313cd9b17898606b7852a3b2b}{%
+           family={Donohue},
+           familyi={D\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=033f960d19f9c0d96c64f3257f2b953c}{%
+           family={Wichmann},
+           familyi={W\bibinitperiod},
+           given={Soren},
+           giveni={S\bibinitperiod}}}%
       }
       \list{location}{1}{%
         {Amsterdam}%
@@ -899,55 +1181,59 @@
       \list{publisher}{1}{%
         {John Benjamins}%
       }
-      \strng{namehash}{c75dfc52da68772202f42454b05ba83b}
-      \strng{fullhash}{c75dfc52da68772202f42454b05ba83b}
-      \strng{bibnamehash}{c75dfc52da68772202f42454b05ba83b}
-      \strng{authorbibnamehash}{c75dfc52da68772202f42454b05ba83b}
-      \strng{authornamehash}{c75dfc52da68772202f42454b05ba83b}
-      \strng{authorfullhash}{c75dfc52da68772202f42454b05ba83b}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \strng{namehash}{28bdcd9731106a1a3f3224038bc7d46a}
+      \strng{fullhash}{28bdcd9731106a1a3f3224038bc7d46a}
+      \strng{bibnamehash}{28bdcd9731106a1a3f3224038bc7d46a}
+      \strng{authorbibnamehash}{28bdcd9731106a1a3f3224038bc7d46a}
+      \strng{authornamehash}{28bdcd9731106a1a3f3224038bc7d46a}
+      \strng{authorfullhash}{28bdcd9731106a1a3f3224038bc7d46a}
+      \strng{editorbibnamehash}{689fa77ad486f6aecc6e0eb66bdc5ac5}
+      \strng{editornamehash}{689fa77ad486f6aecc6e0eb66bdc5ac5}
+      \strng{editorfullhash}{689fa77ad486f6aecc6e0eb66bdc5ac5}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Discursive Practices and Linguistic Meanings: The {V}ietnamese System of Person Reference}
-      \field{year}{1990}
+      \field{booktitle}{The Grammar of Possession: Inalienability, Incorporation and Possessor Ascension in {A}ustronesian Languages}
+      \field{title}{The definiteness of subjects and objects in {M}alagasy}
+      \field{year}{2008}
       \verb{doi}
-      \verb 10.1075/pbns.9
+      \verb 10.1075/tsl.81.12kee
       \endverb
     \endentry
-    \entry{Tang2007}{article}{}
+    \entry{Opler1941}{book}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=953980b6d41c8a16859b2c325b24ab31}{%
-           family={Tang},
-           familyi={T\bibinitperiod},
-           given={Giang},
-           giveni={G\bibinitperiod},
+        {{un=0,uniquepart=base,hash=3c592e8bafcc71e7393c3f7217a19796}{%
+           family={Opler},
+           familyi={O\bibinitperiod},
+           given={Morris\bibnamedelima Edward},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{953980b6d41c8a16859b2c325b24ab31}
-      \strng{fullhash}{953980b6d41c8a16859b2c325b24ab31}
-      \strng{bibnamehash}{953980b6d41c8a16859b2c325b24ab31}
-      \strng{authorbibnamehash}{953980b6d41c8a16859b2c325b24ab31}
-      \strng{authornamehash}{953980b6d41c8a16859b2c325b24ab31}
-      \strng{authorfullhash}{953980b6d41c8a16859b2c325b24ab31}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \list{location}{1}{%
+        {Chicago}%
+      }
+      \list{publisher}{1}{%
+        {University of Chicago Press}%
+      }
+      \strng{namehash}{3c592e8bafcc71e7393c3f7217a19796}
+      \strng{fullhash}{3c592e8bafcc71e7393c3f7217a19796}
+      \strng{bibnamehash}{3c592e8bafcc71e7393c3f7217a19796}
+      \strng{authorbibnamehash}{3c592e8bafcc71e7393c3f7217a19796}
+      \strng{authornamehash}{3c592e8bafcc71e7393c3f7217a19796}
+      \strng{authorfullhash}{3c592e8bafcc71e7393c3f7217a19796}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Southeast Asian American Education and Advancement}
-      \field{number}{1}
-      \field{title}{Cross-Linguistic Analysis of {V}ietnamese and {E}nglish with Implications for {V}ietnamese Language Acquisition and Maintenance in the {U}nited {S}tates}
-      \field{volume}{2}
-      \field{year}{2007}
-      \verb{doi}
-      \verb 10.7771/2153-8999.1085
-      \endverb
+      \field{title}{An {A}pache Life-Way: {T}he Economic, Social, and Religious Institutions of the {C}hiricahua {I}ndians}
+      \field{year}{1941}
     \endentry
   \enddatalist
 \endrefsection

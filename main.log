@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  29 DEC 2025 06:51
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  29 DEC 2025 06:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3497,17 +3497,6 @@ deital in morpho-
  []
 
 
-LaTeX Warning: Citation 'ElbertPukui1979' on page 4 undefined on input line 115
-.
-
-
-LaTeX Warning: Citation 'IrvineGunner2018' on page 4 undefined on input line 11
-5.
-
-
-LaTeX Warning: Citation 'Opler1941' on page 4 undefined on input line 115.
-
-
 Overfull \hbox (38.0355pt too wide) in paragraph at lines 123--124
 []\TU/EBGaramond(0)/b/n/12 The framework extends readily to names and titles. [
 ]R. Brown and Ford ([][]1961[][]) applied the power/solidarity
@@ -3559,15 +3548,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8]
 
-LaTeX Warning: Citation 'Bloch2006' on page 9 undefined on input line 257.
-
-
-Overfull \hbox (16.0246pt too wide) in paragraph at lines 257--258
-\TU/EBGaramond(0)/b/n/12 Among the Zafimaniry of Madagascar, naming taboos are 
-far more pervasive than in English ([]).
- []
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -3617,11 +3597,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [12]
-Overfull \hbox (1.06049pt too wide) in paragraph at lines 350--350
-[][]\TU/EBGaramond(0)/b/n/12 Tang, G. (2007). Cross-linguistic analysis of Viet
-namese and English with implications for Vietnamese
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -3645,19 +3620,18 @@ LaTeX Warning: There were undefined references.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 5F5F72E0183B1A0EFFD2B5A2ACD7569B;6550.
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36316 strings out of 474935
- 731277 string characters out of 5761827
- 1937161 words of memory out of 5000000
- 57694 multiletter control sequences out of 15000+600000
+ 36334 strings out of 474935
+ 731927 string characters out of 5761827
+ 1939161 words of memory out of 5000000
+ 57712 multiletter control sequences out of 15000+600000
  565945 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  122i,13n,124p,1001b,8651s stack positions out of 10000i,1000n,20000p,200000b,200000s
