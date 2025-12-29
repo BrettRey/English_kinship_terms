@@ -64,3 +64,29 @@ the, and, to, of, in, that
 ## Notes
 - All speakers are included (CHI + adult talkers). If you want child-only or adult-only counts, modify the script to filter by speaker codes on `*` lines (e.g., `*CHI:`).
 - `kinship_frequencies.tsv` is currently sorted by the input list order; you can resort for presentation.
+
+
+## Vocative vs argument counts
+
+Output:
+- `kinship_vocative_argument.tsv`
+- Columns: `term`, `vocative_count`, `vocative_per_million`, `argument_count`, `argument_per_million`
+
+Normalization:
+- Per-million rates use the same surface denominator as above (11,465,138 word tokens from `*` tiers).
+
+How to reproduce:
+
+```bash
+python /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/compute_childes_kinship_vocative.py   --root /Users/brettreynolds/Downloads/Eng-NA   --out /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/kinship_vocative_argument.tsv
+```
+
+Vocative heuristic (surface-only, reproducible):
+- **Vocative** if the kin term is **comma-adjacent** (immediately before or after `,`) **or** the utterance is a **stand-alone address**.
+- **Stand-alone address** = after collapsing multiword kin forms (e.g., `grand mom` → `grandmom`) and removing discourse markers (`hey`, `oh`, `okay`, `uh`, etc.), the utterance contains **only** kin terms.
+- **Argument** otherwise.
+
+Notes:
+- Uses only `*` tiers (no `%mor`/`%gra`).
+- Tokenization uses word-like strings from the raw `*` line and punctuation tokens for comma detection.
+- This is a **conservative** vocative measure (high precision, lower recall for vocatives without commas).

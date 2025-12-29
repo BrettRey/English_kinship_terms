@@ -656,6 +656,38 @@
       \field{pages}{609\bibrangedash 665}
       \range{pages}{57}
     \endentry
+    \entry{MacWhinney2000}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b79c99e294f4ca6e19824a6a21a5c189}{%
+           family={MacWhinney},
+           familyi={M\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Mahwah, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Lawrence Erlbaum Associates}%
+      }
+      \strng{namehash}{b79c99e294f4ca6e19824a6a21a5c189}
+      \strng{fullhash}{b79c99e294f4ca6e19824a6a21a5c189}
+      \strng{bibnamehash}{b79c99e294f4ca6e19824a6a21a5c189}
+      \strng{authorbibnamehash}{b79c99e294f4ca6e19824a6a21a5c189}
+      \strng{authornamehash}{b79c99e294f4ca6e19824a6a21a5c189}
+      \strng{authorfullhash}{b79c99e294f4ca6e19824a6a21a5c189}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{The {CHILDES} Project: {T}ools for Analyzing Talk}
+      \field{year}{2000}
+    \endentry
     \entry{Opler1941}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3c592e8bafcc71e7393c3f7217a19796}{%
@@ -1412,6 +1444,38 @@
       \field{year}{1994}
       \field{pages}{609\bibrangedash 665}
       \range{pages}{57}
+    \endentry
+    \entry{MacWhinney2000}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b79c99e294f4ca6e19824a6a21a5c189}{%
+           family={MacWhinney},
+           familyi={M\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Mahwah, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Lawrence Erlbaum Associates}%
+      }
+      \strng{namehash}{b79c99e294f4ca6e19824a6a21a5c189}
+      \strng{fullhash}{b79c99e294f4ca6e19824a6a21a5c189}
+      \strng{bibnamehash}{b79c99e294f4ca6e19824a6a21a5c189}
+      \strng{authorbibnamehash}{b79c99e294f4ca6e19824a6a21a5c189}
+      \strng{authornamehash}{b79c99e294f4ca6e19824a6a21a5c189}
+      \strng{authorfullhash}{b79c99e294f4ca6e19824a6a21a5c189}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3rd}
+      \field{title}{The {CHILDES} Project: {T}ools for Analyzing Talk}
+      \field{year}{2000}
     \endentry
     \entry{Opler1941}{book}{}
       \name{author}{1}{}{%
