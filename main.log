@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  29 DEC 2025 09:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  29 DEC 2025 09:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3547,6 +3547,195 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [8]
 
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/one.tosf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/two.tosf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/three.tosf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/four.tosf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/five.tosf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/six.tosf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/seven.tosf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/eight.tosf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/nine.tosf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/one.lf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/two.lf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/four.lf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/seven.lf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/one.osf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/two.osf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/four.osf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/seven.osf'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+Package microtype Info: Character `Ⅳ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `Ⅵ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `Ⅶ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `Ⅷ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `Ⅸ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `Ⅺ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `Ⅻ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ⅳ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ⅵ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ⅶ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ⅷ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ⅸ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ⅺ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ⅻ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `˷' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ƒ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `₡' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `•' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+
+Package microtype Warning: Unknown slot number of character
+(microtype)                `/twodotenleader'
+(microtype)                in font encoding `TU' in protrusion list
+(microtype)                `EBGaramond-TU'.
+
+Package microtype Info: Character `℃' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `™' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `−' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `ϙ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `Ѱ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `Ѵ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `Ʌ' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⑴' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `⒜' is missing
+(microtype)             in font `\TU/EBGaramond(0)/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -3645,11 +3834,11 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36371 strings out of 474935
- 733171 string characters out of 5761827
+ 36387 strings out of 474935
+ 733527 string characters out of 5761827
  1942161 words of memory out of 5000000
- 57749 multiletter control sequences out of 15000+600000
- 565945 words of font info for 100 fonts, out of 8000000 for 9000
+ 57762 multiletter control sequences out of 15000+600000
+ 566598 words of font info for 104 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  122i,13n,124p,1048b,8651s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
