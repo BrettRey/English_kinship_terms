@@ -687,6 +687,60 @@
       \field{title}{An {A}pache Life-Way: {T}he Economic, Social, and Religious Institutions of the {C}hiricahua {I}ndians}
       \field{year}{1941}
     \endentry
+    \entry{Potsdam2010}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=25f0551c42b9dbfaf918ccfa27d7f814}{%
+           family={Potsdam},
+           familyi={P\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=cb8372a82e31fd70581539ab3c5f3ad3}{%
+           family={Mercado},
+           familyi={M\bibinitperiod},
+           given={Raphael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=25f0551c42b9dbfaf918ccfa27d7f814}{%
+           family={Potsdam},
+           familyi={P\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=cfca3a67f79a731950ee7bc5b2161677}{%
+           family={Travis},
+           familyi={T\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {John Benjamins}%
+      }
+      \strng{namehash}{25f0551c42b9dbfaf918ccfa27d7f814}
+      \strng{fullhash}{25f0551c42b9dbfaf918ccfa27d7f814}
+      \strng{bibnamehash}{25f0551c42b9dbfaf918ccfa27d7f814}
+      \strng{authorbibnamehash}{25f0551c42b9dbfaf918ccfa27d7f814}
+      \strng{authornamehash}{25f0551c42b9dbfaf918ccfa27d7f814}
+      \strng{authorfullhash}{25f0551c42b9dbfaf918ccfa27d7f814}
+      \strng{editorbibnamehash}{aa81f7a2c2735a474d7f52c589df3e4d}
+      \strng{editornamehash}{c359705b48ba4fd2e04333a322a3844c}
+      \strng{editorfullhash}{aa81f7a2c2735a474d7f52c589df3e4d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Austronesian and Theoretical Linguistics}
+      \field{title}{{VSO} word order in {M}alagasy imperatives}
+      \field{year}{2010}
+      \field{pages}{231\bibrangedash 248}
+      \range{pages}{18}
+    \endentry
     \entry{Sloat1969}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c5d49200f5005874f0c3ebe65c790a38}{%
@@ -1389,6 +1443,60 @@
       \field{labeltitlesource}{title}
       \field{title}{An {A}pache Life-Way: {T}he Economic, Social, and Religious Institutions of the {C}hiricahua {I}ndians}
       \field{year}{1941}
+    \endentry
+    \entry{Potsdam2010}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=25f0551c42b9dbfaf918ccfa27d7f814}{%
+           family={Potsdam},
+           familyi={P\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=cb8372a82e31fd70581539ab3c5f3ad3}{%
+           family={Mercado},
+           familyi={M\bibinitperiod},
+           given={Raphael},
+           giveni={R\bibinitperiod}}}%
+        {{hash=25f0551c42b9dbfaf918ccfa27d7f814}{%
+           family={Potsdam},
+           familyi={P\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=cfca3a67f79a731950ee7bc5b2161677}{%
+           family={Travis},
+           familyi={T\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {John Benjamins}%
+      }
+      \strng{namehash}{25f0551c42b9dbfaf918ccfa27d7f814}
+      \strng{fullhash}{25f0551c42b9dbfaf918ccfa27d7f814}
+      \strng{bibnamehash}{25f0551c42b9dbfaf918ccfa27d7f814}
+      \strng{authorbibnamehash}{25f0551c42b9dbfaf918ccfa27d7f814}
+      \strng{authornamehash}{25f0551c42b9dbfaf918ccfa27d7f814}
+      \strng{authorfullhash}{25f0551c42b9dbfaf918ccfa27d7f814}
+      \strng{editorbibnamehash}{aa81f7a2c2735a474d7f52c589df3e4d}
+      \strng{editornamehash}{c359705b48ba4fd2e04333a322a3844c}
+      \strng{editorfullhash}{aa81f7a2c2735a474d7f52c589df3e4d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Austronesian and Theoretical Linguistics}
+      \field{title}{{VSO} word order in {M}alagasy imperatives}
+      \field{year}{2010}
+      \field{pages}{231\bibrangedash 248}
+      \range{pages}{18}
     \endentry
     \entry{Sloat1969}{article}{}
       \name{author}{1}{}{%

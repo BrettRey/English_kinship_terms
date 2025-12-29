@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  29 DEC 2025 07:43
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  29 DEC 2025 07:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3556,9 +3556,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [9]
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
- overwriting on input line 286.
+ overwriting on input line 285.
 
-Overfull \hbox (1.86456pt too wide) in paragraph at lines 286--287
+Overfull \hbox (1.86456pt too wide) in paragraph at lines 285--286
 \TU/EBGaramond(0)/b/n/12 used as quasi-honorifics (\TU/EBGaramond(0)/m/it/12 Au
 ntie Sarah\TU/EBGaramond(0)/b/n/12 , \TU/EBGaramond(0)/m/it/12 Uncle John\TU/EB
 Garamond(0)/b/n/12 ) show intermediate proper-name properties, while
@@ -3582,7 +3582,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [11]
-Overfull \hbox (0.60052pt too wide) in paragraph at lines 339--340
+Overfull \hbox (0.60052pt too wide) in paragraph at lines 338--339
 \TU/EBGaramond(0)/b/n/12 other. Sociolinguists studying address forms haven’t e
 xamined determiner syntax; syntacticians study-
  []
@@ -3623,25 +3623,23 @@ L3 programming layer <2023-11-01>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 9C5802458EB172E9841B0F755FACD76A;6565.
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
 
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 5F5F72E0183B1A0EFFD2B5A2ACD7569B;6550
-(rerunfilecheck)             After:  9C5802458EB172E9841B0F755FACD76A;6565.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36354 strings out of 474935
- 732565 string characters out of 5761827
- 1942161 words of memory out of 5000000
- 57732 multiletter control sequences out of 15000+600000
+ 36358 strings out of 474935
+ 732748 string characters out of 5761827
+ 1943161 words of memory out of 5000000
+ 57736 multiletter control sequences out of 15000+600000
  565945 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  122i,13n,124p,1048b,8651s stack positions out of 10000i,1000n,20000p,200000b,200000s
