@@ -719,7 +719,7 @@
       \field{title}{An {A}pache Life-Way: {T}he Economic, Social, and Religious Institutions of the {C}hiricahua {I}ndians}
       \field{year}{1941}
     \endentry
-    \entry{Paul2009}{inbook}{}
+    \entry{Paul2018}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c0e7d22a9af74464ae45a78a292d99d2}{%
            family={Paul},
@@ -728,38 +728,12 @@
            giveni={I\bibinitperiod},
            givenun=0}}%
       }
-      \name{editor}{3}{}{%
-        {{hash=1e919016acf8217f59f8a7a396f6895f}{%
-           family={Ghomeshi},
-           familyi={G\bibinitperiod},
-           given={Jila},
-           giveni={J\bibinitperiod}}}%
-        {{hash=c0e7d22a9af74464ae45a78a292d99d2}{%
-           family={Paul},
-           familyi={P\bibinitperiod},
-           given={Ileana},
-           giveni={I\bibinitperiod}}}%
-        {{hash=c79caa5cfe150d27d86cb0134adc5e9c}{%
-           family={Wiltschko},
-           familyi={W\bibinitperiod},
-           given={Martina},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Amsterdam}%
-      }
-      \list{publisher}{1}{%
-        {John Benjamins}%
-      }
       \strng{namehash}{c0e7d22a9af74464ae45a78a292d99d2}
       \strng{fullhash}{c0e7d22a9af74464ae45a78a292d99d2}
       \strng{bibnamehash}{c0e7d22a9af74464ae45a78a292d99d2}
       \strng{authorbibnamehash}{c0e7d22a9af74464ae45a78a292d99d2}
       \strng{authornamehash}{c0e7d22a9af74464ae45a78a292d99d2}
       \strng{authorfullhash}{c0e7d22a9af74464ae45a78a292d99d2}
-      \strng{editorbibnamehash}{f46d6f982c61d16392847a74d608b81b}
-      \strng{editornamehash}{563a9e96f55b7dd37edc2ddb21c8213c}
-      \strng{editorfullhash}{f46d6f982c61d16392847a74d608b81b}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -767,12 +741,11 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Determiners: {U}niversals and Variation}
-      \field{title}{On the presence versus absence of determiners in {M}alagasy}
-      \field{year}{2009}
-      \verb{doi}
-      \verb 10.1075/la.147.07pau
-      \endverb
+      \field{journaltitle}{McGill Working Papers in Linguistics}
+      \field{number}{1}
+      \field{title}{The features of proper determiners in four varieties of {M}alagasy}
+      \field{volume}{25}
+      \field{year}{2018}
     \endentry
     \entry{Potsdam2010}{inbook}{}
       \name{author}{1}{}{%
@@ -1566,7 +1539,7 @@
       \field{title}{An {A}pache Life-Way: {T}he Economic, Social, and Religious Institutions of the {C}hiricahua {I}ndians}
       \field{year}{1941}
     \endentry
-    \entry{Paul2009}{inbook}{}
+    \entry{Paul2018}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c0e7d22a9af74464ae45a78a292d99d2}{%
            family={Paul},
@@ -1575,38 +1548,12 @@
            giveni={I\bibinitperiod},
            givenun=0}}%
       }
-      \name{editor}{3}{}{%
-        {{hash=1e919016acf8217f59f8a7a396f6895f}{%
-           family={Ghomeshi},
-           familyi={G\bibinitperiod},
-           given={Jila},
-           giveni={J\bibinitperiod}}}%
-        {{hash=c0e7d22a9af74464ae45a78a292d99d2}{%
-           family={Paul},
-           familyi={P\bibinitperiod},
-           given={Ileana},
-           giveni={I\bibinitperiod}}}%
-        {{hash=c79caa5cfe150d27d86cb0134adc5e9c}{%
-           family={Wiltschko},
-           familyi={W\bibinitperiod},
-           given={Martina},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Amsterdam}%
-      }
-      \list{publisher}{1}{%
-        {John Benjamins}%
-      }
       \strng{namehash}{c0e7d22a9af74464ae45a78a292d99d2}
       \strng{fullhash}{c0e7d22a9af74464ae45a78a292d99d2}
       \strng{bibnamehash}{c0e7d22a9af74464ae45a78a292d99d2}
       \strng{authorbibnamehash}{c0e7d22a9af74464ae45a78a292d99d2}
       \strng{authornamehash}{c0e7d22a9af74464ae45a78a292d99d2}
       \strng{authorfullhash}{c0e7d22a9af74464ae45a78a292d99d2}
-      \strng{editorbibnamehash}{f46d6f982c61d16392847a74d608b81b}
-      \strng{editornamehash}{563a9e96f55b7dd37edc2ddb21c8213c}
-      \strng{editorfullhash}{f46d6f982c61d16392847a74d608b81b}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1614,12 +1561,11 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{Determiners: {U}niversals and Variation}
-      \field{title}{On the presence versus absence of determiners in {M}alagasy}
-      \field{year}{2009}
-      \verb{doi}
-      \verb 10.1075/la.147.07pau
-      \endverb
+      \field{journaltitle}{McGill Working Papers in Linguistics}
+      \field{number}{1}
+      \field{title}{The features of proper determiners in four varieties of {M}alagasy}
+      \field{volume}{25}
+      \field{year}{2018}
     \endentry
     \entry{Potsdam2010}{inbook}{}
       \name{author}{1}{}{%
