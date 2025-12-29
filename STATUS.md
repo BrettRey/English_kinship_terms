@@ -10,7 +10,7 @@
 
 - **2025-12-28**: Gap analysis to full draft (~8 hours)
 - **2025-12-28**: Multi-agent advisory review completed
-- **2025-12-29**: Revision: CHILDES data integrated, Malagasy predictions refined, bibliography verified
+- **2025-12-29**: Revision: CHILDES data integrated, Malagasy predictions refined, bibliography verified, text cohesion improved
 
 ## Draft Status
 
