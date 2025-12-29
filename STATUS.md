@@ -1,64 +1,49 @@
 # STATUS.md - English Kinship Terms
 
-**Last updated:** 2025-12-28
+**Last updated:** 2025-12-29
 
 ## Current Phase
 
-**DRAFTING COMPLETE** - Ready for revision based on advisory feedback
+**REVISION COMPLETE** - Empirical validation added, cross-linguistic predictions refined
 
 ## Timeline
 
-- **2025-12-28**: Gap analysis to full draft (~8 hours, single calendar day)
+- **2025-12-28**: Gap analysis to full draft (~8 hours)
 - **2025-12-28**: Multi-agent advisory review completed
+- **2025-12-29**: Revision: CHILDES data integrated, Malagasy predictions refined, bibliography verified
 
 ## Draft Status
 
 | Section | Status |
 |---------|--------|
-| 1. Introduction (Parent Trap hook) | Complete |
-| 2. The naming taboo | Complete |
+| 1. Introduction | Complete |
+| 2. The naming taboo | Complete (cross-cultural parade added) |
 | 3. Proper-noun syntax | Complete |
-| 4. The entrenchment pathway | Complete |
-| 5. The gradient | Complete |
-| 6. Dialectal variation | Complete |
-| 7. Conclusion | Complete |
+| 4. From taboo to syntax | Complete (CHILDES table added) |
+| 5. Cross-linguistic predictions: Malagasy | Complete (ry vocative, Paul 2018) |
+| 6. Broader predictions | Complete |
+| 7. Objections and alternatives | Complete |
+| 8. Conclusion | Complete |
 
-## Advisory Reviews Collected
+## Key Changes (2025-12-29)
 
-**Codex agents (8 perspectives):**
-- `board-bybee.md` - Usage-based grammar, frequency effects
-- `board-traugott.md` - Grammaticalization theory
-- `board-brown.md` - Politeness theory, face
-- `board-joseph.md` - History of linguistics, identity
-- `board-godfrey-smith.md` - Philosophy of biology, HPC
-- `board-millikan.md` - Teleosemantics, proper function
-- `board-zimmer.md` - Science communication
-- `board-gerwig.md` - Narrative, family dynamics
+1. **CHILDES corpus evidence** - Frequency table showing parent terms 16-43% vocative, extended kin 4-7%
+2. **Malagasy prediction refined** - *ry*/bare in vocative vs. *i/ra* in argument position (Paul 2018, Potsdam 2010)
+3. **Literature strengthened** - Sloat 1969, Longobardi 1994, Hill 2022, Kripke 1980
+4. **Cross-cultural naming taboos** - Hawaiian kapu, Zulu hlonipha, Apache ghost-names
+5. **Repository public** - [github.com/BrettRey/English_kinship_terms](https://github.com/BrettRey/English_kinship_terms)
 
-**Gemini agent (consolidated):**
-- `advisory-gemini.md` - All 8 perspectives in one document
+## Remaining Limitations
 
-## Key Feedback Themes (to address in revision)
-
-From advisory reviews:
-1. **Frequency claims need evidence** - Cite CHILDES or acquisition corpora (Bybee)
-2. **Parent self-reference** - Add child-directed speech data: "Mommy is going to the store" (Bybee)
-3. **Taboo vs. soft constraint** - Clarify strength of prohibition (Brown)
-4. **Historical depth** - Brief note on diachronic stability (Traugott)
-5. **In-law dynamics** - Adult navigation of the taboo (Gerwig)
-6. **Deitality section** - May need simplification or cutting (Zimmer)
-
-## Next Steps
-
-1. Synthesize advisory feedback
-2. Prioritize revisions
-3. Address high-priority items (frequency data, parent self-reference)
-4. Second draft
-5. Final polish
+- Diachronic evidence thin (when did bare *Mom* become licensed?)
+- Scandinavian weak-taboo prediction anecdotal
+- Malagasy prediction awaits fieldwork
 
 ## Files
 
-- `main.tex` - Full draft
-- `references.bib` - Bibliography
-- `board-*.md` - Individual advisory reviews
-- `advisory-gemini.md` - Consolidated Gemini review
+- `main.tex` - Full draft (15 pages)
+- `main.pdf` - Compiled PDF
+- `references.bib` - Bibliography (22 citekeys)
+- `childes/` - Frequency extraction scripts and data
+- `literature/` - Source PDFs
+- `board-*.md` - Advisory reviews
