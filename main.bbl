@@ -595,6 +595,67 @@
       \verb 10.1075/tsl.81.12kee
       \endverb
     \endentry
+    \entry{Kripke1980}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a3de81ce95d09b9915d1be05f9970108}{%
+           family={Kripke},
+           familyi={K\bibinitperiod},
+           given={Saul\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{a3de81ce95d09b9915d1be05f9970108}
+      \strng{fullhash}{a3de81ce95d09b9915d1be05f9970108}
+      \strng{bibnamehash}{a3de81ce95d09b9915d1be05f9970108}
+      \strng{authorbibnamehash}{a3de81ce95d09b9915d1be05f9970108}
+      \strng{authornamehash}{a3de81ce95d09b9915d1be05f9970108}
+      \strng{authorfullhash}{a3de81ce95d09b9915d1be05f9970108}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Naming and Necessity}
+      \field{year}{1980}
+    \endentry
+    \entry{Longobardi1994}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=842ea9bc0d301f988b412f493fbd6317}{%
+           family={Longobardi},
+           familyi={L\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{842ea9bc0d301f988b412f493fbd6317}
+      \strng{fullhash}{842ea9bc0d301f988b412f493fbd6317}
+      \strng{bibnamehash}{842ea9bc0d301f988b412f493fbd6317}
+      \strng{authorbibnamehash}{842ea9bc0d301f988b412f493fbd6317}
+      \strng{authornamehash}{842ea9bc0d301f988b412f493fbd6317}
+      \strng{authorfullhash}{842ea9bc0d301f988b412f493fbd6317}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Linguistic Inquiry}
+      \field{number}{4}
+      \field{title}{Reference and proper names: {A} theory of {N}-movement in syntax and logical form}
+      \field{volume}{25}
+      \field{year}{1994}
+      \field{pages}{609\bibrangedash 665}
+      \range{pages}{57}
+    \endentry
     \entry{Opler1941}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3c592e8bafcc71e7393c3f7217a19796}{%
@@ -625,6 +686,39 @@
       \field{labeltitlesource}{title}
       \field{title}{An {A}pache Life-Way: {T}he Economic, Social, and Religious Institutions of the {C}hiricahua {I}ndians}
       \field{year}{1941}
+    \endentry
+    \entry{Sloat1969}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c5d49200f5005874f0c3ebe65c790a38}{%
+           family={Sloat},
+           familyi={S\bibinitperiod},
+           given={Clarence},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5d49200f5005874f0c3ebe65c790a38}
+      \strng{fullhash}{c5d49200f5005874f0c3ebe65c790a38}
+      \strng{bibnamehash}{c5d49200f5005874f0c3ebe65c790a38}
+      \strng{authorbibnamehash}{c5d49200f5005874f0c3ebe65c790a38}
+      \strng{authornamehash}{c5d49200f5005874f0c3ebe65c790a38}
+      \strng{authorfullhash}{c5d49200f5005874f0c3ebe65c790a38}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Language}
+      \field{number}{1}
+      \field{title}{Proper nouns in {E}nglish}
+      \field{volume}{45}
+      \field{year}{1969}
+      \field{pages}{26\bibrangedash 30}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.2307/411749
+      \endverb
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
@@ -1204,6 +1298,67 @@
       \verb 10.1075/tsl.81.12kee
       \endverb
     \endentry
+    \entry{Kripke1980}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a3de81ce95d09b9915d1be05f9970108}{%
+           family={Kripke},
+           familyi={K\bibinitperiod},
+           given={Saul\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {Harvard University Press}%
+      }
+      \strng{namehash}{a3de81ce95d09b9915d1be05f9970108}
+      \strng{fullhash}{a3de81ce95d09b9915d1be05f9970108}
+      \strng{bibnamehash}{a3de81ce95d09b9915d1be05f9970108}
+      \strng{authorbibnamehash}{a3de81ce95d09b9915d1be05f9970108}
+      \strng{authornamehash}{a3de81ce95d09b9915d1be05f9970108}
+      \strng{authorfullhash}{a3de81ce95d09b9915d1be05f9970108}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Naming and Necessity}
+      \field{year}{1980}
+    \endentry
+    \entry{Longobardi1994}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=842ea9bc0d301f988b412f493fbd6317}{%
+           family={Longobardi},
+           familyi={L\bibinitperiod},
+           given={Giuseppe},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{842ea9bc0d301f988b412f493fbd6317}
+      \strng{fullhash}{842ea9bc0d301f988b412f493fbd6317}
+      \strng{bibnamehash}{842ea9bc0d301f988b412f493fbd6317}
+      \strng{authorbibnamehash}{842ea9bc0d301f988b412f493fbd6317}
+      \strng{authornamehash}{842ea9bc0d301f988b412f493fbd6317}
+      \strng{authorfullhash}{842ea9bc0d301f988b412f493fbd6317}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Linguistic Inquiry}
+      \field{number}{4}
+      \field{title}{Reference and proper names: {A} theory of {N}-movement in syntax and logical form}
+      \field{volume}{25}
+      \field{year}{1994}
+      \field{pages}{609\bibrangedash 665}
+      \range{pages}{57}
+    \endentry
     \entry{Opler1941}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3c592e8bafcc71e7393c3f7217a19796}{%
@@ -1234,6 +1389,39 @@
       \field{labeltitlesource}{title}
       \field{title}{An {A}pache Life-Way: {T}he Economic, Social, and Religious Institutions of the {C}hiricahua {I}ndians}
       \field{year}{1941}
+    \endentry
+    \entry{Sloat1969}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c5d49200f5005874f0c3ebe65c790a38}{%
+           family={Sloat},
+           familyi={S\bibinitperiod},
+           given={Clarence},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c5d49200f5005874f0c3ebe65c790a38}
+      \strng{fullhash}{c5d49200f5005874f0c3ebe65c790a38}
+      \strng{bibnamehash}{c5d49200f5005874f0c3ebe65c790a38}
+      \strng{authorbibnamehash}{c5d49200f5005874f0c3ebe65c790a38}
+      \strng{authornamehash}{c5d49200f5005874f0c3ebe65c790a38}
+      \strng{authorfullhash}{c5d49200f5005874f0c3ebe65c790a38}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Language}
+      \field{number}{1}
+      \field{title}{Proper nouns in {E}nglish}
+      \field{volume}{45}
+      \field{year}{1969}
+      \field{pages}{26\bibrangedash 30}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.2307/411749
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
