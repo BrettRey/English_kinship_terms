@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  28 DEC 2025 22:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  28 DEC 2025 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3557,6 +3557,9 @@ r writing the names
  []
 
 
+LaTeX Warning: Citation 'Braun1988' on page 9 undefined on input line 264.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -3566,9 +3569,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [9]
 Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
- overwriting on input line 284.
+ overwriting on input line 291.
 
-Overfull \hbox (1.86456pt too wide) in paragraph at lines 284--285
+Overfull \hbox (1.86456pt too wide) in paragraph at lines 291--292
 \TU/EBGaramond(0)/b/n/12 used as quasi-honorifics (\TU/EBGaramond(0)/m/it/12 Au
 ntie Sarah\TU/EBGaramond(0)/b/n/12 , \TU/EBGaramond(0)/m/it/12 Uncle John\TU/EB
 Garamond(0)/b/n/12 ) show intermediate proper-name properties, while
@@ -3592,7 +3595,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [11]
-Overfull \hbox (0.60052pt too wide) in paragraph at lines 339--340
+Overfull \hbox (0.60052pt too wide) in paragraph at lines 346--347
 \TU/EBGaramond(0)/b/n/12 other. Sociolinguists studying address forms haven’t e
 xamined determiner syntax; syntacticians study-
  []
@@ -3606,7 +3609,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [12]
-Overfull \hbox (1.06049pt too wide) in paragraph at lines 350--350
+Overfull \hbox (1.06049pt too wide) in paragraph at lines 357--357
 [][]\TU/EBGaramond(0)/b/n/12 Tang, G. (2007). Cross-linguistic analysis of Viet
 namese and English with implications for Vietnamese
  []
@@ -3632,16 +3635,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: ECBFFC08442B7DCE9269582FE4DB240C;6396
-(rerunfilecheck)             After:  F27448B851C507D50766ED345F072F6E;6966.
+(rerunfilecheck)             Before: F27448B851C507D50766ED345F072F6E;6966
+(rerunfilecheck)             After:  F475469FCBE8ED1C5C0E107DB7D52005;7230.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -3652,10 +3652,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36316 strings out of 474935
- 731277 string characters out of 5761827
- 1937161 words of memory out of 5000000
- 57694 multiletter control sequences out of 15000+600000
+ 36318 strings out of 474935
+ 731299 string characters out of 5761827
+ 1939161 words of memory out of 5000000
+ 57696 multiletter control sequences out of 15000+600000
  565945 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  122i,13n,124p,1001b,8651s stack positions out of 10000i,1000n,20000p,200000b,200000s
