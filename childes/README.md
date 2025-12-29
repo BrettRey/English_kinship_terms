@@ -1,0 +1,66 @@
+# CHILDES Eng-NA kinship term frequencies
+
+This folder contains the results and a reproducible script for computing frequency per million words for a broad set of North American English kinship terms, a comparable non-kin list, and benchmark words in the CHILDES Eng-NA corpus.
+
+## Inputs
+- Corpus root used: `/Users/brettreynolds/Downloads/Eng-NA`
+- File type: `*.cha` (7,825 files)
+- All speakers included (no filtering by participant code).
+
+## Output
+- `kinship_frequencies.tsv`
+- Columns: `term`, `category`, `surface_count`, `surface_per_million`, `lemma_count`, `lemma_per_million`
+
+Totals used for normalization:
+- Surface tokens (`*` tiers): 11,465,138
+- Lemma tokens (`%mor` tiers): 9,780,311
+
+Note: `%mor` counts exclude files without `%mor` tiers (1,495 files in this corpus).
+
+## How to reproduce
+Run the script (from anywhere):
+
+```bash
+python /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/compute_childes_kinship.py \
+  --root /Users/brettreynolds/Downloads/Eng-NA \
+  --out /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/kinship_frequencies.tsv
+```
+
+## Lists used
+
+### Kinship (broad North American list)
+```
+mom, mommy, momma, mama, ma, mother,
+dad, daddy, dada, papa, pa, father,
+parent,
+grandma, grandpa, granny, gramma, nana, grandmom, grandmommy,
+grandmother, grandfather, granddad, granddaddy, gramps, grampa,
+grandpapa, grandmama, grandparent,
+aunt, auntie, aunty, uncle, cousin, niece, nephew,
+brother, sister, sibling, sissy,
+son, daughter, grandchild, grandson, granddaughter,
+stepmom, stepdad, stepmother, stepfather, stepsister, stepbrother, stepson, stepdaughter, stepchild
+```
+
+### Non-kin comparison list
+```
+teacher, doctor, boss, neighbor, friend, waiter, nurse, police, baby, kid
+```
+
+### Benchmarks (stable high-frequency words)
+```
+the, and, to, of, in, that
+```
+
+## Tokenization/normalization details
+- **Surface**: counts come from `*` tiers using word-like tokens (`[A-Za-z]+(?:[-'][A-Za-z]+)*`), case-insensitive.
+- **Lemmas**: counts come from `%mor` tiers, splitting clitics on `~` and reading the lemma after `|`.
+- Punctuation tiers removed: `cm`, `0v`, `0n`, `L2`.
+- Possessives and plurals are stripped only when they map to a target lexeme (e.g., `mom's` → `mom`, `moms` → `mom`).
+- UK spelling `neighbour(s)` is normalized to `neighbor`.
+- Multiword compounds are counted as single lexemes and not double-counted (e.g., `grand mom` → `grandmom`, `step dad` → `stepdad`).
+- `%mor` agentive derivations mapped: `teach&dv-AGT` → `teacher`, `wait&dv-AGT` → `waiter`.
+
+## Notes
+- All speakers are included (CHI + adult talkers). If you want child-only or adult-only counts, modify the script to filter by speaker codes on `*` lines (e.g., `*CHI:`).
+- `kinship_frequencies.tsv` is currently sorted by the input list order; you can resort for presentation.
