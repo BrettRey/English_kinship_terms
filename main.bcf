@@ -3099,7 +3099,8 @@
     <bcf:citekey order="37" intorder="1">Keenan2008</bcf:citekey>
     <bcf:citekey order="38" intorder="1">Potsdam2010</bcf:citekey>
     <bcf:citekey order="39" intorder="1">Bloch2006</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">Hodgkin1927</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">Paul2018</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">Hodgkin1927</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

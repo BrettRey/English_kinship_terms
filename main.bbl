@@ -719,6 +719,58 @@
       \field{title}{An {A}pache Life-Way: {T}he Economic, Social, and Religious Institutions of the {C}hiricahua {I}ndians}
       \field{year}{1941}
     \endentry
+    \entry{Paul2018}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c0e7d22a9af74464ae45a78a292d99d2}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Ileana},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=a1c2df46ff6fe11cd6326b3a1bbd1b17}{%
+           family={Coon},
+           familyi={C\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+        {{hash=243d3dd08c92cda13dc31d7c4041a91d}{%
+           family={Massam},
+           familyi={M\bibinitperiod},
+           given={Diane},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4e385f98b548ee5733b89eb5d47a1633}{%
+           family={Travis},
+           familyi={T\bibinitperiod},
+           given={Lisa\bibnamedelima deMena},
+           giveni={L\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{c0e7d22a9af74464ae45a78a292d99d2}
+      \strng{fullhash}{c0e7d22a9af74464ae45a78a292d99d2}
+      \strng{bibnamehash}{c0e7d22a9af74464ae45a78a292d99d2}
+      \strng{authorbibnamehash}{c0e7d22a9af74464ae45a78a292d99d2}
+      \strng{authornamehash}{c0e7d22a9af74464ae45a78a292d99d2}
+      \strng{authorfullhash}{c0e7d22a9af74464ae45a78a292d99d2}
+      \strng{editorbibnamehash}{ac4aa3b2846a10f2a0b74c31209ca547}
+      \strng{editornamehash}{899494edfe4d7f7251f9dd1d54539cc0}
+      \strng{editorfullhash}{ac4aa3b2846a10f2a0b74c31209ca547}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Oxford Handbook of Ergativity}
+      \field{title}{Determiner phrases in {M}alagasy}
+      \field{year}{2018}
+    \endentry
     \entry{Potsdam2010}{inbook}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=25f0551c42b9dbfaf918ccfa27d7f814}{%
@@ -1507,6 +1559,58 @@
       \field{labeltitlesource}{title}
       \field{title}{An {A}pache Life-Way: {T}he Economic, Social, and Religious Institutions of the {C}hiricahua {I}ndians}
       \field{year}{1941}
+    \endentry
+    \entry{Paul2018}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c0e7d22a9af74464ae45a78a292d99d2}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Ileana},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=a1c2df46ff6fe11cd6326b3a1bbd1b17}{%
+           family={Coon},
+           familyi={C\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod}}}%
+        {{hash=243d3dd08c92cda13dc31d7c4041a91d}{%
+           family={Massam},
+           familyi={M\bibinitperiod},
+           given={Diane},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4e385f98b548ee5733b89eb5d47a1633}{%
+           family={Travis},
+           familyi={T\bibinitperiod},
+           given={Lisa\bibnamedelima deMena},
+           giveni={L\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{c0e7d22a9af74464ae45a78a292d99d2}
+      \strng{fullhash}{c0e7d22a9af74464ae45a78a292d99d2}
+      \strng{bibnamehash}{c0e7d22a9af74464ae45a78a292d99d2}
+      \strng{authorbibnamehash}{c0e7d22a9af74464ae45a78a292d99d2}
+      \strng{authornamehash}{c0e7d22a9af74464ae45a78a292d99d2}
+      \strng{authorfullhash}{c0e7d22a9af74464ae45a78a292d99d2}
+      \strng{editorbibnamehash}{ac4aa3b2846a10f2a0b74c31209ca547}
+      \strng{editornamehash}{899494edfe4d7f7251f9dd1d54539cc0}
+      \strng{editorfullhash}{ac4aa3b2846a10f2a0b74c31209ca547}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The Oxford Handbook of Ergativity}
+      \field{title}{Determiner phrases in {M}alagasy}
+      \field{year}{2018}
     \endentry
     \entry{Potsdam2010}{inbook}{}
       \name{author}{1}{}{%
