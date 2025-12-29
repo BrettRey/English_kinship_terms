@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  29 DEC 2025 06:44
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  29 DEC 2025 06:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3631,17 +3631,8 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 152E261046672C33DE8F49DAFF70E65E;6706
-(rerunfilecheck)             After:  5F5F72E0183B1A0EFFD2B5A2ACD7569B;6550.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 5F5F72E0183B1A0EFFD2B5A2ACD7569B;6550.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -3652,10 +3643,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36317 strings out of 474935
- 731288 string characters out of 5761827
+ 36316 strings out of 474935
+ 731277 string characters out of 5761827
  1937161 words of memory out of 5000000
- 57695 multiletter control sequences out of 15000+600000
+ 57694 multiletter control sequences out of 15000+600000
  565945 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  122i,13n,124p,1001b,8651s stack positions out of 10000i,1000n,20000p,200000b,200000s
