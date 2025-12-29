@@ -108,3 +108,30 @@ Before dispatching multiple agents, ALWAYS ask Brett:
 2. **Redundant outputs?** Multiple models on same task for different perspectives?
 
 See portfolio-level `CLAUDE.md` for CLI command patterns and full workflow.
+
+## Collaboration Logging
+
+This project participates in portfolio-level collaboration logging for pedagogical purposes.
+
+### When to Log
+
+Log to `../Project-Management/collaboration-log/` when:
+- **Architectural decisions** arise (paper structure, argument strategy, theoretical commitments)
+- **Workflow innovations** emerge (new ways of researching, drafting, or coordinating)
+- **Pushback moments** occur (human redirects or rejects LLM suggestions)
+- **Failure modes** happen (when collaboration went wrong)
+
+### What to Capture
+
+Focus on the *process*, not the paper content:
+- How did we decide on the argument structure?
+- What alternatives were considered and rejected?
+- Where did the LLM get something wrong that the human corrected?
+- What worked well that could be replicated?
+
+### Timing
+
+- **Real-time**: Only for important things that could get lost in context compression
+- **End-of-session**: Brief recap (usual practice)
+
+See `../Project-Management/CLAUDE.md` for full logging protocol and session entry template.

@@ -278,6 +278,37 @@
       \verb 10.16995/glossa.5765
       \endverb
     \endentry
+    \entry{Hodgkin1927}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=adf9ecbd2f14fdefe23d34d5f252f9a2}{%
+           family={Hodgkin},
+           familyi={H\bibinitperiod},
+           given={L.\bibnamedelimi V.},
+           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Longmans, Green \& Co}%
+      }
+      \strng{namehash}{adf9ecbd2f14fdefe23d34d5f252f9a2}
+      \strng{fullhash}{adf9ecbd2f14fdefe23d34d5f252f9a2}
+      \strng{bibnamehash}{adf9ecbd2f14fdefe23d34d5f252f9a2}
+      \strng{authorbibnamehash}{adf9ecbd2f14fdefe23d34d5f252f9a2}
+      \strng{authornamehash}{adf9ecbd2f14fdefe23d34d5f252f9a2}
+      \strng{authorfullhash}{adf9ecbd2f14fdefe23d34d5f252f9a2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Quaker Saint of {C}ornwall: {L}oveday {H}ambly and Her Guests}
+      \field{year}{1927}
+    \endentry
     \entry{Traugott1993}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=135f909cbdeeaf8fa1fc16ccbcd8cb13}{%
@@ -615,6 +646,37 @@
       \verb{doi}
       \verb 10.16995/glossa.5765
       \endverb
+    \endentry
+    \entry{Hodgkin1927}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=adf9ecbd2f14fdefe23d34d5f252f9a2}{%
+           family={Hodgkin},
+           familyi={H\bibinitperiod},
+           given={L.\bibnamedelimi V.},
+           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Longmans, Green \& Co}%
+      }
+      \strng{namehash}{adf9ecbd2f14fdefe23d34d5f252f9a2}
+      \strng{fullhash}{adf9ecbd2f14fdefe23d34d5f252f9a2}
+      \strng{bibnamehash}{adf9ecbd2f14fdefe23d34d5f252f9a2}
+      \strng{authorbibnamehash}{adf9ecbd2f14fdefe23d34d5f252f9a2}
+      \strng{authornamehash}{adf9ecbd2f14fdefe23d34d5f252f9a2}
+      \strng{authorfullhash}{adf9ecbd2f14fdefe23d34d5f252f9a2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Quaker Saint of {C}ornwall: {L}oveday {H}ambly and Her Guests}
+      \field{year}{1927}
     \endentry
     \entry{Traugott1993}{book}{}
       \name{author}{2}{}{%
