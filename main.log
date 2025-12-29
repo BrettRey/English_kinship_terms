@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  28 DEC 2025 20:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  28 DEC 2025 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2988,6 +2988,12 @@ Package microtype Info: Character `₡' is missing
 [1
 
 ]
+Overfull \hbox (8.93655pt too wide) in paragraph at lines 60--61
+\TU/EBGaramond(0)/b/n/12 The frequency is amplified by parent-directed speech: 
+caregivers routinely refer to \TU/EBGaramond(0)/m/it/12 themselves \TU/EBGaramo
+nd(0)/b/n/12 as \TU/EBGaramond(0)/m/it/12 Mommy
+ []
+
 
 Package microtype Warning: Unknown slot number of character
 (microtype)                `/one.tosf'
@@ -3538,211 +3544,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7]
-Package microtype Info: Character `~ (= ~)' has a width of 0pt 
-(microtype)             in font `TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `156' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/zero.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/five.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/six.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/eight.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/nine.tosf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/five.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/six.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/eight.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/nine.lf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/one.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/two.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/three.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/four.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/seven.osf'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-Package microtype Info: Character `−' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `˷' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `•' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `℃' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `ƒ' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `₡' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `™' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `®' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `¬' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `¹' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-
-Package microtype Warning: Unknown slot number of character
-(microtype)                `/twodotenleader'
-(microtype)                in font encoding `TU' in protrusion list
-(microtype)                `EBGaramond-it-TU'.
-
-Package microtype Info: Character `ª' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `º' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `¥' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `Ү' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `Ч' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `З' is missing
-(microtype)             in font `\TU/EBGaramond(0)/m/it/8'.
-(microtype)             Ignoring protrusion settings for this character.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -3784,7 +3585,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [10]
-Overfull \hbox (0.60052pt too wide) in paragraph at lines 317--318
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11]
+Overfull \hbox (0.60052pt too wide) in paragraph at lines 319--320
 \TU/EBGaramond(0)/b/n/12 other. Sociolinguists studying address forms haven’t e
 xamined determiner syntax; syntacticians study-
  []
@@ -3797,8 +3607,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11]
-Overfull \hbox (1.06049pt too wide) in paragraph at lines 328--328
+[12]
+Overfull \hbox (1.06049pt too wide) in paragraph at lines 330--330
 [][]\TU/EBGaramond(0)/b/n/12 Tang, G. (2007). Cross-linguistic analysis of Viet
 namese and English with implications for Vietnamese
  []
@@ -3811,7 +3621,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12] (./main.aux)
+[13] (./main.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -3822,17 +3632,21 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: FAD088EE9799C37A3CCF8B1AACBF7A01;6333.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36322 strings out of 474935
- 731439 string characters out of 5761827
- 1937161 words of memory out of 5000000
- 57699 multiletter control sequences out of 15000+600000
- 565953 words of font info for 101 fonts, out of 8000000 for 9000
+ 36319 strings out of 474935
+ 731310 string characters out of 5761827
+ 1939161 words of memory out of 5000000
+ 57697 multiletter control sequences out of 15000+600000
+ 565945 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  122i,13n,124p,1001b,8651s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (12 pages).
+Output written on main.pdf (13 pages).
