@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  28 DEC 2025 22:14
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.11.6)  28 DEC 2025 22:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3624,18 +3624,8 @@ L3 programming layer <2023-11-01>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: FAD088EE9799C37A3CCF8B1AACBF7A01;6333
-(rerunfilecheck)             After:  D3251E4DFAAB977E1C94E6B611F3C24D;6333.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: D3251E4DFAAB977E1C94E6B611F3C24D;6333.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
