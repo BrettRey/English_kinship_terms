@@ -90,3 +90,49 @@ Notes:
 - Uses only `*` tiers (no `%mor`/`%gra`).
 - Tokenization uses word-like strings from the raw `*` line and punctuation tokens for comma detection.
 - This is a **conservative** vocative measure (high precision, lower recall for vocatives without commas).
+
+## Manual check (sampling and QC)
+
+Outputs:
+- `manual_check_samples.tsv`
+- `manual_check_summary.md`
+
+How to reproduce the sample:
+
+```bash
+python /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/sample_childes_vocative_manual_check.py \
+  --root /Users/brettreynolds/Downloads/Eng-NA \
+  --out /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/manual_check_samples.tsv \
+  --seed 20260131 \
+  --n-per-stratum 50
+```
+
+Note: `manual_check_samples.tsv` includes utterance excerpts from CHILDES. Verify redistribution
+policy before publishing raw excerpts; if needed, share only the script and summary.
+
+## Uncertainty analysis (manual QC → corrected rates)
+
+Script:
+- `vocative_uncertainty_analysis.py`
+
+Example (using summary confusion counts):
+
+```bash
+python /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/vocative_uncertainty_analysis.py \
+  --observed /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/kinship_vocative_argument.tsv \
+  --confusion-parent "49,1,13,37" \
+  --confusion-extended "33,17,0,50" \
+  --out /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/uncertainty_results.json
+```
+
+Sensitivity analysis (recompute counts with stricter/looser heuristics):
+
+```bash
+python /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/vocative_uncertainty_analysis.py \
+  --observed /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/kinship_vocative_argument.tsv \
+  --confusion-parent "49,1,13,37" \
+  --confusion-extended "33,17,0,50" \
+  --out /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/uncertainty_results.json \
+  --root /Users/brettreynolds/Downloads/Eng-NA \
+  --sensitivity-out /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/sensitivity_comparison.tsv
+```

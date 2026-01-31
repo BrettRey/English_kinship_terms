@@ -228,7 +228,7 @@ This hierarchy tracks address frequency. It's not an arbitrary list; it's a pred
 
 \label{sec:frequency}
 
-Data from the CHILDES corpus of child-directed and child-produced speech \citep{MacWhinney2000} provide direct support for the frequency mechanism. Table~\ref{tab:childes} shows frequency counts (per million words) across the English-NA collection (all corpora, speaker tiers only), distinguishing vocative uses from argument uses. Vocative was operationalized as utterance-initial position or stand-alone single-word utterances; all other occurrences were coded as argument uses. The extraction script is available in the online repository.\footnote{\url{https://github.com/BrettRey/English_kinship_terms}}
+Data from the CHILDES corpus of child-directed and child-produced speech \citep{MacWhinney2000} provide direct support for the frequency mechanism. Table~\ref{tab:childes} shows frequency counts (per million words) across the English-NA collection (all corpora, speaker tiers only), distinguishing vocative uses from argument uses. Vocative was operationalized as stand-alone address forms (e.g., \mention{Hey Mom}) or comma-isolated occurrences (e.g., \mention{Mom, look} or \mention{No, Mom}); all other occurrences were coded as argument uses. The extraction script is available in the online repository.\footnote{\url{https://github.com/BrettRey/English_kinship_terms}}
 
 \begin{table}[h]
 \centering
@@ -253,9 +253,35 @@ Term & Vocative ppm & Argument ppm & Vocative \% \\
 \mention{sister} & 14 & 241 & 5\% \\
 \bottomrule
 \end{tabular}
-\caption{Kinship term frequencies in CHILDES English-NA (per million words). Vocative uses are utterance-initial or stand-alone; argument uses are all other positions.}
+\caption{Kinship term frequencies in CHILDES English-NA (per million words). Vocative uses are comma-isolated or stand-alone; argument uses are all other positions.}
 \label{tab:childes}
 \end{table}
+
+Because vocative detection is heuristic, I conducted a stratified manual check: 50 predicted vocatives and 50 predicted arguments for parent terms, and the same for extended terms. Table~\ref{tab:childes-qc} reports the resulting confusion counts; the two ambiguous extended cases were coded as vocative, a conservative choice that \emph{reduces} the parent/extended contrast. Treating the heuristic as a noisy measurement, I estimate the positive predictive value (PPV) and false omission value (FOV) with beta priors and propagate uncertainty to corrected vocative rates. The posterior implies a parent vocative rate of 41\% [32--51] versus 6.2\% [4.0--11.0] for extended kin, a difference of 35 points [25--45]. Figure~\ref{fig:childes-sensitivity} shows that the parent/extended contrast persists under stricter and looser vocative heuristics.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llrrr}
+\toprule
+Category & Predicted label & \multicolumn{1}{c}{True vocative} & \multicolumn{1}{c}{True argument} & Total \\
+\midrule
+Parent & Vocative & 49 & 1 & 50 \\
+Parent & Argument & 13 & 37 & 50 \\
+\midrule
+Extended & Vocative & 35 & 15 & 50 \\
+Extended & Argument & 0 & 50 & 50 \\
+\bottomrule
+\end{tabular}
+\caption{Manual check of the vocative heuristic (stratified sample; ambiguous extended cases counted as vocative).}
+\label{tab:childes-qc}
+\end{table}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.75\linewidth]{childes/fig_sensitivity.pdf}
+\caption{Sensitivity of vocative rates to heuristic choice (strict = comma-adjacent only; default = comma-adjacent or stand-alone; loose = plus utterance-initial). Parent terms remain higher than extended terms under all variants.}
+\label{fig:childes-sensitivity}
+\end{figure}
 
 Two patterns emerge. First, parent terms are not merely more frequent overall~-- they are \emph{disproportionately concentrated in vocative position}. Parent terms show 16--43\% vocative use, while extended kin terms show only 4--7\%. This is precisely the asymmetry the mechanism predicts: the naming taboo pushes parent terms into the vocative ``bridging context'' far more often than it affects terms for aunts, uncles, or cousins.
 
