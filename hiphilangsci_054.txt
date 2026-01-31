@@ -1,0 +1,167 @@
+Hi, I'm James McElbeni and you're listening to the history and philosophy of the language
+sciences podcast online at hifirelangsci.net. There you can find links and references to all the literature we discuss.
+Today we're talking to Neil Cohn, who's a professor of cognitive science at the University of Tillburg in the Netherlands.
+Neil's developed a fascinating theory that visual art draws on the same cognitive faculties as human language.
+He has set out this theory in the book a multi-modal language faculty co-authored with yours, Schildperkort, published in 2024 with Bloom's Reacademic.
+He's going to present these same ideas in graphic novel form in the book, speaking in pictures a vision of language, which will appear in February 2026, also with Bloom's Reacademic.
+So Neil, could you outline your theory for us? What are the links between visual art and language?
+First, thank you for having me. I'm a big fan of the podcast, so it's a pleasure to be on.
+The way I often like to start is by kind of at a basis of human communication cognition, which is that human beings as a species have only three ways in which we can express our concepts.
+We can create sounds, which is what I'm doing right now. We can move our bodies, which is also what I'm doing right now, but people won't be able to see that.
+And we can draw things. And that's really all humans do in terms of our ability to express concepts overtly.
+We don't emit smells to each other. We don't secrete things and like each other to communicate.
+We don't emit, say, light pulses or something. We do these three things.
+Given that, these three communicative faculties, why would we believe that they should be different from each other?
+I guess the basic foundation idea. So given that they come from the same brain, why would we assume that they have different cognitive building blocks?
+Certainly in the last, well, over a century, people have been interested in how the body conveys meaning. As you know, I'm sure people in the 1800s debated whether or not to actually include sign languages as part of the definitions of language, and ultimately said, now we're going to ignore those for now.
+And then, of course, there was a resurgence in the structure of studying signed languages, to which we now believe that they share the same structural properties as spoken languages.
+And I would argue that we should be adding one more modality to that, which is graphic representations. Given that it comes from the same brain, they should have the same cognitive building blocks and structural properties.
+So this follows from what I call generally the principle of equivalence in a very lofty sounding thing, which is that given that we have one brain, we should expect the mind and brain to treat all modalities in a similar way, given modality specific constraints.
+So the places where they should be different is motivated by the nature of the type of modality that they're addressing, because sound and light are different things. And so we should imagine that that will yield different types of structure down the road, but it's all still coming from the same brain.
+So this is the path that I pursued. I think to some degree, when people hear what I'm working on, they think I'm making an analogy, which is to say graphics or pictures or drawing is like language, and that language is like a source domain for the metaphor of this mapping.
+And that's, I believe, you know, I'm not the first person who's made these sorts of comparisons. I believe that sort of analogic mapping is what people have done throughout the, say, 20th century in movements of structural semiotics, supplying, you know, principles of linguistic structuralism to graphics.
+You know, they would be searching for the whatever minimal units of imes. There are graph imes, low games, whatever it is. And it would largely be taken as kind of the linguistic structuralism metaphor of mapping.
+Okay, here's what's happening in what we know as language to these other domains. And that's not ultimately my argument.
+My argument is kind of to say that the human brain and or and or mind, however you want to think about the granularity, how uses similar principles and structures and mechanisms that operate across modalities, no matter what those are.
+That puts spoken languages and, say, drawn visual languages on equal footing as both involving something more general, rather than it being an analogic comparison.
+And to that extent, I actually don't think that they are in competition with each other in any sort of sense because ultimately those three modalities that we have are complementary parts of one larger whole system.
+And ultimately the language faculty or communicative faculty or however you want to describe it is multimodal across these three parts, out of which there are emergent properties of different behaviors that share the same building blocks, but it's ultimately a multimodal system, not a unimodal or a modal system.
+Okay, and why do you think that there are these three specific modalities? I mean, what about the case of like a famous case like Helen Keller with who doesn't have physical access to any of those realities.
+So I would first say that I think modality, the notion of modality is important here and the way we define the notion of modality is it's an interaction between a sensory system and a cognitive correlate abstract representation.
+So in the canonical case of speech, we have sound is the sensory system, which we then have dedicated receptors to receiving throughout years and crucially producing through our mouths.
+We then in addition to that have a corresponding cognitive correlate of a phonological system, which is abstracts across the tokens of the individual sounds.
+Right. And this interplay is crucial, which is to say that a modality is not merely a sensory system. It's an interaction between sensory systems that involve both input and output and abstractible cognitive correlates.
+So in the case of say the body, that would be to say we have sensory systems of touch and vision involved in receiving those signals and also a corresponding, let's call it, phonology for the sake of ease for right now.
+And that abstracts across the individual tokens of those expressions. And again, we're not even talking about anything about meaning right now. We're just talking about individual expressions.
+And correspondingly, I would say that the graphics are the same. So you have an experience in light that is then abstractible into basic, I don't know if we'd want to call it phonological, phonological anymore, graphological cognitive correlates.
+Now, part of that is also that all of our modalities are multi-sensory. So none of these modalities are guided by the singular sensory system alone, which is why the McGurk effect exists, which is where you might be producing sounds with the mouth.
+But then seeing different articulations than the actual sounds, and your brain instead perceives it as being produced a different sound than what you're actually hearing because of what you see.
+So speech alone is not uni-sensory, it's multi-sensory, and vision is actually involved in all of them.
+So that makes sensory systems in particular a poor characterization of modalities. The production system is much more a much stronger characterization of the nature of these things.
+And you don't produce speech sounds through anything but your mouth, right? Our bodies move around with different articulation points to be expressive, primarily hands and faces.
+You can also use body orientation and things like that as well. And graphic systems use various types of traces left in various types of materials to correspond to meaning.
+So it's not just a sensory system. And on the case of, say, Helen Keller, what you're left with is the absence of receptive systems, that is through the eyes or the ear.
+And so you fall back on a different type of sensory aspect of the bodily production system, which is less used, but at least provides a point of access for that production system of the body.
+If you look at children who are developing naturally or typically developing, we should say, those typically developing children will naturally produce in these three ways.
+They produce sounds, they produce bodily motions, and they will produce graphics without prompting just through exposure and practice.
+And the onset of those expressions largely occurs around the same time in childhood, roughly eight months plus or minus given that children are different, right? And are exposed to different things.
+So they generally will start doing things like pointing at the same time as they start babbling, maybe manually babbling if they've been exposed to signed languages, and they will produce graphic representations around that time.
+So in my graphics, I mean smearing milk to make lines, or in ways that they recognize that they are making representation out of something.
+That's not merely just, I'm making a mess, but maybe, you know, I'm going to create some sort of trace that I is recognized as a trace.
+So those are why I would say those are the three primary things. And if you follow the developmental trajectories, children will develop maybe to varying degrees of complexity given the exposure and practice across all those three forms, but not something like writing, right?
+Where that requires explicit instruction to understand, oh, this graphic representation corresponds to this sound.
+In which case you're creating a cross-modal representation across the existing modalities that are already there, but with a new mapping that isn't part of our innate capacity to have that correspondence, which is why it's an invention.
+But it's an invention that makes use of existing pathways that are purposefully there for drawing, and purposefully there for speaking, is just that we fuse them together to make a very culturally useful tool, but it's not part of our biological endowment, let's say.
+But what about something like music, you know, which is also auditory, but it's also structured. That's right.
+So music is also seemingly in a innate capacity. I should say I am experiencing developmental things quite a lot. I have a two-and-a-half-year-old who does draw, and he also loves singing and making what one could construe as music.
+If you are generous, has the development of tonality, at least in singing some things.
+So there definitely is an innate capacity of music, but music does not necessarily correspond to conceptual representations in the same way that drawing and speaking and gesticulating does.
+But I would argue music does share the same suite of cognitive capacities.
+As you said, it's structured and organized, but in this case, those structures do not necessarily correspond to meaning in a compositional way.
+So you can certainly have correspondences between music and meaning like that, the JAWS theme, we've associated with some sort of impending doom, right, or, you know, more movie references.
+The Star Wars Imperial March gives you a sense of authoritarianism. So we've clearly built up some correspondences between music and meaning, but we don't do this set of notes.
+In this set of notes, each have independent meanings, and then we will compositionally, compositionally, combinatorially, create higher order meaning out of them.
+But we do do that with the other modalities. So we have different classes. What we describe is one of the challenges that I think the language sciences has faced over the last centuries is, you know, one, defining what language is.
+And usually looks to things like various features of lists of features that are there or not there.
+If language is a cognitive phenomena, I would say you need to define it by its cognitive building blocks.
+And part of the problem that you have when making these sorts of comparisons, say, when I say that there is visual languages that are structured of graphics that are the same as other sorts of languages, then people come back and say,
+well, that can't be language because it's graphic, and by principle, I can't allow it to be language.
+But the structural properties are still there, and so are the cognitive principles that are seemingly the same across of them. So what do you do?
+And mostly the challenge has been something like that we are only allowed to binary, that, well, there are languages, and there are not languages.
+And this is the options categorically that we have. So what do you do with things that maybe have the same properties as languages, but not fully?
+Let's say music is an example, like for 40 years now, since Lairdoll and Jackendorf's book, the gender theory of total music, came out.
+They've argued that there's these hierarchy combinatorial structures of music, and corresponding cognitive research has shown that you mostly list at the same sorts of brain responses as in sending structure from manipulating sequences of music.
+Now, there's an ongoing debate to the degree to which the same patch of neurons might be used in both, but there at least seems to be similar mechanisms at the least.
+And this is work that my lab has also involved in. Now, what do you do where you have, well, this thing is clearly language like, let's call it, but there's clearly also facets that are not like compositionality of meaning.
+So how do you then want to class music? Do you want to say it's the language of music? What do you do with, say, emoji, which my research and others have shown? Well, there's clearly systematic lexicans, but doesn't really seem to have a grammar to sequencing of emoji?
+Well, now what do you do with that? Or what do you do with co-speech gesture, which clearly is meaningful, has a tight relationship with spoken languages.
+But do you want to say that it's part of language, separate from language? How do you ontologically classify these things?
+So our approach has been to say that the existing categories structures are not helpful. And using a word like language as a scientific term is actually problematic because it's a social term also that is also valuated.
+So we need a different set of categories. And the ones we arrive at are based on the component parts of linguistic structure of a modality, a grammar and a meaning, or in traditional terms of phonology, syntax, and semantics, or whatever set of terms you want to use.
+And so based on the relative allocation of those sorts of components, you can derive a classification system. So we call an omnia is a system that has all of them.
+So spoken languages, sign languages, and what I call visual languages are all omnia. But there's also what we call semia.
+Semia, use, let's say, phonology and semantics, but not necessarily a robust syntax, or robust grammatical system.
+So gestures are a semia, because they don't use a grammar of their own. Sign languages do, which is why they are nomnia. And emoji do not, they don't have a grammar, but they are meaningful and expressive in the graphic form. So those are also semia, which is why emoji have been compared to gestures, because they are structurally similar in that way.
+So they have a modality and a grammar, but not necessarily meaning in a compositional way. And so those are what we call sequential.
+And that, when I also include something like the combinatorics that are involved in athletic things like, say, martial art forms, or synchronized swimming, or these other things that are very clearly pattern structured sequences.
+But are not, they don't have some additional reference, their sequence for themselves, their own sequencing, right? It's not like a punch in a martial art form is then a reference for some other concepts. It's just a punch, right?
+No, but it is combinatoric. So it seems, it seems that the key thing is meaning in inverted commas, and the idea that meaning can be compositional and referential, is that?
+And has a combinatorial system. So it has to have all three. For the way I use the term language usually, it's the equivalent of what I would call an omnia, which is then it has to have some modality of expression.
+It has to have a complex combinatorial system that is capable of hierarchic embedding, center embedding, anaphoric relationships, structural ambiguities, et cetera.
+And there needs to be some sort of compositional conceptual structure, meaning that is associated with that behavior.
+Semia lack the complex combinatorics. However, within our architecture, it's still one architecture that produces all of these things. So there's no relative value statement about these classifications.
+They are purely descriptive, as is the spirit of linguistics. And they have different complexity structurally, but that doesn't imbue them necessarily with any sort of relative value.
+And because it's a multimodal system, it resolves ontological things like our co-speech gestures part of language or separate from language, because that means that language isn't the supercategory to which something would or would not belong.
+There's some bigger multimodal hole in which both speech and co-speech gesture both co-emerge, meaning that they're on equal footing structurally and manifest together as part of a common system.
+So language isn't the supercategory anymore. And it's not the comparative case, because you've broken everything down into its Lego blocks and are rebuilding everything in different ways, because they share common building blocks.
+So it kind of escapes a little bit of the myopic of, say, thinking that, well, language is everything, and now we have to base everything around that. Instead, you say, well, what if we just expand, you know, to look at everything comparatively.
+And we can see the place of what we've traditionally called language alongside, and in comparison with everything else, without thinking one needs to be overtly the root or the source domain.
+The additional contrast, though, is we have studied language, by which I mean in this case spoken languages, with a lot more rigor than we have the other types, and which has developed historically to return to the theme of a podcast, right?
+There's been a methodology that is very clearly defined, much with a lot more rigor for, say, the study of spoken languages, by which spoken languages we really mean written languages, in the case of the history of linguistics, also, it's not even speech, it's really actually written versions of speech.
+But there's methodologies, right, like complementary distribution as a fundamental principle, or things like that, which are not typically what people have done when they have made the comparisons to other domains.
+They haven't followed the linguistic methods so much as they theorized possible, you know, connections.
+And that's, again, where my approach differs is, I like to believe at least, all of its grounded in the linguistic methodologies to then use those methodologies to yield whatever the structure happens to be.
+And so in the case of spoken language and traditional linguistic thinking, there is a lot more rigor, and that rigor has not been applied to everything equally, and that's where we really need to look to is the methodologies that we've been built up, which are hopefully successful for revealing the sorts of structures and cognition that we want to be talking about.
+So just to come back to this question of meaning, are there things that the language that spoken language can do that visual language can't, like any spoken language can represent a proposition, right?
+But a visual representation can't necessarily do that kind of, I mean, even in your graphic novel, there are lots of words, lots of written words, which are a representation of spoken language.
+Like the whole thing is not just a picture, right? So there's a couple parts there that I would speak to. Again, our modalities are not in competition, and they are subparts of a broader whole.
+The broader whole is what the system is made to be doing, rather than partitioning it into unimodal types of expressions.
+So in that regard, we wouldn't expect each modality to be exactly the same in its affordances as every other one, because then they'd be fully redundant, and there'd be no purpose to a species evolving to have different modalities.
+So having speech allow for some types of semiotic capacities that has strengths that other modalities don't have is evolutionary advantage, and the same would be true of graphics, being able to do things that speech is not able to do.
+So for example, oftentimes I think our speech centricism makes us forget how much is not done with spoken languages or written languages. For example, it'd be very hard to design a house without drawing or design fashion or technology without any sort of pictures whatsoever.
+And I bring up these cases because, you know, as we sit in my office here, we have bookshelves, walls, we're in a building, we have computers, there's desks, we're both wearing, I don't know if we want to call the fashionable clothes or not, but all of these things were first drawings before they were produced as products.
+Now, we no longer see those drawings, so we forget that they were drawings, but that's how all of these things were first designed, not because someone was writing a paragraph about what a sweater should look like, right?
+So in that regard, there are certainly distinct advantages and uses for the drawn modality, more so than spoken modalities, they allow for different things.
+So that said, with things like propositional content, there's a long list of things that I've heard, well pictures can't do this, they can't do argumentation, they can't do persuasion, they can't do negation, they can't do these things.
+In all of those cases, they absolutely can do those things, they just do it in a different way. So they might do it, for example, so usually negation people say, well, they don't have specific units as morphemes.
+So what do they do? In the case of, say, think of a no smoking sign, has the red circle of the line through it, that's a productive affix that takes whatever fills in the slot for its base that is being negated.
+But that's not, that's a single unit utterance, let's call it, rather than part of a grammatical system. In comics, which is where much of my research is, they have a variety of negation devices.
+One frequent one is absence, so that is, you show something and then you don't show it anymore, or you show something and then you, in another frame, you show where that thing once was, but with a dotted outline, which now indicates that that thing is absent, which there have been papers written about this as being a type of visual negation.
+It does it in a different way than spoken languages do. That's part of the affordances that different modalities have for how they accomplish different types of meaning making, because again, it's about accomplishing the whole of those together to create a richer signal, because they are able to do different things.
+But are these different kinds of images really comparable, because like a no smoking sign is fairly arbitrary, right? You have to learn that connection of the circle with the line through it, that that means this is not permitted.
+However, showing something in one frame and then not showing it in another is arguably more iconic. It looks more like the thing that it represents, from a semiotic perspective, whereas in spoken language,
+you know, it's a sort of, it's a common place that spoken language is radically arbitrary. So can you really compare the sort of highly conventionalized arbitrary symbols that have a graphic realization with techniques that use in comic books that are more iconic in character?
+So there, I think, if it's a great place to return to history, because the idea that linguistic signs are arbitrary, at least was codified in cesarean linguistics, if not, you know what predated it, but it was codified by the idea of a cesarean sign, and it persists and it carries certain assumptions about the nature of what linguistic signs should be.
+Unfortunately, the cesarean sign is both not reflective of actual human behaviors, and the semiotics that are involved. So the first case is, there's a very rich literature now on iconicity and language that's doing careful examinations of the nature of how, to what degree, our spoken languages say, iconic versus not.
+And most of the time we talk about the word forms, but there are also, there's also, I can see in various other places, for example, the order in which you, you know, state events is more preferred to reflect the order in which those events happened than a non-iconic event order, or direct quotes, which are essentially a type of iconicity to sell you. Now I'm telling you, iconically, what this person said.
+So there's a variety of iconicity that's embedded within spoken languages beyond word forms, which is also a type of study. And we know that sign languages have a large amount of iconicity as well.
+So I would say that iconicity, so all modalities allow for both, for all of our types of semiotic reference, I would say.
+The other part where I say, it's not a semiotically sound idea is that the social science conflates two properties, which are both things that you said in your statement, which is, it conflates conventionality with arbitrariness, which are not the same thing.
+And if you look to say, percy in semiotics, there's an alternative treatment of this. Unfortunately, through much of the linguistic sciences, percy in semiotics has kind of been shoehorned into a sussurian sign to not really let the sussur, the, the percy in flower bloom so much.
+Now, percy in semiotics can get very complicated very quickly, which is why people usually reign it in. But I think there's a few crucial things in percy in semiotics that are necessary in order to just understand basic semiosis.
+And the first is that what percy would call a representamin or in a sussurian linguistics would be a signifier, right.
+That signifier representamin sign vehicle, whatever you want to call it, the sensory signal has properties to it. Those properties can be idiosyncratic, that is let's say a signal that is novel and different every time versus a regular eye signal that is repeatable and systematic.
+Now, if you have a repeatable signal that's systematic that has a idiosyncratic manifestation, that would be the, what percy would call a replica, that's essentially type token distinction, right.
+So the regularization is a type, its manifestation ends up being a token. But sometimes tokens might have no regularization whatsoever, they're just idiosyncratic.
+If two people share a regularization, then it's conventionalized, right. So now we both share some sort of regularized signal that we recognize as being regularized across our systems.
+That has nothing to do with meaning at this point. It's just about regularization. And we have things in languages that are purely regularized sensory signals that have no overt correspondence to meaning,
+think of things like b-bop-aloo-bop or shalala-lala, which are sung vocables, which don't necessarily necessarily have a reference other than listen to the sounds I'm making.
+So those are systematic regularized phonological signals that don't have a corresponding reference. Now, in the percy in sense, the reference, or the object, is then some type of meaning.
+And the mapping between that signal and the meaning is what he would call the ground. And the ground is what is an interface. And that interface is what's characterized by things like iconicity, index-cality, and symbolicity.
+Symbolicity just happens to make use of a conventionalized signal alone in order to make that mapping. But it's just another type of mapping. And conventionalization and symbolicity are not the same thing because you can have conventionalized mappings for iconicity as well, and index-cality, which is what, say, on a monopeia end up being, or at least the thought of them being iconic is to what degree we can debate over how iconic they actually are.
+And how iconic they actually are in that mapping. But they are certainly conventionalized and regularized, and then have a particular mapping to meaning that is meant to be iconic at the very least.
+So the form itself, that regularization or that signal, isn't itself semiotically imbued with any of those properties. And the example that I like to give is, say, the typical bathroom sign that has a highly schematic male and female looking person on them, or looking people on them.
+That is a highly regularized graphic representation, so it is definitely conventionalized. Now it has multiple types of mappings to meaning. It's iconic in that the people look like stereotypical male and female people, right? So that's an iconic mapping.
+It is symbolic of bathrooms, because certainly it doesn't look like a bathroom in any sort of way. You simply make an arbitrary association with that meaning of bathroom.
+And it also is indexical for where it is placed to signal to you, here is the location of a bathroom.
+So that one signal is conventionalized and regularized, but has multiple different types of semiotic reference that it invokes, depending on what aspect of it you're engaging with, possibly all at once.
+And this is built into person semiotics as a huge, very readily, say, oh yeah, yeah. Individual signals are multi-semiotic, or they might have multiple types of signification.
+What that also does is it says there aren't, isn't such a thing as an icon or a symbol, because that's a property by which they make reference. That's a signification.
+And the signal itself is not arbitrary, right, because that's a characteristic of the mapping. So to some degree, I reject the Socerian framing based on this interplay.
+And again, that would be to say, so to return to our question of things like negation or something like that, they are absolutely conventionalized.
+But they use a different sort of mapping, potentially, than the types of mappings that would be involved in spoken languages, mostly.
+But you also have spoken, another example is re-duplication to give a property of more, of increased quantity or plurality, you then repeat the word.
+Well, that's an iconic type of signaling, or iconic type of mapping based on the properties of the signal, right?
+So, you know, and plurality in the visual form would be probably re-duplication is another good form of doing plurality in the visual form as well, as opposed to say pure affixation, which is less of an optimal form for plurality.
+In the visual form, then say the auditory form, or the spoken form.
+So it's about the nature of the mappings, and they all allow for conventionalization. All of our modalities allow for conventionalization.
+They all allow for all three types of signification. They all do iconicity. They all do index-cality. They all do symbolicity.
+They just do it in different ways. And I would argue, they have relative strengths for them. So the spoken language, I believe, is particularly good as symbolicity, which is why it's been keyed in on this for arbitrariness, it's kind of fundamental property.
+It's really good at that. The graphic form is really good at iconicity, which is why that's keyed in on it.
+And I think the body is particularly good at index-cality, locating things relative to one's body in space through indexical relationships.
+They all do all of them, but the advantage of having different modalities that have affordances to have strengths in different types of semiotic reference, again, gives you a richer overall signal, because now you can combine the strengths across those modalities for a richer multimodal signal.
+Then having, say, everything being relying on one modality, which just isn't the case of what we do anyways, right?
+Okay. Well, I mean, I came here with all of my skeptical arguments, but seem fairly convinced.
+Oh, well, that's very kind of you to say. Yeah, so thank you very much. That's really those questions.
+Thank you very much for having me.
+Thank you very much.

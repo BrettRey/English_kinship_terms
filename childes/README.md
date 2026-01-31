@@ -70,7 +70,8 @@ the, and, to, of, in, that
 
 Output:
 - `kinship_vocative_argument.tsv`
-- Columns: `term`, `vocative_count`, `vocative_per_million`, `argument_count`, `argument_per_million`
+- Columns: `term`, `vocative_count`, `vocative_per_million`, `argument_count`, `argument_per_million`,
+  `arg_bare_count`, `arg_bare_per_million`, `arg_det_count`, `arg_det_per_million`
 
 Normalization:
 - Per-million rates use the same surface denominator as above (11,465,138 word tokens from `*` tiers).
@@ -90,6 +91,11 @@ Notes:
 - Uses only `*` tiers (no `%mor`/`%gra`).
 - Tokenization uses word-like strings from the raw `*` line and punctuation tokens for comma detection.
 - This is a **conservative** vocative measure (high precision, lower recall for vocatives without commas).
+- Bare vs determined arguments:
+  - **Determined** if immediately preceded by a determiner (articles, demonstratives, possessives, quantifiers)
+    or a genitive marker (e.g., `John's`), or if the kin term itself carries a genitive suffix.
+  - Coordination heuristic: in `my mom and dad`, `dad` counts as determined.
+  - This is conservative: ambiguous `Mom's` (possessive vs copular) is treated as determined.
 
 ## Manual check (sampling and QC)
 
@@ -135,4 +141,23 @@ python /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/chi
   --out /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/uncertainty_results.json \
   --root /Users/brettreynolds/Downloads/Eng-NA \
   --sensitivity-out /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/sensitivity_comparison.tsv
+```
+
+## Vocative % vs bare-argument % correlation
+
+Script:
+- `plot_vocative_bare_correlation.py`
+
+Outputs:
+- `fig_vocative_bare_corr.pdf`
+- `fig_vocative_bare_corr.png`
+- `fig_vocative_bare_corr.json` (correlation stats)
+
+```bash
+python /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/plot_vocative_bare_correlation.py \
+  --input /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/kinship_vocative_argument.tsv \
+  --out-pdf /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/fig_vocative_bare_corr.pdf \
+  --out-png /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/fig_vocative_bare_corr.png \
+  --stats-out /Users/brettreynolds/Documents/LLM-CLI-projects/English_kinship_terms/childes/fig_vocative_bare_corr.json \
+  --min-arg 50
 ```

@@ -54,6 +54,16 @@ DISCOURSE = {
     'well','uh','um','huh','hm','hmm','mm'
 }
 
+DETERMINERS = {
+    'a','an','the',
+    'this','that','these','those',
+    'my','your','his','her','our','their','its','whose',
+    'some','any','no','each','every','either','neither','both','all',
+    'much','many','few','several','another','other','such','one'
+}
+
+CONJ = {'and', 'or'}
+
 NOISE_RE = re.compile(r'^[xyw]{3,}$')
 WORD_RE = re.compile(r"[A-Za-z]+(?:[-'][A-Za-z]+)*")
 TOKEN_RE = re.compile(r"[A-Za-z]+(?:[-'][A-Za-z]+)*|[.,!?]")
@@ -88,6 +98,11 @@ def norm_surface(tok: str) -> str:
     return t
 
 
+def has_genitive(tok: str) -> bool:
+    t = tok.lower()
+    return t.endswith("'s") or t.endswith("’s") or t.endswith("s'")
+
+
 def is_comma_adjacent(tokens, start_idx, end_idx):
     if start_idx > 0 and tokens[start_idx - 1] == ',':
         return True
@@ -110,10 +125,33 @@ def collapse_multiword(word_norm):
     return collapsed
 
 
+def has_determiner(word_norm, word_raw, idx):
+    # Possessive form on the kin term itself (conservative: treat as determined)
+    if has_genitive(word_raw[idx]):
+        return True
+    # Immediate determiner or genitive determiner before the kin term
+    j = idx - 1
+    if j >= 0:
+        if word_norm[j] in DETERMINERS or has_genitive(word_raw[j]):
+            return True
+    # Coordination pattern: det + kin + and/or + kin
+    if j >= 0 and word_norm[j] in CONJ and j - 2 >= 0:
+        if word_norm[j - 1] in KINSHIP_SET and (
+            word_norm[j - 2] in DETERMINERS or has_genitive(word_raw[j - 2])
+        ):
+            return True
+    return False
+
+
 def compute(root: pathlib.Path):
     files = list(root.rglob('*.cha'))
     voc_counts = Counter()
     arg_counts = Counter()
+    arg_bare_counts = Counter()
+    arg_det_counts = Counter()
+    # Speaker-stratified vocative counts
+    voc_chi_counts = Counter()  # child speaker
+    voc_adu_counts = Counter()  # adult speakers (MOT, FAT, etc.)
     surface_total = 0
 
     for f in files:
@@ -121,6 +159,12 @@ def compute(root: pathlib.Path):
             for line in f.read_text(errors='ignore').splitlines():
                 if not line.startswith('*'):
                     continue
+                # Extract speaker tier
+                try:
+                    speaker = line[1:].split(':')[0].strip().upper()
+                except Exception:
+                    speaker = 'UNK'
+                is_child = speaker == 'CHI'
                 try:
                     utter = line.split(':', 1)[1]
                 except Exception:
@@ -136,6 +180,7 @@ def compute(root: pathlib.Path):
                 # tokens for vocative detection
                 tokens = TOKEN_RE.findall(utter)
                 word_norm = []
+                word_raw = []
                 word_token_idx = []
                 for idx, tok in enumerate(tokens):
                     if WORD_RE.fullmatch(tok):
@@ -143,6 +188,7 @@ def compute(root: pathlib.Path):
                         if NOISE_RE.fullmatch(t):
                             continue
                         word_norm.append(norm_surface(tok))
+                        word_raw.append(tok)
                         word_token_idx.append(idx)
 
                 if not word_norm:
@@ -163,8 +209,17 @@ def compute(root: pathlib.Path):
                             is_voc = utter_standalone or is_comma_adjacent(tokens, start_tok, end_tok)
                             if is_voc:
                                 voc_counts[lex] += 1
+                                if is_child:
+                                    voc_chi_counts[lex] += 1
+                                else:
+                                    voc_adu_counts[lex] += 1
                             else:
                                 arg_counts[lex] += 1
+                                # determiner check uses start index of compound
+                                if has_determiner(word_norm, word_raw, i):
+                                    arg_det_counts[lex] += 1
+                                else:
+                                    arg_bare_counts[lex] += 1
                         i += 2
                         continue
 
@@ -175,13 +230,21 @@ def compute(root: pathlib.Path):
                         is_voc = utter_standalone or is_comma_adjacent(tokens, start_tok, end_tok)
                         if is_voc:
                             voc_counts[lex] += 1
+                            if is_child:
+                                voc_chi_counts[lex] += 1
+                            else:
+                                voc_adu_counts[lex] += 1
                         else:
                             arg_counts[lex] += 1
+                            if has_determiner(word_norm, word_raw, i):
+                                arg_det_counts[lex] += 1
+                            else:
+                                arg_bare_counts[lex] += 1
                     i += 1
         except Exception:
             continue
 
-    return voc_counts, arg_counts, surface_total
+    return voc_counts, arg_counts, arg_bare_counts, arg_det_counts, voc_chi_counts, voc_adu_counts, surface_total
 
 
 def main():
@@ -193,18 +256,42 @@ def main():
     root = pathlib.Path(args.root)
     out_path = pathlib.Path(args.out)
 
-    voc_counts, arg_counts, surface_total = compute(root)
+    voc_counts, arg_counts, arg_bare_counts, arg_det_counts, voc_chi_counts, voc_adu_counts, surface_total = compute(root)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with out_path.open('w', newline='') as f:
         w = csv.writer(f, delimiter='\t')
-        w.writerow(['term','vocative_count','vocative_per_million','argument_count','argument_per_million'])
+        w.writerow([
+            'term',
+            'vocative_count','vocative_per_million',
+            'voc_chi_count','voc_chi_per_million',
+            'voc_adu_count','voc_adu_per_million',
+            'argument_count','argument_per_million',
+            'arg_bare_count','arg_bare_per_million',
+            'arg_det_count','arg_det_per_million',
+        ])
         for term in KINSHIP:
             vc = voc_counts.get(term, 0)
+            vcc = voc_chi_counts.get(term, 0)
+            vac = voc_adu_counts.get(term, 0)
             ac = arg_counts.get(term, 0)
+            abc = arg_bare_counts.get(term, 0)
+            adc = arg_det_counts.get(term, 0)
             vpm = (vc / surface_total * 1_000_000) if surface_total else 0
+            vcpm = (vcc / surface_total * 1_000_000) if surface_total else 0
+            vapm = (vac / surface_total * 1_000_000) if surface_total else 0
             apm = (ac / surface_total * 1_000_000) if surface_total else 0
-            w.writerow([term, vc, f"{vpm:.2f}", ac, f"{apm:.2f}"])
+            abpm = (abc / surface_total * 1_000_000) if surface_total else 0
+            adpm = (adc / surface_total * 1_000_000) if surface_total else 0
+            w.writerow([
+                term,
+                vc, f"{vpm:.2f}",
+                vcc, f"{vcpm:.2f}",
+                vac, f"{vapm:.2f}",
+                ac, f"{apm:.2f}",
+                abc, f"{abpm:.2f}",
+                adc, f"{adpm:.2f}",
+            ])
 
     print('surface_total', surface_total)
     print('wrote', out_path)
