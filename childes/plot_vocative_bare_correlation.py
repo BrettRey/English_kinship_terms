@@ -133,10 +133,19 @@ def main():
     r_pearson = pearson(x, y)
     r_spearman = spearman(x, y)
 
+    # House style setup
+    plt.rcParams.update({
+        'font.family': 'serif',
+        'font.serif': ['EB Garamond', 'Garamond', 'Georgia', 'Times New Roman'],
+        'axes.spines.top': False,
+        'axes.spines.right': False,
+        'legend.frameon': False,
+    })
+
     colors = {
-        'parent': '#1b9e77',
-        'grandparent': '#7570b3',
-        'extended': '#d95f02',
+        'parent': '#4DA375',     # Sage green (house tertiary)
+        'grandparent': '#9B6B9E', # Muted purple (house quaternary)
+        'extended': '#E85D4C',   # Coral (house secondary)
     }
 
     fig, ax = plt.subplots(figsize=(5.2, 3.4))
@@ -144,14 +153,14 @@ def main():
         xs = [r['voc_pct'] for r in rows if r['category'] == cat]
         ys = [r['bare_pct'] for r in rows if r['category'] == cat]
         if xs:
-            ax.scatter(xs, ys, label=cat, alpha=0.9, s=28, color=colors[cat])
+            ax.scatter(xs, ys, label=cat, alpha=0.9, s=32, color=colors[cat])
 
     ax.set_xlabel('Vocative percent')
     ax.set_ylabel('Bare-argument percent')
-    ax.grid(True, axis='both', linestyle=':', linewidth=0.6)
-    ax.legend(frameon=False, ncol=3, loc='upper left', bbox_to_anchor=(0, 1.18))
-    if r_pearson is not None:
-        ax.set_title(f'Pearson r = {r_pearson:.2f}; Spearman ρ = {r_spearman:.2f}')
+    ax.grid(True, axis='y', linestyle=':', linewidth=0.5, color='#E8E8E8')
+    # Legend inside plot, lower right (no overlap with data)
+    ax.legend(loc='lower right')
+    # No title here - stats go in figure caption
     fig.tight_layout()
 
     out_pdf = pathlib.Path(args.out_pdf)

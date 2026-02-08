@@ -194,8 +194,10 @@ End with something concrete—circle back to the opening scene.
 
 ## Next Actions
 
-1. Write the opening scene (Section 1)
-2. Draft Section 4 (the mechanism) as the core
-3. Pull corpus data on *Mom/Dad* frequency
-4. Fill in remaining sections
-5. Revise for voice and flow
+1. ~~Write the opening scene (Section 1)~~ ✓
+2. ~~Draft Section 4 (the mechanism) as the core~~ ✓
+3. ~~Pull corpus data on *Mom/Dad* frequency~~ ✓
+4. ~~Fill in remaining sections~~ ✓
+5. ~~Revise for voice and flow~~ ✓
+
+**Status:** All drafting complete. Paper in revision phase.

@@ -55,16 +55,16 @@
   {0pt}
   {}
 
-% Subsection: italic
+% Subsection: small caps sentence case
 \titleformat{\subsection}
-  {\normalfont\itshape}
+  {\normalfont\scshape}
   {\thesubsection\quad}
   {0pt}
   {}
 
-% Subsubsection: italic, smaller
+% Subsubsection: upright
 \titleformat{\subsubsection}
-  {\normalfont\itshape}
+  {\normalfont}
   {\thesubsubsection\quad}
   {0pt}
   {}
@@ -121,6 +121,9 @@
 
 % Mentions (words/expressions under discussion)
 \newcommand{\mention}[1]{\textit{#1}}
+
+% Mentions in headings (angle brackets work in small caps)
+\newcommand{\mentionhead}[1]{\textup{⟨#1⟩}}
 
 % Object language (cited forms, foreign words)
 \newcommand{\olang}[1]{\textit{#1}}

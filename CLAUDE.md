@@ -8,7 +8,7 @@ Paper arguing that the English naming taboo (children addressing parents by kins
 
 **Working title:** English kinship terms: From taboo to syntax
 **Author:** Brett Reynolds (Humber Polytechnic / University of Toronto)
-**Status:** Complete draft in main.tex; revision phase
+**Status:** Complete draft in main.tex (~416 lines); active revision phase
 
 ## File Structure
 
@@ -113,9 +113,9 @@ Note: This project has `local-preamble.tex` to handle font substitutions. The ho
 
 ## Remaining Tasks
 
-- [ ] Verify *Parent Trap* dialogue against script
-- [ ] Tighten prose (target ~60 words per paragraph)
-- [ ] Consider additional felt moments (*Family Guy*, *Shameless*)
+**Drafting:** Complete
+
+**Revision (optional polish):**
 - [ ] Diachronic trajectory of bare kin-term stabilization (acknowledged gap)
 - [ ] Variation across class/region/ethnicity (acknowledged gap)
 

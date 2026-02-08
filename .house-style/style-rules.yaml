@@ -4,16 +4,39 @@ description: "LaTeX and writing conventions for linguistic typology papers"
 
 # LaTeX conventions
 latex:
-  mention_vs_quotation:
-    rule: "Use \\term{} for mention of forms/categories, \\enquote{} for actual quotations"
-    examples:
-      correct:
-        - "\\term{going forward} is best analysed as a preposition"
-        - "As \\enquote{going forward} spread in business English..."
-      incorrect:
-        - "\"going forward\" is a preposition"
-        - "'going forward' spread in business English"
-    rationale: "Quotation marks are for quoting; italics are for metalinguistic mention"
+  semantic_macros:
+    rule: "Use semantic macros for all metalinguistic typography"
+    macros:
+      term:
+        command: "\\term{}"
+        rendering: "small caps"
+        usage: "Concepts and categories being introduced or defined"
+        example: "The notion of \\term{definiteness} is complex."
+      mention:
+        command: "\\mention{}"
+        rendering: "italics"
+        usage: "Words or expressions under discussion (body text)"
+        example: "The determinative \\mention{the} is not always definite."
+      mentionhead:
+        command: "\\mentionhead{}"
+        rendering: "angle brackets ⟨ ⟩"
+        usage: "Mentions inside headings (\\section, \\subsection, etc.)"
+        example: "\\subsection{The unstable case: \\mentionhead{folks}}"
+        rationale: "Italics don't contrast in small-caps headings; angle brackets do"
+      olang:
+        command: "\\olang{}"
+        rendering: "italics"
+        usage: "Object language (foreign words, cited forms)"
+        example: "German \\olang{der Hund} 'the dog'"
+      enquote:
+        command: "\\enquote{}"
+        rendering: "locale-aware curly quotes"
+        usage: "Actual quotations"
+        example: "As \\enquote{going forward} spread in business English..."
+    incorrect:
+      - "Raw \\textit{word} instead of \\mention{} or \\term{}"
+      - "\\mention{} inside a heading instead of \\mentionhead{}"
+      - "Straight quotes or LaTeX backtick quotes instead of \\enquote{}"
 
   dashes:
     parenthetical:
@@ -224,7 +247,8 @@ enforcement:
   mode: "warning"  # warning, strict, or disabled
   auto_fix: false
   checks:
-    - "mention_vs_quotation"
+    - "semantic_macros"
+    - "mention_in_headings"
     - "paragraph_headings"
     - "prohibited_phrases"
     - "cross_ling_notation"

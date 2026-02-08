@@ -1,6 +1,6 @@
 # STATUS.md - English Kinship Terms
 
-**Last updated:** 2025-12-29
+**Last updated:** 2026-02-06
 
 ## Current Phase
 
@@ -33,6 +33,14 @@
 4. **Cross-cultural naming taboos** - Hawaiian kapu, Zulu hlonipha, Apache ghost-names
 5. **Repository public** - [github.com/BrettRey/English_kinship_terms](https://github.com/BrettRey/English_kinship_terms)
 
+### 2026-02-06 Session Notes
+- Sharpened proper-name / proper-noun distinction throughout: bare *Mom* IS a proper name (naming function, binary); the gradient across kinship terms is in proper-noun entrenchment (lexical category)
+- New paragraph in CGEL framework subsection making the distinction explicit
+- New sentence before gradient examples locating the gradient in proper-noun entrenchment
+- ~25 terminology fixes: "proper-name syntax/status/properties" → "proper-noun" (except Malagasy "proper-name determiners")
+- Section 3 heading now "Kinship terms with proper-noun status"
+- HPC perspective motivated the edits but HPC vocabulary stays out of the paper
+
 ## Remaining Limitations
 
 - Diachronic evidence thin (when did bare *Mom* become licensed?)
@@ -41,7 +49,7 @@
 
 ## Files
 
-- `main.tex` - Full draft (15 pages)
+- `main.tex` - Full draft (18 pages)
 - `main.pdf` - Compiled PDF
 - `references.bib` - Bibliography (22 citekeys)
 - `childes/` - Frequency extraction scripts and data
