@@ -88,12 +88,16 @@ Vocative heuristic (surface-only, reproducible):
 - **Argument** otherwise.
 
 Notes:
-- Uses only `*` tiers (no `%mor`/`%gra`).
+- Uses `*` tiers for tokenization and `%mor` tiers for proper-noun detection (title+name exclusion).
 - Tokenization uses word-like strings from the raw `*` line and punctuation tokens for comma detection.
 - This is a **conservative** vocative measure (high precision, lower recall for vocatives without commas).
 - Bare vs determined arguments:
   - **Determined** if immediately preceded by a determiner (articles, demonstratives, possessives, quantifiers)
     or a genitive marker (e.g., `John's`), or if the kin term itself carries a genitive suffix.
+  - **Title+name exclusion**: When a term in the title-kinship set (aunt, auntie, aunty, uncle, brother, sister,
+    grandma, grandpa, granny, gramma, nana, grampa, mama, papa, and other grandparent terms) is followed by
+    a proper noun on the `%mor` tier (e.g., `Auntie Sarah`, `Grandma Peggy`), it is classified as determined
+    rather than bare, since the proper noun is the syntactic head.
   - Coordination heuristic: in `my mom and dad`, `dad` counts as determined.
   - This is conservative: ambiguous `Mom's` (possessive vs copular) is treated as determined.
 

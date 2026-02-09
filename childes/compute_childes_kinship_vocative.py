@@ -27,8 +27,16 @@ KINSHIP = [
 
 KINSHIP_SET = set(KINSHIP)
 
-# Terms that commonly appear in title+name constructions
-TITLE_KINSHIP = {'aunt', 'auntie', 'aunty', 'uncle', 'brother', 'sister'}
+# Terms that commonly appear in title+name constructions (e.g., Auntie Sarah,
+# Grandma Peggy, Uncle John, Papa Joe).  Parent terms like mom/dad virtually
+# never take a following proper noun in English, so they are excluded.
+TITLE_KINSHIP = {
+    'aunt', 'auntie', 'aunty', 'uncle', 'brother', 'sister',
+    'grandma', 'grandpa', 'granny', 'gramma', 'nana', 'grandmom', 'grandmommy',
+    'grandmother', 'grandfather', 'granddad', 'granddaddy', 'gramps', 'grampa',
+    'grandpapa', 'grandmama',
+    'mama', 'papa',
+}
 
 MULTIWORD = {
     ('grand','ma'): 'grandma',
