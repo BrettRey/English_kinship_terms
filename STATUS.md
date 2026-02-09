@@ -1,10 +1,10 @@
 # STATUS.md - English Kinship Terms
 
-**Last updated:** 2026-02-06
+**Last updated:** 2026-02-09
 
 ## Current Phase
 
-**REVISION COMPLETE** - Empirical validation added, cross-linguistic predictions refined
+**REVISION COMPLETE** - Active polish; intro restructured, deitality compressed
 
 ## Timeline
 
@@ -33,6 +33,16 @@
 4. **Cross-cultural naming taboos** - Hawaiian kapu, Zulu hlonipha, Apache ghost-names
 5. **Repository public** - [github.com/BrettRey/English_kinship_terms](https://github.com/BrettRey/English_kinship_terms)
 
+### 2026-02-09 Session Notes
+- Intro restructured: proper-name/proper-noun distinction moved earlier into CGEL subsection
+- Deitality subsection compressed from 3 paragraphs to 1
+- Caregiver self-reference added as secondary frequency factor with Duranti 2011 citation
+- Bybee paraphrase rewritten for clarity
+- Abstract refined ("correlates with" replacing "predicts")
+- Vocative footnote streamlined with forward reference to §3
+- *Parent Trap* footnoted as "Disney, 1998"
+- Insertion points: Dziwirek2019, Downing1996, BensonAnglin1987 all integrated; Surono2018 superseded by cross-cultural opening
+
 ### 2026-02-06 Session Notes
 - Sharpened proper-name / proper-noun distinction throughout: bare *Mom* IS a proper name (naming function, binary); the gradient across kinship terms is in proper-noun entrenchment (lexical category)
 - New paragraph in CGEL framework subsection making the distinction explicit
@@ -49,9 +59,9 @@
 
 ## Files
 
-- `main.tex` - Full draft (18 pages)
+- `main.tex` - Full draft (~427 lines, 18 pages)
 - `main.pdf` - Compiled PDF
-- `references.bib` - Bibliography (22 citekeys)
+- `references.bib` - Bibliography
 - `childes/` - Frequency extraction scripts and data
 - `literature/` - Source PDFs
 - `board-*.md` - Advisory reviews

@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
+"""
+Compute vocative vs argument counts for kinship terms in CHILDES Eng-NA.
+
+This version uses %mor tiers to detect proper nouns, allowing exclusion of
+title+name constructions like 'Auntie Sarah' where the name is the head.
+"""
 import argparse
 import pathlib
 import re
 import csv
 from collections import Counter
 
-# Broad North American kinship list (same as prior counts)
+# Broad North American kinship list
 KINSHIP = [
     'mom','mommy','momma','mama','ma','mother',
     'dad','daddy','dada','papa','pa','father',
@@ -21,7 +27,9 @@ KINSHIP = [
 
 KINSHIP_SET = set(KINSHIP)
 
-# Multiword compounds to treat as single kin lexemes
+# Terms that commonly appear in title+name constructions
+TITLE_KINSHIP = {'aunt', 'auntie', 'aunty', 'uncle', 'brother', 'sister'}
+
 MULTIWORD = {
     ('grand','ma'): 'grandma',
     ('grand','mom'): 'grandmom',
@@ -67,12 +75,12 @@ CONJ = {'and', 'or'}
 NOISE_RE = re.compile(r'^[xyw]{3,}$')
 WORD_RE = re.compile(r"[A-Za-z]+(?:[-'][A-Za-z]+)*")
 TOKEN_RE = re.compile(r"[A-Za-z]+(?:[-'][A-Za-z]+)*|[.,!?]")
+MOR_TOKEN_RE = re.compile(r'\S+')
 
 
 def norm_surface(tok: str) -> str:
     t = tok.lower()
-    # possessive
-    if t.endswith("'s") or t.endswith("’s"):
+    if t.endswith("'s") or t.endswith("'s"):
         base = t[:-2]
         if base in KINSHIP_SET or base in MULTI_COMPONENTS:
             t = base
@@ -80,17 +88,14 @@ def norm_surface(tok: str) -> str:
         base = t[:-1]
         if base in KINSHIP_SET or base in MULTI_COMPONENTS:
             t = base
-    # plural -ies
     if t.endswith('ies'):
         base = t[:-3] + 'y'
         if base in KINSHIP_SET:
             return base
-    # plural -es
     if t.endswith('es'):
         base = t[:-2]
         if base in KINSHIP_SET and len(base) >= 3:
             return base
-    # plural -s
     if t.endswith('s'):
         base = t[:-1]
         if base in KINSHIP_SET and len(base) >= 3:
@@ -100,7 +105,7 @@ def norm_surface(tok: str) -> str:
 
 def has_genitive(tok: str) -> bool:
     t = tok.lower()
-    return t.endswith("'s") or t.endswith("’s") or t.endswith("s'")
+    return t.endswith("'s") or t.endswith("'s") or t.endswith("s'")
 
 
 def is_comma_adjacent(tokens, start_idx, end_idx):
@@ -126,20 +131,47 @@ def collapse_multiword(word_norm):
 
 
 def has_determiner(word_norm, word_raw, idx):
-    # Possessive form on the kin term itself (conservative: treat as determined)
     if has_genitive(word_raw[idx]):
         return True
-    # Immediate determiner or genitive determiner before the kin term
     j = idx - 1
     if j >= 0:
         if word_norm[j] in DETERMINERS or has_genitive(word_raw[j]):
             return True
-    # Coordination pattern: det + kin + and/or + kin
     if j >= 0 and word_norm[j] in CONJ and j - 2 >= 0:
         if word_norm[j - 1] in KINSHIP_SET and (
             word_norm[j - 2] in DETERMINERS or has_genitive(word_raw[j - 2])
         ):
             return True
+    return False
+
+
+def parse_mor_tokens(mor_line: str) -> list:
+    """Parse %mor tier into list of (pos, lemma) tuples."""
+    tokens = MOR_TOKEN_RE.findall(mor_line)
+    result = []
+    for tok in tokens:
+        # Skip punctuation
+        if tok in '.,!?;:':
+            continue
+        # Handle clitics (e.g., n:prop|Mommy~aux|be&3S)
+        parts = tok.split('~')
+        for part in parts:
+            if '|' in part:
+                pos, lemma = part.split('|', 1)
+                # Remove inflection markers after &
+                if '&' in lemma:
+                    lemma = lemma.split('&')[0]
+                result.append((pos, lemma.lower()))
+            else:
+                result.append(('unk', part.lower()))
+    return result
+
+
+def is_followed_by_proper_noun(mor_tokens: list, idx: int) -> bool:
+    """Check if position idx in mor_tokens is followed by n:prop."""
+    if idx + 1 < len(mor_tokens):
+        next_pos, _ = mor_tokens[idx + 1]
+        return next_pos == 'n:prop'
     return False
 
 
@@ -149,35 +181,53 @@ def compute(root: pathlib.Path):
     arg_counts = Counter()
     arg_bare_counts = Counter()
     arg_det_counts = Counter()
-    # Speaker-stratified vocative counts
-    voc_chi_counts = Counter()  # child speaker
-    voc_adu_counts = Counter()  # adult speakers (MOT, FAT, etc.)
+    arg_title_name_excluded = Counter()  # Track excluded title+name cases
+    voc_chi_counts = Counter()
+    voc_adu_counts = Counter()
     surface_total = 0
 
     for f in files:
         try:
-            for line in f.read_text(errors='ignore').splitlines():
+            lines = f.read_text(errors='ignore').splitlines()
+            i = 0
+            while i < len(lines):
+                line = lines[i]
                 if not line.startswith('*'):
+                    i += 1
                     continue
-                # Extract speaker tier
+
+                # Extract speaker
                 try:
                     speaker = line[1:].split(':')[0].strip().upper()
                 except Exception:
                     speaker = 'UNK'
                 is_child = speaker == 'CHI'
+
                 try:
                     utter = line.split(':', 1)[1]
                 except Exception:
+                    i += 1
                     continue
 
-                # total word count (surface)
+                # Look for %mor tier on next line(s)
+                mor_line = None
+                j = i + 1
+                while j < len(lines) and lines[j].startswith('%'):
+                    if lines[j].startswith('%mor:'):
+                        mor_line = lines[j].split(':', 1)[1] if ':' in lines[j] else ''
+                        break
+                    j += 1
+                
+                mor_tokens = parse_mor_tokens(mor_line) if mor_line else []
+
+                # Surface word count
                 for tok in WORD_RE.findall(utter):
                     t = tok.lower()
                     if NOISE_RE.fullmatch(t):
                         continue
                     surface_total += 1
 
-                # tokens for vocative detection
+                # Tokenize for vocative detection
                 tokens = TOKEN_RE.findall(utter)
                 word_norm = []
                 word_raw = []
@@ -192,20 +242,26 @@ def compute(root: pathlib.Path):
                         word_token_idx.append(idx)
 
                 if not word_norm:
+                    i += 1
                     continue
 
                 collapsed = collapse_multiword(word_norm)
                 filtered = [w for w in collapsed if w not in DISCOURSE and not NOISE_RE.fullmatch(w)]
                 utter_standalone = bool(filtered) and all(w in KINSHIP_SET for w in filtered)
 
-                i = 0
+                # Build index mapping from word_norm position to mor_tokens position
+                # (simplified: assume 1:1 correspondence for words, ignoring clitics)
+                mor_word_idx = 0
+
+                idx = 0
                 n = len(word_norm)
-                while i < n:
-                    if i + 1 < n and (word_norm[i], word_norm[i + 1]) in MULTIWORD:
-                        lex = MULTIWORD[(word_norm[i], word_norm[i + 1])]
+                while idx < n:
+                    # Handle multiword compounds
+                    if idx + 1 < n and (word_norm[idx], word_norm[idx + 1]) in MULTIWORD:
+                        lex = MULTIWORD[(word_norm[idx], word_norm[idx + 1])]
                         if lex in KINSHIP_SET:
-                            start_tok = word_token_idx[i]
-                            end_tok = word_token_idx[i + 1]
+                            start_tok = word_token_idx[idx]
+                            end_tok = word_token_idx[idx + 1]
                             is_voc = utter_standalone or is_comma_adjacent(tokens, start_tok, end_tok)
                             if is_voc:
                                 voc_counts[lex] += 1
@@ -215,19 +271,20 @@ def compute(root: pathlib.Path):
                                     voc_adu_counts[lex] += 1
                             else:
                                 arg_counts[lex] += 1
-                                # determiner check uses start index of compound
-                                if has_determiner(word_norm, word_raw, i):
+                                if has_determiner(word_norm, word_raw, idx):
                                     arg_det_counts[lex] += 1
                                 else:
                                     arg_bare_counts[lex] += 1
-                        i += 2
+                        mor_word_idx += 2
+                        idx += 2
                         continue
 
-                    lex = word_norm[i]
+                    lex = word_norm[idx]
                     if lex in KINSHIP_SET:
-                        start_tok = word_token_idx[i]
+                        start_tok = word_token_idx[idx]
                         end_tok = start_tok
                         is_voc = utter_standalone or is_comma_adjacent(tokens, start_tok, end_tok)
+                        
                         if is_voc:
                             voc_counts[lex] += 1
                             if is_child:
@@ -236,15 +293,34 @@ def compute(root: pathlib.Path):
                                 voc_adu_counts[lex] += 1
                         else:
                             arg_counts[lex] += 1
-                            if has_determiner(word_norm, word_raw, i):
+                            
+                            # Check for title+name pattern using %mor
+                            is_title_name = False
+                            if lex in TITLE_KINSHIP and mor_tokens:
+                                # Check if followed by proper noun in %mor tier
+                                if mor_word_idx < len(mor_tokens):
+                                    if is_followed_by_proper_noun(mor_tokens, mor_word_idx):
+                                        is_title_name = True
+                                        arg_title_name_excluded[lex] += 1
+                            
+                            if has_determiner(word_norm, word_raw, idx):
+                                arg_det_counts[lex] += 1
+                            elif is_title_name:
+                                # Title+name: count as determined (not bare),
+                                # since the name is the head, not the kinship term
                                 arg_det_counts[lex] += 1
                             else:
                                 arg_bare_counts[lex] += 1
-                    i += 1
+                    
+                    mor_word_idx += 1
+                    idx += 1
+
+                i += 1
+
         except Exception:
             continue
 
-    return voc_counts, arg_counts, arg_bare_counts, arg_det_counts, voc_chi_counts, voc_adu_counts, surface_total
+    return voc_counts, arg_counts, arg_bare_counts, arg_det_counts, voc_chi_counts, voc_adu_counts, surface_total, arg_title_name_excluded
 
 
 def main():
@@ -256,7 +332,8 @@ def main():
     root = pathlib.Path(args.root)
     out_path = pathlib.Path(args.out)
 
-    voc_counts, arg_counts, arg_bare_counts, arg_det_counts, voc_chi_counts, voc_adu_counts, surface_total = compute(root)
+    result = compute(root)
+    voc_counts, arg_counts, arg_bare_counts, arg_det_counts, voc_chi_counts, voc_adu_counts, surface_total, arg_title_name_excluded = result
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     with out_path.open('w', newline='') as f:
@@ -295,6 +372,12 @@ def main():
 
     print('surface_total', surface_total)
     print('wrote', out_path)
+    
+    # Report excluded title+name cases
+    if arg_title_name_excluded:
+        print('\nTitle+name cases excluded from bare-argument counts:')
+        for term, count in sorted(arg_title_name_excluded.items(), key=lambda x: -x[1]):
+            print(f'  {term}: {count}')
 
 
 if __name__ == '__main__':

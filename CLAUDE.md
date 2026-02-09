@@ -8,13 +8,13 @@ Paper arguing that the English naming taboo (children addressing parents by kins
 
 **Working title:** English kinship terms: From taboo to syntax
 **Author:** Brett Reynolds (Humber Polytechnic / University of Toronto)
-**Status:** Complete draft in main.tex (~416 lines); active revision phase
+**Status:** Complete draft in main.tex (~427 lines); active revision/polish phase
 
 ## File Structure
 
 ```
 English_kinship_terms/
-├── main.tex              # Complete draft (~380 lines)
+├── main.tex              # Complete draft (~427 lines)
 ├── references.bib        # Bibliography
 ├── local-preamble.tex    # Font overrides for house style
 ├── main.pdf              # Compiled output
@@ -68,6 +68,11 @@ This paper requires strict category–function distinctions:
 - Hill 2022 (syntactization of kinship in vocatives)
 - Chappell & McGregor 1996 (inalienable possession)
 
+**Usage-based / Developmental:**
+- Bybee 2006, 2010 (frequency and entrenchment)
+- Duranti 2011 (caregiver self-reference)
+- Benson & Anglin 1987 (kin-term acquisition order)
+
 **The gap:** Neither literature cites the other. No causal mechanism proposed.
 
 ## Building the Document
@@ -103,21 +108,22 @@ Note: This project has `local-preamble.tex` to handle font substitutions. The ho
 
 ## Paper Structure (Current Draft)
 
-1. **Introduction** (§1) - The *Parent Trap* opening; two facts that should be connected; proposed mechanism; CGEL framework; deitality connection
-2. **The naming taboo** (§2) - Cross-cultural taboos; power/solidarity; parent-child asymmetry; politeness and face
-3. **Kinship terms with proper-name status** (§3) - CGEL framework; bare singular pattern; gradience across kin terms; vocatives and subjects
-4. **From taboo to syntax** (§4) - Frequency argument; grammaticalization pathway; CHILDES corpus evidence
-5. **Cross-linguistic predictions: Malagasy** (§5) - Determiner system; naming taboo; predictions
-6. **Objections and alternatives** (§6) - Vocative generalization; semantic uniqueness; sir/ma'am; lexical specification
+1. **Introduction** (§1) - *Parent Trap* opening; two facts; proposed mechanism; CGEL framework (proper-name/proper-noun distinction front and centre); deitality (compressed); roadmap
+2. **The naming taboo** (§2) - Cross-cultural taboos; power/solidarity; parent-child asymmetry; politeness and face; English taboo as frequency concentrator (not lexical replacement)
+3. **Kinship terms with proper-noun status** (§3) - CGEL framework; bare singular pattern; deitality diagnostics; gradience across kin terms; vocatives
+4. **From taboo to syntax** (§4) - Frequency argument; grammaticalization pathway; CHILDES corpus evidence (Table 1, manual QC, sensitivity analysis, vocative-bare correlation)
+5. **Cross-linguistic predictions: Malagasy** (§5) - Determiner system; naming taboo; predictions; weaker taboos; within-family variation; honorifics; in-laws
+6. **Objections and alternatives** (§6) - Vocative generalization; semantic uniqueness; sir/ma'am; lexical specification; causal directionality
 7. **Conclusion** (§7) - Return to *Parent Trap*
 
 ## Remaining Tasks
 
 **Drafting:** Complete
+**Revision:** Active polish phase (intro restructured 2026-02-09)
 
-**Revision (optional polish):**
-- [ ] Diachronic trajectory of bare kin-term stabilization (acknowledged gap)
-- [ ] Variation across class/region/ethnicity (acknowledged gap)
+**Acknowledged gaps (flagged in text as future work):**
+- Diachronic trajectory of bare kin-term stabilization
+- Variation across class/region/ethnicity
 
 ## Related Projects
 
