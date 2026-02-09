@@ -7,6 +7,7 @@ import csv
 import json
 import math
 import pathlib
+import sys
 
 try:
     import matplotlib.pyplot as plt
@@ -134,18 +135,23 @@ def main():
     r_spearman = spearman(x, y)
 
     # House style setup
-    plt.rcParams.update({
-        'font.family': 'serif',
-        'font.serif': ['EB Garamond', 'Garamond', 'Georgia', 'Times New Roman'],
-        'axes.spines.top': False,
-        'axes.spines.right': False,
-        'legend.frameon': False,
-    })
+    # House style from shared module
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / '.house-style'))
+    try:
+        from plot_style import setup, COLORS, save_figure, add_grid
+    except ImportError:
+        print("Warning: plot_style not found, using defaults")
+        COLORS = {'primary': 'black', 'secondary': '#E85D4C', 'tertiary': '#4DA375', 'quaternary': '#9B6B9E'}
+        def setup(): pass
+        def save_figure(fig, path): fig.savefig(path)
+        def add_grid(ax, **kw): ax.grid(True, axis='y')
+
+    setup()
 
     colors = {
-        'parent': '#4DA375',     # Sage green (house tertiary)
-        'grandparent': '#9B6B9E', # Muted purple (house quaternary)
-        'extended': '#E85D4C',   # Coral (house secondary)
+        'parent': COLORS['tertiary'],
+        'grandparent': COLORS['quaternary'],
+        'extended': COLORS['secondary'],
     }
 
     fig, ax = plt.subplots(figsize=(5.2, 3.4))

@@ -9,7 +9,7 @@ import pathlib
 import sys
 
 # Import house style
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[2] / '.house-style'))
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / '.house-style'))
 try:
     from plot_style import setup, COLORS, save_figure, add_grid
 except ImportError:

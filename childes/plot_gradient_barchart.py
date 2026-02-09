@@ -6,6 +6,7 @@ ordered by the grammaticalization hierarchy.
 import argparse
 import csv
 import pathlib
+import sys
 
 try:
     import matplotlib.pyplot as plt
@@ -88,19 +89,24 @@ def main():
     # Sort by bare_pct descending
     rows.sort(key=lambda r: r['bare_pct'], reverse=True)
 
-    # House style
-    plt.rcParams.update({
-        'font.family': 'serif',
-        'font.serif': ['EB Garamond', 'Garamond', 'Georgia', 'Times New Roman'],
-        'axes.spines.top': False,
-        'axes.spines.right': False,
-        'legend.frameon': False,
-    })
+    # House style from shared module
+    sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1] / '.house-style'))
+    try:
+        from plot_style import setup, COLORS, save_figure, add_grid
+    except ImportError:
+        # Fallback (should not happen if structure is correct)
+        print("Warning: plot_style not found, using defaults")
+        COLORS = {'primary': 'black', 'secondary': '#E85D4C', 'tertiary': '#4DA375', 'quaternary': '#9B6B9E'}
+        def setup(): pass
+        def save_figure(fig, path): fig.savefig(path)
+        def add_grid(ax, **kw): ax.grid(True, axis='y')
+
+    setup()
 
     colors = {
-        'parent': '#4DA375',      # Sage green (house tertiary)
-        'grandparent': '#9B6B9E', # Muted purple (house quaternary)
-        'extended': '#E85D4C',    # Coral (house secondary)
+        'parent': COLORS['tertiary'],
+        'grandparent': COLORS['quaternary'],
+        'extended': COLORS['secondary'],
     }
 
     # Create horizontal bar chart
@@ -114,13 +120,14 @@ def main():
     bars = ax.barh(y_pos, bare_pcts, color=bar_colors, height=0.7, alpha=0.9)
 
     ax.set_yticks(y_pos)
-    # Add n to labels
-    labels = [f"{r['term']} (n={r['arg']})" for r in rows]
+    # Add n to labels with italics and math mode
+    # e.g., \mention{mom} (n=8528) -> $\mathit{mom}$ ($n=8528$)
+    labels = [f"$\\mathit{{{r['term']}}}$ ($n={r['arg']}$)" for r in rows]
     ax.set_yticklabels(labels, fontsize=9)
     ax.invert_yaxis()  # Highest at top
     ax.set_xlabel('Bare-argument percent')
     ax.set_xlim(0, 100)
-    ax.grid(True, axis='x', linestyle=':', linewidth=0.5, color='#E8E8E8')
+    add_grid(ax, axis='x')
 
     # Add category legend
     from matplotlib.patches import Patch
@@ -137,10 +144,8 @@ def main():
     out_pdf = pathlib.Path(args.out_pdf)
     out_png = pathlib.Path(args.out_png)
     out_pdf.parent.mkdir(parents=True, exist_ok=True)
-    fig.savefig(out_pdf)
-    fig.savefig(out_png, dpi=200)
+    save_figure(fig, str(out_pdf.with_suffix(''))) # save_figure appends extension
 
-    print(f'wrote {out_pdf} and {out_png}')
     print(f'Terms included: {len(rows)}')
     for r in rows:
         print(f"  {r['term']:12} {r['bare_pct']:5.1f}% bare  ({r['category']})")
