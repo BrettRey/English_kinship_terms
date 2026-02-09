@@ -122,7 +122,7 @@ def main():
     ax.set_yticks(y_pos)
     # Add n to labels with italics and math mode
     # e.g., \mention{mom} (n=8528) -> $\mathit{mom}$ ($n=8528$)
-    labels = [f"$\\mathit{{{r['term']}}}$ ($n={r['arg']}$)" for r in rows]
+    labels = [f"$\\mathit{{{r['term']}}}$ ($n={r['arg']:,}$)" for r in rows]
     ax.set_yticklabels(labels, fontsize=9)
     ax.invert_yaxis()  # Highest at top
     ax.set_xlabel('Bare-argument percent')
