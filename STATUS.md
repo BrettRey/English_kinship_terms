@@ -1,10 +1,10 @@
 # STATUS.md - English Kinship Terms
 
-**Last updated:** 2026-02-09
+**Last updated:** 2026-02-10
 
 ## Current Phase
 
-**REVISION COMPLETE** - Active polish; intro restructured, deitality compressed
+**PREPRINT UPLOADED** - LingBuzz [lingbuzz/009751](https://ling.auf.net/lingbuzz/009751), February 2026
 
 ## Timeline
 
@@ -32,6 +32,25 @@
 3. **Literature strengthened** - Sloat 1969, Longobardi 1994, Hill 2022, Kripke 1980
 4. **Cross-cultural naming taboos** - Hawaiian kapu, Zulu hlonipha, Apache ghost-names
 5. **Repository public** - [github.com/BrettRey/English_kinship_terms](https://github.com/BrettRey/English_kinship_terms)
+
+### 2026-02-10 Session Notes (session 2)
+- Cut Longobardi/DP paragraph from §6.4 entirely (paper doesn't need to engage with DP framework)
+- Cut two redundant recap paragraphs opening the conclusion; now opens with "Three contributions stand out"
+- Tightened Parent Trap return to avoid near-verbatim echoes of intro; "restoration of a word" → "restoration of a license"
+- Fixed Oxford spelling: realisation → realization (2 instances)
+- Updated acknowledgements: Claude Opus 4.5 → 4.6
+- Researched Chomsky DP-rejection: best candidate is Chomsky (2021) *Gengo Kenkyu* 160: 1–41; Pullum & Miller (2022) "NPs versus DPs: why Chomsky was right" on lingbuzz — source unverified, not cited
+- Renamed PDF for lingbuzz upload
+
+### 2026-02-10 Session Notes (session 1)
+- Contracted 18 uncontracted forms (house style: contractions preferred)
+- Cut redundancy: 4.7% adjacency paragraph, sediment analogy cluster, engine/counterfactual paragraph, hlonipha preview, weaker-taboo restatement
+- Rewrote §6.2 (semantics objection): "precondition" → candidacy framing (Partee-inspired); dropped "consistency" argument
+- Cut Korean/Japanese from §5.4 (no proper-noun diagnostic in article-less languages)
+- Fixed plural-author references in single-author paper (our → present purposes, I, the frequency mechanism)
+- Added relational persistence to Teacher/Waiter contrast
+- Distanced from Longobardi/DP; rewrote diachronic prediction as honestly untestable
+- Used \mentionhead for sir/ma'am heading; tempered frequency claim
 
 ### 2026-02-09 Session Notes
 - Intro restructured: proper-name/proper-noun distinction moved earlier into CGEL subsection

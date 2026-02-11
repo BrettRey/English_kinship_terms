@@ -1,0 +1,452 @@
+% !TEX TS-program = xelatex
+\documentclass[12pt,oneside]{article}
+
+
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage[style=american]{csquotes}
+
+% House-style macro definitions for pandoc
+\newcommand{\mention}[1]{\textit{#1}}
+\newcommand{\mentionhead}[1]{\textit{#1}}
+\newcommand{\term}[1]{\textsc{#1}}
+\newcommand{\olang}[1]{\textit{#1}}
+\newcommand{\ungram}[1]{*#1}
+\newcommand{\marg}[1]{?#1}
+\newcommand{\odd}[1]{\##1}
+\newcommand{\crossmark}{}
+
+
+\title{English kinship terms: From taboo to syntax}
+\author{[Anonymous for review]}\\[4pt]
+Humber Polytechnic \& University of Toronto}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+English-speaking children rarely address parents by first name -- a social prohibition encoding power and solidarity. Separately, English kinship terms like \mention{Mom} and \mention{Dad} permit bare singular use (\mention{Mom called}) where other count nouns don't (\ungram{\mention{Neighbour called}}, in ordinary conversation). While previous work approaches this interface \citep{Downing1996}, the specific link between the naming taboo and the \emph{syntactic} outcome -- determinerless argumental structure -- remains unexplored. I argue that the naming taboo causes the proper-noun-like syntax: high-frequency use of kinship terms in vocative function -- forced by the prohibition on first names -- produces grammaticalization toward strong proper-name status. Corpus data from CHILDES confirm that parent terms show disproportionate vocative concentration (16--43\%) compared to extended kin terms (4--7\%), and vocative concentration correlates with bare-argument realization rates across terms (Spearman $\rho = 0.73$). Children, not caregivers, drive the vocative skew. The \emph{CGEL} category/function distinction provides the analytical apparatus; the taboo is the engine, the syntax is the sediment.
+\end{abstract}
+
+\textbf{Keywords:} kinship terms, naming taboo, proper nouns, grammaticalization, address forms
+
+\section{Introduction}\label{sec:intro}
+
+In \emph{The Parent Trap},\footnote{Disney, 1998.} the emotional centre of the reunion isn't a revelation of biology but a restoration of a word. After eleven years engineered around separation -- one parent per child, one child per parent -- the father finds himself face-to-face with the daughter who has grown up without him. The dialogue turns on something more miniature and more brutal: what you're allowed to \emph{call} someone.
+
+The father, Nick, reaches for the point that matters: \enquote{So, let me see if I get this~\ldots{} you missed being able to call me Dad.} Annie, the daughter, answers just as plainly: \enquote{Yeah. I really have, Dad.}
+
+The exchange isn't about identifying the referent; both speakers know exactly who's being talked to. The ache is about a social relation that English encodes -- and polices -- through address, where \mention{Dad} functions not as descriptive content but as a licensed stance of affiliation, entitlement, and obligation.
+
+That licensing is tight. A child who uses \mention{Dad} isn't merely labeling; rather, they're performing the relational bond that the term encodes. When a child switches to the first name, they withdraw that performance. And when the kinship term returns, it doesn't just report reconciliation -- it performs it. The screenwriters may not have intended a case study in grammaticalization, but they wrote one. The paper that follows argues that this everyday naming taboo drives a grammaticalization pathway: it's one reason English \mention{Mom} and \mention{Dad} behave, in key syntactic positions, less like ordinary common-noun NPs and more like strong proper names.
+
+\subsection{Two facts that should be connected}
+
+Two facts about English kinship terms have been documented extensively but separately: one in the literature on address forms, the other in determiner syntax. Work on conversational reference already approaches the interface \citep{Downing1996}, but an explicit mechanism linking the parent-name taboo to determinerless argument structure hasn't been developed.
+
+The first fact, from sociolinguistics, is that in mainstream Anglophone norms, children rarely address parents by first name. This is a social prohibition encoding power and solidarity \citep{BrownGilman1960,Dickey1997}. The asymmetry is robust: parents use children's first names freely; children use kinship terms. Violating the taboo (calling your mother \mention{Sarah} at the dinner table) is face-threatening, marked, and culturally dispreferred in unmarked contexts.
+
+The second fact, from syntax, is that English kinship terms permit bare singular use where other count nouns don't. The intended reading is definite and individuated, and it occurs outside the role-anchored contexts that license forms like \mention{the doctor} or \mention{Teacher}:
+
+
+\begin{quote}
+\noindent (a) \mention{Mom's here.}   (grammatical)
+\noindent (b) (?) \mention{Teacher's here.}   (acceptable in school-role contexts; otherwise marginal; see Section~\ref{sec:objections})
+\noindent (c) (*) \mention{Neighbour's here.}   (ungrammatical in ordinary conversation)
+\end{quote}
+
+
+When used this way, \mention{Mom} functions semantically as a \term{proper name}, picking out an identifiable individual in the family domain. This semantic function is borne out syntactically: \mention{Mom} appears as a bare NP, what \textcite{Huddleston2002} call a \term{strong proper name}. With a determiner (\mention{my mom}, \mention{the mom in question}), the same lexical item retains its relational meaning. The bare singular pattern is remarkable because English generally resists bare singular count nouns in argument position (\ungram{\mention{I bought table}}) -- with limited exceptions, such as in institutional frames (\mention{go to school}, \mention{in hospital}).
+
+\subsection{The proposed mechanism}
+
+The argument is simple: the social prohibition on first-name use forces high-frequency use of kinship terms in vocative and address function. Vocative function is determiner-free\footnote{Vocative NPs exclude most determinatives; for kinship terms, bare use is standard. See Section~\ref{sec:syntax} for the full distributional picture.} -- you say \mention{Mom!}, \mention{Waiter!}, \mention{Taxi!}, not \ungram{\mention{The mom!}, \mention{That waiter!}, \mention{Some taxi!}} (forms so immediately wrong they barely need the asterisk) -- and this syntactic property provides the bridge to proper-name status. That frequency, sustained across childhood and into adulthood, produces exactly the conditions under which grammaticalization toward proper-noun-like syntax occurs. The taboo is proposed as a primary driver, operating through distributional exposure in vocative contexts; a secondary factor is caregiver self-reference (\mention{Mommy's going to the store}), which provides additional input frequency in name position.
+
+The causal pathway has four steps:
+
+\begin{enumerate}
+    \item \emph{Social prohibition}: Children can't use parents' first names. The taboo is enforced by correction, by awkwardness, by the visceral wrongness of hearing a peer say \enquote{Hey, Nick} to their father.
+    \item \emph{Address function}: The prohibition forces kinship terms into the slot normally occupied by proper names. \mention{Mom} and \mention{Dad} become the primary vocative forms -- the words a child uses to get a parent's attention, to address them directly, to refer to them in third-person conversation with other family members. The taboo doesn't merely increase frequency; it \emph{eliminates the competitor}. The first name isn't just rare; it's prohibited. This total displacement is what makes the kinship case distinctive.
+    \item \emph{High frequency}: This isn't occasional use. Children say \mention{Mom} and \mention{Dad} with extreme frequency throughout childhood. The frequency is amplified by parent-directed speech: caregivers routinely refer to \emph{themselves} as \mention{Mommy} and \mention{Daddy} (\mention{Mommy's going to the store}), providing massive input frequency in name position \citep{Duranti2011}. Each use is in a slot prototypically occupied by proper names.
+    \item \emph{Grammaticalization}: Repetition in a name-like slot produces entrenchment. The form becomes highly entrenched as a name-like address form with the distributional privileges of proper nouns -- it appears without a determiner, it resists modification in ways that common nouns don't -- while acquiring the semantic function of a proper name: identifiable reference within the family domain.
+\end{enumerate}
+
+This mechanism predicts a sharp divergence between parent terms and extended kin terms. Corpus data from CHILDES bear this out (Section~\ref{sec:mechanism}).
+
+Grammar, on a usage-based view, isn't a set of abstract rules that \enquote{allow} exceptions; it's the residue of what speakers actually do, over and over \citep{bybee2010}. On the account developed here, \mention{Mom} isn't a common noun that the grammar happens to permit in a bare-singular slot; rather, it's a form that has acquired proper-noun syntax through the pressure of its use.
+
+\subsection{The Cambridge Grammar framework}
+
+The analytical apparatus comes from \emph{The Cambridge Grammar of the English Language} \citep[hereafter \emph{CGEL}]{Huddleston2002}. What \emph{CGEL} offers is a distinction between a word's \emph{lexical category} -- whether it's a proper noun or a common noun -- and its \emph{functional status} -- whether it's serving as a proper name or an ordinary NP. This distinction lets us say precisely what is gradient about kinship terms and what is not.
+
+Bare \mention{Mom} is a proper name without qualification: it conventionally identifies a unique individual in the family domain. What is gradient across kinship terms isn't the naming function but the degree of proper-\emph{noun} entrenchment -- how far the form has acquired the bare-argument distribution of a proper noun. The grammaticalization story explains that entrenchment: the taboo forces kinship terms into naming function so frequently that the highest-frequency forms have acquired proper-noun status.
+
+This isn't polysemy in the usual sense -- two separate lexemes that happen to share a form. Several diagnostics favor a constructional/status analysis over a two-lexeme account: the use is gradient across kinship terms (not categorical), depends on discourse domain, shows cross-speaker variability, and exhibits bridging through address contexts (Section~\ref{sec:syntax} develops these diagnostics in full).
+
+\emph{CGEL} treats lexical categories as discrete but allows for marginal membership where not all diagnostic criteria are satisfied. What is gradient across kinship terms is \emph{constructional licensing} -- which constructions accept a given kinship term as a bare argument, and how readily. The present account treats \mention{Mom} and \mention{Dad} as having acquired proper-noun status through sustained frequency (alongside their common-noun entry), while \mention{Uncle} or \mention{Auntie} participate in the proper-name construction with varying acceptability without having acquired that status. This departs from strict \emph{CGEL} orthodoxy in treating category membership as emergent rather than stipulated, consistent with usage-based approaches to category emergence \citep{bybee2010,Traugott2003}.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+Term & Definition & Example \\
+\midrule
+Proper noun & Lexeme: Noun specialized for use as a proper name & \mention{John}, \mention{Clinton} \\
+Proper name & Inherently definite expression & \mention{If on a Winter's Night a Traveller} \\
+Strong proper name & Proper name without determiner & \mention{Paris}, \mention{Mom} \\
+Weak proper name & Proper name with \mention{the} & \mention{the Thames} \\
+Bare singular & Count noun without determiner & \mention{at} [\mention{lunch}], \mention{a} [\mention{pet}] \mention{shop} \\
+\bottomrule
+\end{tabular}
+\caption{Key terminology from \emph{CGEL}}
+\label{tab:cgel}
+\end{table}
+
+Kinship terms show a functional split:
+
+
+\begin{quote}
+\noindent (a) Common noun: \mention{My mom called.}
+\noindent (b) Strong proper name: \mention{Mom called.}
+\end{quote}
+
+
+\emph{CGEL} itself notes this split in its treatment of vocatives (Section 5.20.5), observing that certain kin terms can function with proper-name status while others can't -- the category is graded rather than uniform \citep[522]{Huddleston2002}. The distribution of English proper nouns was established by \textcite{Sloat1969}.
+
+\subsection{Relation to deitality and definiteness}
+
+One further analytical distinction proves useful. \textcite{anon2025} separates \term{deitality} -- a morphosyntactic property cluster including resistance to existential pivots and participation in partitives -- from \term{definiteness}, which is semantic. The deitality framework extends \emph{CGEL}'s descriptive apparatus; the diagnostics themselves (existential pivots, partitives, modification resistance) are theory-neutral. Proper names are peripheral members of the deitality cluster: they show the distributional restrictions but lack the overt morphological exponent (no article appears in \ungram{\mention{the John}}). English kinship terms, when functioning as proper names, pattern exactly this way -- they acquire the distributional properties of proper nouns.
+
+\subsection{What follows}
+
+The rest of the paper proceeds as follows. Section~\ref{sec:socio} reviews the sociolinguistic literature on address forms and the naming taboo. Section~\ref{sec:syntax} reviews the syntactic literature on proper nouns, bare nominals, the deitality/definiteness distinction, and the \emph{CGEL} apparatus. Section~\ref{sec:mechanism} presents the core argument: the grammaticalization pathway from taboo to syntax, supported by corpus evidence from CHILDES. Section~\ref{sec:crossling} addresses the cross-linguistic dimension. Section~\ref{sec:objections} considers objections and alternative explanations. Section~\ref{sec:conclusion} concludes.
+
+%% PLACEHOLDER SECTIONS %%
+
+\section{The naming taboo}\label{sec:socio}
+
+Naming taboos are cross-culturally pervasive but vary in visibility. In traditional Hawaii, the \term{kapu} system forbade commoners from speaking the names of high-ranking chiefs; violations could mean death \citep{ElbertPukui1979}. In Zulu culture, \term{hlonipha} requires married women to avoid not just in-laws' names but any syllable appearing in those names -- triggering systematic vocabulary substitution across the entire lexicon \citep{IrvineGunner2018}. Among the Apache, speaking a deceased person's name is believed to summon a malevolent ghost; when someone dies, all children in the family are renamed \citep{Opler1941}. In traditional China, the system of \term{bìhuì} prohibited speaking or writing the personal names of emperors and ancestors; characters appearing in a ruler's name were banned from official documents \citep{Adamek2012}. Naming taboos can restructure language.
+
+English has a naming taboo too,\footnote{The English norm is weaker than ritual taboos like hlonipha; I retain \term{taboo} because violation triggers correction and affective discomfort beyond mere preference, but the mechanism proposed here requires only consistent prohibition, not ritual sanction.} but it is so familiar that native speakers rarely notice it. Still, the literature on address forms has documented a robust asymmetry in English-speaking families: parents address children by first name; children address parents by kinship term. Far from being a quirk of individual families, it's a social rule, enforced by correction and marked by discomfort when violated.
+
+
+
+The foundational framework comes from \textcite{BrownGilman1960}, who analysed the pronouns of power and solidarity in European languages. The T/V distinction (familiar \mention{tu} vs.\ formal \mention{vous}) encodes social relationships along dimensions of \term{power} (asymmetric) and \term{solidarity} (symmetric). \textcite{BrownFord1961} extended this logic to naming: superiors give first names and receive titles; intimates exchange first names; formal equals exchange titles. While English address habits have shifted toward greater informality in many domains \citep{Leech2014}, the parent-child asymmetry has proved more resistant -- the key finding for present purposes is that this particular asymmetry persists even as others weaken.
+
+
+
+Within the family, the parent-child dyad exhibits a paradigmatic power asymmetry. Parents freely use children's first names, nicknames, or terms of endearment, but rarely kinship terms \citep{Dziwirek2019}: \mention{Sarah, time for dinner}. Children rarely reciprocate: \ungram{\mention{Sarah, when's dinner?}} (addressed to their mother named Sarah). Instead, children use kinship terms: \mention{Mom, when's dinner?}
+
+This asymmetry persists into adulthood. Even when children are themselves parents, even when they have adult relationships with their aging parents, first-name address remains marked. For ascending kin, \enquote{avoidance of the personal name may become a virtual mandate} \citep[120]{Downing1996}. The taboo concerns not childhood dependency but a social relation encoded in language and maintained across the lifespan. This matters for the mechanism: the frequency pressure doesn't stop at adolescence but continues to reinforce entrenchment throughout adulthood.
+
+\textcite{Dickey1997} provides a systematic treatment of address forms and terms of reference, documenting the forms available in English and their sociopragmatic conditioning. The kinship-term-for-parent pattern is noted as near-categorical in non-marked contexts. What makes it a \term{taboo} rather than a mere preference is the affective response to violation: discomfort, face-threat, sometimes correction. (Call your mother \mention{Sarah} at the dinner table; the dependent variable is silence.) This response is documented anecdotally throughout the address literature, but experimental evidence (e.g., reaction-time or judgment data) remains a gap worth filling.
+
+
+
+The naming taboo is best understood through politeness theory. \textcite{BrownLevinson1987} analyse linguistic politeness as the management of \term{face} -- the public self-image that interactants claim and mutually support. Address violations threaten face. A child who calls their parent by first name threatens the parent's positive face by refusing the conventional relationship marker, and simultaneously threatens their own positive face by signalling social incompetence or inappropriate defiance.
+
+This face-threat explains the affective charge of the taboo. The \enquote{wrongness} of hearing a peer say \enquote{Hey, Nick} to their father isn't merely unconventional. It indexes a stance -- claimed equality, refused deference -- that violates expectations about parent-child relations. The discomfort is social, not merely linguistic. And because the discomfort is social, the taboo is enforced -- which means the frequency pressure is sustained, generation after generation.
+
+Here is where the English taboo diverges from other naming taboos typologically. All naming taboos prohibit names, but they differ in their downstream linguistic effects. In hlonipha, avoidance of in-law name syllables drives \emph{lexical replacement}: ordinary vocabulary containing the taboo syllables is lost and replaced by circumlocutions or neologisms. The English parent-child taboo has a different consequence. The prohibited first name has a ready substitute -- the kinship term -- and the taboo forces that substitute into the slot the name would have occupied. The result isn't lexical loss but \emph{frequency concentration}: the kinship term absorbs all the uses that would otherwise be distributed across first names, nicknames, and other address forms. Frequency concentration, on standard usage-based accounts, is the engine of grammaticalization.
+
+Because children can't use parents' first names, they have to use kinship terms -- a constrained selection with the constraint enforced by social pressure, not a free choice among alternatives. This creates a distributional monopoly in name position that ordinary frequency effects don't produce.
+
+The taboo's strength likely varies across English-speaking communities. Regional, class, ethnic, and family-structure variation in address norms is well documented \citep{Wolfram2015}, though systematic data on kinship-term taboo strength across varieties remain sparse. The mechanism predicts that communities with stronger taboos -- where first-name use is more consistently prohibited and more sharply sanctioned -- should show stronger proper-noun properties for kinship terms; communities with weaker taboos should show weaker properties. This prediction connects to the within-family variation discussed in Section~\ref{sec:objections}: gradience in taboo enforcement should produce gradience in syntactic outcome.
+
+\section{Kinship terms with proper-name status}\label{sec:syntax}
+
+The syntactic facts about kinship terms have been described, but their significance hasn't been connected to the sociolinguistic facts reviewed above. This section provides the precise analytical apparatus for characterizing what's grammatically distinctive about \mention{Mom} and \mention{Dad}.
+
+
+
+\emph{The Cambridge Grammar of the English Language} \citep{Huddleston2002} distinguishes carefully between lexical category and naming function. A \term{proper noun} is a lexical category -- a subcategory of nouns specialized for naming. A \term{proper name} is an expression conventionally adopted to denote a unique entity. The two can come apart.
+
+Consider \mention{the United Kingdom}. The noun \mention{kingdom} is a common noun, but the NP \mention{the United Kingdom} functions as a proper name: it refers to a unique political entity. The lexical category is common, the semantic function proper.
+
+\emph{CGEL} further distinguishes \term{strong proper names}, those that appear without an article (\mention{Paris}, \mention{Mom}), from \term{weak proper names}, those that require \mention{the} (\mention{the Thames}, \mention{the Hague}). The terminology requires care: \term{proper name} is a semantic term, where \term{strong proper name} is a bit of a hybrid. A \term{strong proper name} is a bare NP (syntax) functioning as a proper name (semantics). It's definite in reference (unique, identifiable) but appears bare, without the determiner that typically marks definiteness -- and that is usually syntactically required in other contexts.
+
+
+
+English virtually prohibits bare singular count nouns in argument position. You can say \mention{Dogs bark} (bare plural, generic) and \mention{Water flows} (bare mass), but not \ungram{\mention{Dog barks}} or \ungram{\mention{Table broke}}. Proper nouns resist determiners: \mention{Paris is beautiful}, not \ungram{\mention{The Paris is beautiful}}. Bare singulars in argument position are the province of proper nouns: forms that have escaped the determiner requirement because they function as strong proper names. Other bare singulars (\mention{at} [\mention{lunch}], \mention{a} [\mention{pet}] \mention{shop}) arise through different pathways and remain constructionally restricted.
+
+Kinship terms enter this picture precisely when they function as proper names. In \mention{Mom called}, the kinship term appears bare and supports family-domain identifiable reference -- exactly like \mention{John called} in a discourse where the intended \mention{John} is identifiable. The determiner is absent not because grammar has made a special exception but because the usage instantiates the proper name construction: it establishes definite reference through naming rather than through an overt deital exponent.
+
+\mention{John called} is felicitous only when both parties know which John is meant; if two Johns are in play, disambiguation is called for (\mention{John from work}, \mention{John Smith}). Similarly, bare \mention{Mom} is the norm within the family, where uniqueness is guaranteed. Outside family discourse, where everyone has a mother, \mention{my mom} restores the determiner. \textcite{Downing1996} documents this pattern in conversational data: within-family reference uses kinterm-based proper names (\mention{Mom called}, \mention{Gramma Peggy's coming}), while reference to the same individuals outside family circles shifts to anchored forms (\mention{my mother called}).
+
+Bare kinship terms also pattern with proper names across the deitality cluster -- the morphosyntactic properties that distinguish deital from non-deital definites. They resist existential pivots: \ungram{\mention{There's Mom waiting outside}} is odd, while adding a determiner rescues it (\mention{There's my mom waiting outside}), showing that the constraint targets the bare form; \ungram{\mention{There's John waiting outside}} is similarly degraded. They resist \mention{one}-substitution: \marg{\mention{I called Mom and you called one too}} is degraded, parallel to \marg{\mention{I called John and you called one too}}, while common nouns permit it freely (\mention{I called a friend and you called one too}). They resist attributive modification: \ungram{\mention{Tired Mom called}} patterns with \ungram{\mention{Tired John called}}, though common-noun frames accept modifiers without difficulty (\mention{my tired mom}). And they resist pluralization: \ungram{\mention{Moms called}} is anomalous as a proper-noun plural, though \mention{moms} is productive as a common noun (\mention{other moms at the school}).
+
+The proper-noun and common-noun uses coexist productively. The common-noun entry (\mention{my mom}, \mention{other moms}) retains its full morphosyntactic range; the proper-noun use (\mention{Mom called}) inherits the distributional restrictions of strong proper names. Kinship proper names are thus peripheral members of the deitality cluster -- distributionally deital despite lacking the overt morphological exponent.
+
+
+
+Not all kinship terms behave alike. \emph{CGEL} notes this explicitly in its discussion of vocatives (Section 5.20.5): \enquote{the kin terms include those that can be used with the status of proper names}, but the category is graded.
+
+
+\begin{quote}
+\noindent (a) Fully licensed: \mention{Mom}, \mention{Dad}, \mention{Grandma}, \mention{Grandpa}
+\noindent (b) (?) Marginal: \mention{Auntie}, \mention{Uncle}
+\noindent (c) (*) Unlicensed: \mention{Brother}, \mention{Sister}, \mention{Aunt}, \mention{Cousin}, \mention{Nephew}
+\end{quote}
+
+
+The gradient is in proper-noun entrenchment -- how far each form has acquired bare-argument distribution -- not in naming function. The hierarchy doesn't track raw contact frequency -- children interact with siblings constantly. It tracks \emph{taboo-driven} frequency: the rate at which social prohibition forces the kinship term into name-position. For parents and grandparents, the naming taboo blocks first-name use; the kinship term is the only option. For siblings, cousins, and aunts/uncles, first names are available, so the kinship term competes and loses frequency in name-position.
+
+\mention{Auntie} and \mention{Uncle} occupy an intermediate position. Unlike most English honorifics, which combine with surnames (\mention{Dr.\ Smith}, \mention{Mr.\ Jones}), these combine with first names (\mention{Auntie Sarah}, \mention{Uncle John}). This quasi-titular use gives them name-position exposure that siblings lack: bare usage (\mention{Auntie}) can be analyzed as an ellipsis of the full title-plus-name construction (\mention{Auntie \textup{[}Sarah\textup{]}}), providing a bridge for proper-noun syntax. In the CHILDES data examined below, both \mention{Auntie} and the formal variant \mention{Aunt} show substantial bare-argument use (~48\%), suggesting that for many speakers (or at least in child-directed speech), both forms have acquired some degree of proper-name status, likely reinforced by the title+name pattern. \mention{Brother} and \mention{Sister} are unlicensed in ordinary family discourse but can function as titles in religious contexts (\mention{Brother John}, \mention{Sister Mary}). In Quaker communities, for instance, bare \mention{Sister} appears in subject position: \enquote{Sister said we could make no such engagements} \citep[qtd.\ in][]{Hodgkin1927}. The mechanism generalizes beyond nuclear-family kinship.
+
+
+
+\emph{CGEL} treats \term{vocative} as a syntactic function, not a case (Section 5.20.5). Vocative NPs aren't dependents in any VP; they can stand alone without ellipsis and are best regarded as \enquote{a kind of interpolation -- one that can appear, like certain adjuncts, in front, central, or end position} \citep[523]{Huddleston2002}. Vocatives show distinctive determiner restrictions: they permit 1st- and 2nd-person pronoun genitives (\mention{My friend!}, \mention{Your majesty!}) and the 2nd-person determinative (\mention{You idiot!}), but exclude 3rd-person pronouns, common-noun genitives, and most other determinatives -- hence \ungram{\mention{The waiter!}}, \ungram{\mention{That friend!}}. For kinship terms, bare use is standard. What's distinctive about kinship terms is that they pattern with personal names in this function: \mention{Mom, come here} parallels \mention{Sarah, come here}. Both are direct address forms; both trigger the same intonational contour; both resist modification in the same ways.
+
+\textcite{Hill2022} argues that vocative phrases occupy dedicated syntactic positions that select for proper-noun-like properties -- the vocative slot is a grammaticalization highway. This matters for the causal story. If the naming taboo channels kinship terms into vocative function, and vocative function selects for proper-noun-like properties, then the taboo creates the grammaticalization pressure. The syntax follows from the usage pattern.
+
+\section{From taboo to syntax}\label{sec:mechanism}
+
+The previous sections have established two facts and the analytical apparatus for connecting them. The sociolinguistic fact: children can't use parents' first names. The syntactic fact: kinship terms like \mention{Mom} exhibit strong proper-noun distribution. This section presents the mechanism that links them.
+
+
+
+The heart of the proposal is frequency. \textcite{bybee2010} argues that grammatical patterns emerge from usage: forms that occur frequently in particular slots become entrenched in memory, stored as units, and eventually acquire the distributional properties associated with those slots. Rather than being a set of abstract rules that happens to permit certain forms, grammar is the sedimented residue of repeated use.
+
+The naming taboo creates massive frequency asymmetry. A child who can't say \mention{Nick} says \mention{Dad} instead -- thousands of times per year, from first words through adolescence and beyond. These uses are concentrated in slots prototypically occupied by proper names: vocatives (\mention{Dad, look!}), subjects of attention-getting verbs (\mention{Dad says\ldots}), referential uses in family discourse (\mention{Let's ask Dad.}).
+
+This concentration matters. \textcite{bybee2006} shows that frequency in a particular construction produces entrenchment in that construction. A form used overwhelmingly in the distribution and with the reference of a proper name comes to be \emph{stored as} one -- not analysed compositionally as \enquote{the parent who is my father} but retrieved holistically as a unit with the syntactic properties of proper nouns. Developmental evidence supports this: \textcite{BensonAnglin1987} found that experience predicts both the quality of children's definitions of kin terms and the order of acquisition -- \mention{mom} and \mention{dad} are acquired earliest, in part because they are encountered most frequently. For \mention{Auntie} and \mention{Uncle}, where the taboo is weaker, the title+name construction provides a parallel bridging context: \mention{Auntie Sarah} places the kinship term in name-adjacent position, and bare \mention{Auntie} arises by ellipsis of the personal name. The entrenchment logic is the same -- frequency in proper-name distribution produces proper-noun storage -- but the frequency source differs.
+
+Following \textcite{Traugott1993}, we can map a grammaticalization trajectory for kinship terms:
+
+
+\begin{quote}
+\noindent (a) Stage 1 (Source construction): relational NP headed by a common noun with genitive determinative: \mention{my mom}
+\noindent (b) Stage 2 (Bridging context): vocative function (determinerless by default): \mention{Mom}, can you\ldots? (For \mention{Auntie} and \mention{Uncle}, the title+name construction provides an alternative bridge: \mention{Auntie Sarah} $\rightarrow$ bare \mention{Auntie}.)
+\noindent (c) Stage 3 (Target construction): bare NP in argument position, domain-restricted (felicitous only within the family): Tell \mention{Mom} I'm late; \mention{Mom} called.
+\end{quote}
+
+
+The bridging context \citep{Heine2002} is essential. Vocative function licenses bare NPs -- you can say \mention{Waiter!} without a determiner. But vocative frequency alone doesn't explain proper-noun syntax. \mention{Waiter} doesn't license bare singular subjects with a definite, individuated reading in ordinary conversation: \ungram{\mention{Waiter called}} (with intended meaning \enquote{the waiter we both know}).
+
+A structural objection arises here: vocatives are external to argument structure, so frequency in vocative position can't directly license argument-position bareness. The bridge is analogical, not structural. On an exemplar-based account \citep[ch.~3]{bybee2010}, high-frequency forms are stored holistically rather than assembled compositionally. A child who has produced \mention{Mom!} thousands of times stores the bare form as a unit; holistically stored units resist analytic decomposition, including determiner insertion. The mechanism isn't \enquote{vocative syntax licenses argument syntax} but \enquote{vocative frequency produces holistic storage, and holistically stored forms carry their bare distribution into new syntactic contexts.} The pragmatic-semantic continuity between vocative (\mention{Mom, can you\ldots?}) and bare subject (\mention{Mom called}) supports the extension: both achieve deictic reference to the same individual within the family domain, and conversational adjacency provides the distributional bridge (see below).
+
+What distinguishes kinship terms is the \emph{sustained frequency} across both vocative and referential uses. The taboo ensures that \mention{Mom} isn't merely an occasional vocative but the \emph{default name} for referring to one's mother. This pushes the form beyond vocative bridging into full proper-noun status. The bare form also prevails because it is the most versatile option within the family. In Sacks and Schegloff's terms, bare \mention{Mom} satisfies both the preference for minimization and the preference for recognitionals in every family dyad: child to sibling, child to parent, parent to child \citep{SacksSchegloff1979}. The alternatives are narrower. Possessive \mention{my mom} signals that the addressee doesn't share the referent -- fine when talking to a friend, but addressed to a sibling it implies a custody arrangement. Inclusive \mention{our mom} presupposes shared filial relation, excluding the father-to-child dyad, and even between siblings it carries a whiff of committee ownership that most families don't intend. Because bare \mention{Mom} is the only form felicitous across all family configurations, it accumulates frequency from every participant, not just the child's own production.
+
+In the framework of \textcite{Traugott2003}, the kinship case represents \term{constructionalization} -- a new form-meaning pairing -- rather than mere constructional change. The kinship proper-name construction is item-specific: high token frequency for a few items (\mention{Mom}, \mention{Dad}) but low type frequency (only a handful of kinship terms show the full pattern). On Bybee's type/token distinction, high token frequency with low type frequency predicts item-specific lexicalization rather than productive schematic extension -- exactly the gradience we observe. The construction hasn't become productive enough to license bare arguments for novel kinship terms; rather, each term's bare-argument status reflects its own frequency history. This connects the kinship case to broader patterns in construction emergence: token frequency drives entrenchment of particular items, while type frequency drives productive generalization \citep{bybee2010}.
+
+The hierarchy described in Section~\ref{sec:syntax} -- from fully licensed \mention{Mom} to unlicensed \mention{Cousin} -- tracks address frequency: it's a prediction of the mechanism, not an arbitrary list. More formal terms like \mention{Mother} and \mention{Father} appear as bare singulars but are register-sensitive, associated with diary style, conservative familects, or religious contexts -- evidence that the gradience isn't just cross-term but cross-register, reflecting different usage contexts producing different degrees of entrenchment. The \mention{Mother}/\mention{Father} case deserves extended comment because it tests the mechanism directly. Register restriction reduces overall frequency: if \mention{Mother} occurs primarily in formal or conservative registers, its total exposure in name-position is far lower than \mention{Mom}'s, producing weaker entrenchment and narrower constructional licensing. CHILDES undersamples the registers where \mention{Mother} and \mention{Father} dominate -- formal family narratives, religious instruction, conservative British familects -- so the corpus evidence underestimates their bare-argument use in those contexts. The mechanism predicts that in communities or registers where \mention{Mother} and \mention{Father} are the primary address forms (conservative religious families, some British English varieties), they should show stronger proper-noun properties than the CHILDES data suggests. This is a prediction, not a problem: register-mediated frequency asymmetry is exactly what the account expects.
+
+The mechanism makes three testable predictions about corpus distributions: (a) parent terms should show higher vocative concentration than extended kin terms; (b) vocative concentration should correlate with bare-argument use across terms; (c) children should drive the vocative skew, since the taboo operates on what children \emph{produce}, not merely what they hear. The CHILDES data test all three. (Table~\ref{tab:childes} shows the terms with the highest token counts; the correlation analysis in Figure~\ref{fig:vocative-bare} includes all terms with at least 50 argument tokens, $n = 30$.)
+
+\label{sec:frequency}
+
+Data from the CHILDES corpus of child-directed and child-produced speech \citep{MacWhinney2000} provide direct support for the frequency mechanism. Table~\ref{tab:childes} shows frequency counts (per million words) across the English-NA collection (all corpora, speaker tiers only), distinguishing vocative uses from argument uses. Vocative was operationalized as: (i) comma-adjacent occurrences (e.g., \mention{Mom, look} or \mention{No, Mom}), or (ii) utterances consisting solely of kinship terms plus a small closed set of discourse particles (\mention{hey}, \mention{hi}, \mention{oh}, \mention{uh}, \mention{um}, \mention{yeah}, \mention{yes}, \mention{no}, \mention{please}, \mention{well}). All other occurrences were coded as argument uses. The extraction script is available in the online repository.\footnote{[URL removed for anonymous review]}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lrrr}
+\toprule
+Term & Vocative ppm & Argument ppm & Vocative \% \\
+\midrule
+\mention{mommy} & 493 & 2,155 & 19\% \\
+\mention{mom} & 240 & 744 & 24\% \\
+\mention{daddy} & 242 & 1,242 & 16\% \\
+\mention{dad} & 97 & 353 & 22\% \\
+\mention{mama} & 183 & 382 & 32\% \\
+\mention{dada} & 44 & 57 & 43\% \\
+\midrule
+\mention{grandma} & 24 & 143 & 14\% \\
+\mention{grandpa} & 8 & 72 & 10\% \\
+\midrule
+\mention{aunt} & 2 & 55 & 4\% \\
+\mention{uncle} & 4 & 74 & 5\% \\
+\mention{cousin} & 4 & 45 & 7\% \\
+\mention{brother} & 14 & 207 & 6\% \\
+\mention{sister} & 14 & 241 & 5\% \\
+\bottomrule
+\end{tabular}
+\caption{Kinship term frequencies in CHILDES English-NA (per million words).}\label{tab:childes}
+\end{table}
+
+Because vocative detection is heuristic, I checked how often it gets things right. I manually coded a balanced sample -- 50 predicted vocatives and 50 predicted arguments for parent terms, and the same for extended terms -- and Table~\ref{tab:childes-qc} reports the results. The two ambiguous extended cases were coded as vocative, a conservative choice that \emph{reduces} the parent/extended contrast. For parent terms, the heuristic is quite accurate: almost all predicted vocatives really are vocatives. For extended terms, it is noisier: 30\% of predicted vocatives turned out to be true arguments, primarily because extended kin terms appear comma-adjacent in appositive constructions (\mention{my aunt, Sarah}) rather than vocative function. To correct for these errors, I used a Bayesian measurement-error model. The idea is simple: if we know how often the heuristic mislabels vocatives and arguments (its \term{positive predictive value} and \term{false omission rate}), we can estimate what the true vocative rates would be without measurement error. Uncertainty in the error rates flows through to uncertainty in the corrected estimates, reported below as 95\% credible intervals (the Bayesian analogue of confidence intervals). Here and below, \enquote{parent vocative rate} refers to the corrected category-level rate, computed across all parent-term tokens from child speakers (*CHI tiers). The corrected estimates imply a parent vocative rate of 41\% [32--51] -- roughly seven times the extended-family rate of 6.2\% [4.0--11.0].
+
+Figure~\ref{fig:childes-sensitivity} shows that the parent/extended contrast persists across alternative heuristic definitions. I compared the default heuristic (comma-adjacency or standalone utterance) against a \emph{strict} variant (comma-adjacency only) and a \emph{loose} variant (adding all utterance-initial kinship terms). Under all three definitions, the core asymmetry remains robust. A further conservative element: vocative counts for extended and grandparent terms include title+name vocatives (\mention{Grandma Peggy, come here}) alongside standalone address (\mention{Grandma, come here}). Both are address uses contributing to name-position exposure, but because parent terms never appear in title+name constructions, the parent/extended contrast is conservative with respect to this conflation.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{llrrr}
+\toprule
+Category & Predicted label & \multicolumn{1}{c}{True vocative} & \multicolumn{1}{c}{True argument} & Total \\
+\midrule
+Parent & Vocative & 49 & 1 & 50 \\
+Parent & Argument & 13 & 37 & 50 \\
+\midrule
+Extended & Vocative & 35 & 15 & 50 \\
+Extended & Argument & 0 & 50 & 50 \\
+\bottomrule
+\end{tabular}
+\caption{Manual check of the vocative heuristic (stratified sample; ambiguous extended cases counted as vocative).}
+\label{tab:childes-qc}
+\end{table}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.75\linewidth]{childes/fig_sensitivity.png}
+\caption{Sensitivity of vocative rates to heuristic choice (strict = comma-adjacent only; default = comma-adjacent or stand-alone; loose = plus utterance-initial). Parent terms remain higher than extended terms under all variants.}
+\label{fig:childes-sensitivity}
+\end{figure}
+
+Bare-argument use tracks vocative concentration. Bare arguments were defined as argument uses without overt determiners or genitive markers; title+name constructions (e.g., \mention{Auntie Sarah}, \mention{Grandma Peggy}) were identified using the \%mor tier (CHILDES's automatic part-of-speech annotation), which tags the following word as a proper noun, and excluded from bare-argument counts, since the proper noun is the syntactic head. This exclusion materially improved the correlation (from $\rho = 0.38$ before exclusion) by removing a confound: title+name tokens inflate bare-argument counts for exactly the terms with lower vocative rates (grandparent and extended kin), flattening the gradient. Apostrophe-\mention{s} was treated as genitive only when immediately followed by a noun without copular/auxiliary continuation (e.g., \mention{mom's car}); all other contexts, including predicate adjectives (\mention{Mom's mad}), PPs (\mention{Mom's in the kitchen}), and copular NPs (\mention{Mom's the boss}), were treated as contractions and counted as bare arguments. Using terms with at least 50 argument tokens, vocative percentage correlates with bare-argument percentage (Spearman $\rho = 0.73$; $n = 30$). The 95\% confidence interval [0.52, 0.85] was obtained by bootstrap resampling (drawing 10,000 random samples with replacement from the 30 terms and recomputing $\rho$ each time). The result is stable across argument-count thresholds ($\rho = 0.63$ at $n_{\min} = 25$; $\rho = 0.74$ at $n_{\min} = 100$). The between-group contrast (parent vs.\ extended) is the primary driver: when morphological variants are collapsed into family clusters (\textsc{mom}, \textsc{dad}, etc.), the interval widens to include zero ($\rho = 0.45$ [$-0.46$, 0.89]; $n = 11$), reflecting too few clusters for a reliable within-group dose-response estimate rather than absence of the relationship. Whether a continuous dose-response holds within categories is a question for finer-grained data. Figure~\ref{fig:vocative-bare} plots the term-level relationship: terms with more vocative concentration are also the ones most likely to appear as bare arguments.
+
+Three methodological caveats are in order. First, the title+name exclusion was motivated by linguistic analysis (the proper noun, not the kinship term, is the syntactic head), not by its effect on the correlation, but it was an afterthought that happened to improve the correlation, and the magnitude of improvement should be interpreted with that in mind: other defensible operationalizations might yield different values of $\rho$. Second, with $n = 30$ terms the correlation is suggestive but not dispositive; the bootstrap interval honestly reflects the uncertainty that a small sample entails. Third, the correlation is consistent with the proposed mechanism but doesn't establish its causal direction. The causal argument rests on the theory and on the gradient's alignment with taboo-strength predictions, not on the $\rho$ value itself.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.75\linewidth]{childes/fig_vocative_bare_corr.png}
+\caption{Correlation between vocative concentration and bare-argument use (terms with $\geq 50$ argument tokens). Spearman $\rho = 0.73$ [0.52, 0.85].}
+\label{fig:vocative-bare}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.85\linewidth]{childes/fig_gradient_barchart.png}
+\caption{Bare-argument rate by kinship term (terms with $\geq 50$ argument tokens), ordered by rate. The gradient tracks taboo-driven vocative exposure: informal parent terms (highest, 63--90\%), grandparent terms (intermediate, 22--64\%), extended kin terms (lowest, 23--49\%). Title+name constructions (\mention{Auntie Sarah}, \mention{Grandma Peggy}) are excluded from bare counts using \%mor-tier proper-noun tagging, since the proper noun is the syntactic head.}
+\label{fig:gradient}
+\end{figure}
+
+Two patterns emerge. First, parent terms aren't merely more frequent overall -- they are \emph{disproportionately concentrated in vocative function}. Parent terms show 16--43\% vocative use, while extended kin terms show only 4--7\%. This is precisely the asymmetry the mechanism predicts: the naming taboo pushes parent terms into the vocative \enquote{bridging context} far more often than it affects terms for aunts, uncles, or cousins.
+
+Second, grandparent terms occupy an intermediate position (10--14\% vocative), consistent with their intermediate proper-noun properties. Grandparents are sometimes addressed by kinship term (depending on family proximity), but less consistently than parents.
+
+The key finding is that children drive the vocative skew: 68\% of vocative uses of kinship terms in CHILDES come from child speakers (*CHI tiers), not from adult caregivers. This directly supports the causal direction of the account. If the effect were driven by caregiver input alone -- adults modelling \mention{Mommy's going to the store} -- adults would dominate vocative use. Children dominate it instead, confirming that the taboo operates through what children \emph{produce}, not merely what they hear.
+
+This evidence validates the core frequency claim. The naming taboo doesn't merely increase overall usage of \mention{Mom} and \mention{Dad}; it concentrates that usage in the vocative function that serves as the grammaticalization pathway.
+
+Conversational adjacency provides micro-level evidence for the bridging context. In the CHILDES data, 4.7\% of utterances containing a vocative parent term are immediately followed by an utterance containing the same term as a bare argument -- the distributional environment \textcite{Heine2002} describes. The rate isn't high, and the mechanism doesn't require it to be; it only requires that speakers encounter and produce the form in both functions within the same conversational stretch.
+
+The theoretical upshot is that proper-noun syntax for kinship terms isn't a stipulated exception to general rules about determiners; it's a predictable consequence of how frequently, in what positions, these forms are used. The taboo created the pressure; frequency created the entrenchment; entrenchment created the syntax.
+
+The naming taboo and the bare singular pattern aren't coincidentally co-occurring. They're reciprocally connected: the taboo produces the usage pattern that sedimented into syntax, and that distinct syntax now reinforces the special social status of the kin term. The reinforcement works through formal marking: using \mention{Mom} as a bare proper name (rather than \mention{my mother} as a common noun) signals not just reference but the speaker's position in the family hierarchy. The taboo shaped the syntax; the syntax sustains the taboo.
+
+This proposal makes a prediction: in speech communities where the naming taboo is weaker or absent, kinship terms should show less proper-noun-like syntax. They should require determiners more often; bare singular subjects should be marked or ungrammatical. A parallel prediction applies to honorific use: where kinship terms function as titles or honorifics (as with \mention{Auntie Sarah}, \mention{Uncle John}, or religious \mention{Brother}/\mention{Sister}), they should show stronger proper-noun properties than when used purely relationally. Section~\ref{sec:crossling} explores these predictions.
+\section{Cross-linguistic predictions: Malagasy}\label{sec:crossling}
+
+The English-internal evidence is suggestive, but the strongest test would come from a language combining (a) a strict determiner system, where bareness is marked, with (b) a much stronger naming taboo. Malagasy provides exactly this combination.
+
+
+
+Standard (Official) Malagasy is typologically useful here because it makes two distinctions overt that English collapses. First, proper names in argument position normally require a dedicated set of proper determiners, distinct from the common-noun determiner \mention{ny}. While \mention{ny} is standardly analyzed as a definite article \citep{Keenan2008}, in the present framework it marks the common-noun category -- what Section~\ref{sec:intro} calls the \term{deital} cluster -- contrasting with the proper-noun markers. The relabelling isn't merely terminological: it captures the fact that the \mention{ny}/\mention{i} alternation tracks a syntactic category distinction (common vs.\ proper noun), not a semantic definiteness distinction, since both forms mark definite reference. Following \textcite{Paul2018} (summarizing \textcite{Dez1990}), Official Malagasy has three such proper determiners: familiar \mention{i}, more respectful \mention{ra-}, and honorific \mention{andria-}. The key is that these proper determiners are precisely the ones that can be omitted in vocative use: they are reported to be \emph{only} omitted when the proper name is used as a vocative.
+
+Second, Malagasy has dedicated vocative morphology for (most) non-pronominal vocatives: the vocative marker \mention{ry} \citep{Potsdam2010}. Potsdam gives the sharp contrast \mention{i Soa} (`Soa', non-vocative only) versus \mention{ry Soa} (`Soa!', vocative only), and likewise \mention{ny mpianatra} (`the students', non-vocative only) versus \mention{ry mpianatra} (`students!', vocative only). The distribution is as follows: \mention{ry} is the general vocative marker (used with both proper names and common nouns), while determiner-omission is a proper-name-specific vocative alternative. Thus if a teknonym takes \mention{ry} in vocative function, it's being treated as an ordinary noun; if it appears bare, proper-name status is already being assumed. A small complication is that \mention{i} can exceptionally be retained in an imperative vocative to avoid excessive directness (reported by Dez), but the default split remains: proper-name determiners characterize non-vocative proper names, while vocatives are marked by \mention{ry} or by determiner-omission.
+
+
+
+Among the Zafimaniry of Madagascar, naming taboos are far more pervasive than in English \citep{Bloch2006}. Bloch documents how personal names progressively fall out of use as speakers acquire social status. Young parents find personal names awkward; teknonyms (\mention{renin'Solo} = `mother of Solo') replace them in address and reference. For established elders (\term{raiamandreny}), personal names are actively avoided; using one would deny the person's legitimate place in the moral order. Bloch reports further stages of depersonalization, though the precise trajectory varies.
+
+This represents a much stronger input pressure than the English parent-child taboo. The avoidance extends beyond children addressing parents to encompass entire communities addressing elders.
+
+\subsection{The prediction}
+
+The existence of a dedicated vocative determiner refines the prediction. In English, vocative function is bare, so vocative use and proper-noun-like syntax converge in a single morphological form. In Malagasy, they can diverge: vocative function may take \mention{ry} or appear bare \citep{Paul2018}, while argument position requires either \mention{ny} (common noun) or \mention{i}/\mention{ra} (proper noun).
+
+The question, then, isn't whether teknonyms appear bare (Malagasy doesn't license bareness in argument position the way English does), but which determiner they select when used as subjects or objects. If the naming taboo produces proper-noun grammaticalization, teknonyms should take the proper-noun determiners \mention{i}/\mention{ra} in argument position, while taking \mention{ry} or appearing bare in vocative function. If they take \mention{ny} in arguments, the taboo hasn't produced the syntactic shift the mechanism predicts.
+
+A structural difference deserves acknowledgment: English simplex kinship terms (\mention{Mom}) differ from Malagasy phrasal teknonyms (\mention{renin'Solo} = `mother of Solo'). For the mechanism to apply, the teknonym's proper-name status must itself be the grammaticalization product -- a descriptive phrase that acquired proper-name function through high-frequency use in naming position, just as English \mention{Mom} acquired proper-name syntax through the same pathway. The test is whether the phrase now takes proper-name determiners (\mention{i}/\mention{ra}) rather than the common-noun determiner (\mention{ny}): if it does, the grammaticalization has occurred, regardless of the source construction's internal structure.
+
+As far as I know, Malagasy is the \emph{only} typological profile that fully disentangles the confounds in the English data: overt proper-name determiners separate proper-noun status from mere definiteness, and overt vocative morphology separates vocative function from argument licensing. The prediction is sharp, but testing it would require sustained fieldwork: elicitation of teknonym determiner selection across speakers of different social status, with controls for independent politeness factors affecting determiner choice. Detailed syntactic work on Zafimaniry teknonyms remains to be done.
+
+\subsection{Weaker taboos}
+
+The converse prediction is equally important. In speech communities where the naming taboo is weaker (where children sometimes use parents' first names, or where the taboo applies only in formal contexts), kinship terms should show less name-like syntax.
+
+Scandinavian languages would provide a useful test case: anecdotally, first-name address to parents is less marked in some families and regions than in mainstream Anglophone norms. If the mechanism is correct, kinship terms in such communities should show weaker name-like status effects by diagnostics appropriate to the language (e.g.\ reduced restriction to address contexts; weaker resistance to nominal modification). A complication is that Scandinavian languages differ in their determiner systems (suffixal definite articles, different patterns of bare nominal licensing), so any difference in kinship-term syntax would need to be calibrated against the baseline bare-nominal licensing in each specific language before attributing it to taboo strength. Systematic sociolinguistic work on such communities would provide a direct test.
+
+\subsection{Within-family variation}
+
+The mechanism predicts within-term variation across families. Terms like \mention{son} and \mention{daughter} are typically low-vocative: most parents address children by first name, so these kinship terms remain common nouns. But some families do use them vocatively (\mention{Son, come here}; \mention{Daughter, listen to me}). If vocative frequency drives grammaticalization, families with higher vocative use of \mention{son} and \mention{daughter} should also show higher bare-argument rates: \mention{Son said he'd be late}; \mention{Daughter is visiting tomorrow}. This would provide a within-term, between-family test complementing the between-term analysis. A complication is the register confound: if conservative registers independently license archaic or formal constructions, the bare-argument licensing might track register rather than vocative frequency. Distinguishing these requires comparing bare-argument rates between families matched for register but differing in vocative frequency. The challenge is data: testing requires familect-level corpus annotation to track vocative frequency and bare-argument licensing for the same terms within the same families.
+
+\subsection{Kinship terms as honorifics}
+
+The honorific prediction is testable within English. Kinship terms used as quasi-honorifics (\mention{Auntie Sarah}, \mention{Uncle John}) show intermediate proper-noun properties, while those used as full titles in religious contexts (\mention{Brother John}, \mention{Sister Mary}) show robust proper-noun licensing, including bare subjects (\mention{Sister said we could make no such engagements}; \citealt{Hodgkin1927}).
+
+\subsection{Adult acquisition: in-laws}
+
+The mechanism extends beyond parent-child address. Adults navigating in-law relationships face analogous pressures: when does one start calling a mother-in-law \mention{Mom}? The threshold marks a relational shift, and if the taboo-driven mechanism is correct, those who adopt \mention{Mom} should show corresponding bare-NP usage -- \mention{Mom called this morning} rather than \mention{My mother-in-law called}. This adult acquisition case offers a potential test of the mechanism independent of childhood entrenchment: it predicts that adoption of the kin term as an address form should precede (and enable) its use in bare argument position.
+
+
+Cross-linguistic work on kinship semantics is extensive; cross-linguistic work on kinship-term \emph{syntax} is thinner. The prediction here concerns the interaction between address-form taboos and determiner syntax -- a narrower question than the semantic structure of kinship systems. Testing the prediction requires careful attention to bare nominal licensing in each language, controlling for the language's more general patterns of article use (or absence). The predictions only get traction in languages with a deital cluster.
+
+I restrict the analysis to English, where both the sociolinguistic and syntactic facts are well documented. The cross-linguistic predictions are offered as consequences of the mechanism, not as confirmed findings. Several limitations warrant acknowledgment: the diachronic trajectory of bare kin-term stabilization remains unexamined (see Section~\ref{sec:objections}); and variation across class, region, ethnicity, and family structure deserves fuller treatment.
+
+The mechanism generates specific within-English predictions about community variation. British upper-class families, where first-name use to parents has historically been less marked, would be one test case. Conversely, African American English varieties and some Southern U.S.\ varieties show distinctive kinship-address patterns \citep{Wolfram2015} that the mechanism predicts should correlate with distinctive bare-argument licensing. Same-sex parent families provide a natural experiment: when two parents share a kinship term, differentiation strategies (e.g., \mention{Mommy} vs.\ \mention{Mama}) may produce different frequency profiles and, the mechanism predicts, different degrees of proper-noun entrenchment for each variant. These predictions remain untested but are falsifiable with appropriately stratified corpus or survey data.
+
+\section{Objections and alternatives}\label{sec:objections}
+
+The proposal connects sociolinguistic facts to syntactic patterns through a frequency-based mechanism. Several objections and alternative explanations deserve consideration.
+
+\subsection{Objection: vocatives don't generalize}
+
+A common objection is that many nouns occur in vocative function without acquiring proper-noun syntax. \mention{Waiter!} is a perfectly good vocative, but \ungram{\mention{Waiter called}} (with definite, individuated reading) is ungrammatical. Why should kinship terms be different?
+
+The reply hinges on the distinction between \emph{role-anchored definites} (\mention{Waiter}, \mention{Doctor}, \mention{Boss}) and \emph{conventionalized personal name substitutes} (\mention{Mom}, \mention{Dad}). Role nouns can be used vocatively and may license bare singulars in domain-bound contexts (\mention{Boss is here} in workplace narrative), but they don't become the \emph{default cross-construction name} for referring to a specific individual. Indeed, \mention{Boss is here} shows exactly the intermediate proper-noun properties the mechanism predicts for a form with moderate name-position exposure: it's licensed in domain-bound contexts but doesn't generalize to \mention{Boss called yesterday} in the way \mention{Mom called yesterday} does. The gradience confirms the mechanism.
+
+Of course, there's no taboo forcing \mention{Waiter} into name position. A customer uses \mention{Waiter!} because they don't know the server's name, not because using it would be socially prohibited. If they learned the name, they could use it freely. The kinship case inverts this: the child knows perfectly well that their father is called Nick -- the prohibition is on deploying that knowledge. The taboo operates not on ignorance but on suppression, and suppression sustained over years is what forces the kinship term into name position persistently enough to produce entrenchment.
+
+The case of \mention{Teacher} is instructive. In primary-school contexts, young children address teachers vocatively (\mention{Teacher, I have a question}) and may produce bare subjects (\textsuperscript{?}\mention{Teacher's here}; \textsuperscript{?}\mention{Teacher said we could}). These uses are marginal but better than \mention{Waiter}, paralleling the intermediate status of \mention{Boss}. The mechanism predicts this: children who can't or don't use the teacher's first name develop moderate proper-noun properties for the role noun -- stronger than \mention{Waiter} (transient encounter, no sustained address relationship), weaker than \mention{Mom} (no lifelong taboo-driven frequency). Part of the difference is relational persistence: a child addresses the same teacher over months, accumulating frequency that a single encounter with a waiter can't produce.
+
+\subsection{Objection: the semantics explains it}
+
+A second objection suggests that kinship terms permit bare singular use simply because they denote unique referents within a family. On this view, the proper-noun syntax follows from the semantics, not from frequency or the taboo.
+
+Semantics is clearly doing part of the work. Kinship terms are relational nouns: \mention{mother} denotes a relation, and when the possessor argument is contextually supplied (the speaker's own mother), the result can pick out a unique individual. This relational semantics makes kinship terms \emph{candidates} for proper-name status in a way that non-relational nouns like \mention{neighbour} aren't -- the semantic profile supports the type of reference that proper names require. But candidacy isn't licensing. The question is whether the semantics is sufficient to produce the syntax. It isn't.
+
+First, the gradience: \mention{Cousin} also denotes a unique individual in many families (an only cousin), but \ungram{\mention{Cousin called}} is degraded where \mention{Mom called} isn't. If uniqueness were sufficient, the two should pattern alike. Second, the full hierarchy tracks frequency better than uniqueness: parent terms (63--90\% bare in CHILDES) show the strongest proper-noun properties, grandparent terms are intermediate (22--64\%), and extended kin terms show the weakest (23--49\%). Uniqueness doesn't predict this ordering; the naming taboo does.
+
+The semantic conditions and the frequency mechanism aren't in competition. Relational semantics selects which nouns are candidates for proper-name status; frequency determines which candidates get there. The semantic account, taken alone, can stipulate that uniqueness is necessary but not sufficient, but then it needs a second condition to explain the gradient -- and that condition is going to look like the frequency mechanism.
+
+\subsection{Objection: what about \mentionhead{sir} and \mentionhead{ma'am}?}
+
+A related question concerns address forms like \mention{sir} and \mention{ma'am}, which also permit bare use. Does the analysis generalize?
+
+Yes, appropriately. \mention{Sir} and \mention{ma'am} are conventionalized address forms with long grammaticalization histories, though their frequency varies sharply by register and community. They show some proper-noun-like properties: \textsuperscript{?}\mention{Sir called} is marginal but better than \ungram{\mention{Waiter called}}. The mechanism predicts exactly this: forms used frequently in address position should show intermediate proper-noun properties.
+
+The kinship story isn't unique to kinship. It's an instance of a general mechanism -- frequency in name position produces proper-noun syntax -- applied to a case where social prohibition creates the requisite frequency. Kinship terms provide the clearest test case because the naming taboo creates a frequency asymmetry that is unusually large, well-documented, and socially motivated -- making the causal pathway traceable in a way that other address-form grammaticalizations don't permit.
+
+\subsection{Alternative: inherent lexical specification}
+
+An alternative account would treat proper-noun syntax as an inherent lexical property of certain kinship terms. On this view, \mention{mom} has two lexical entries: a common noun (relational, requiring determiner) and a proper noun (name-like, bare).
+
+This analysis captures the synchronic facts but leaves them unexplained. Why should \mention{mom} have developed a lexicalized proper-noun use, and why should that use be gradient across kinship terms? Why is bare \mention{Mom} fully licensed, bare \textsuperscript{?}\mention{Uncle} marginal, and bare \textsuperscript{*}\mention{Cousin} ungrammatical? The lexical-specification account treats as brute fact what the frequency mechanism derives from usage patterns.
+
+The strongest version of this alternative is a construction-grammar analysis where \mention{Mom} has a partially schematic entry [\textsc{kin-term}$_{\text{proper}}$] that \emph{is} the sedimented result of frequency -- making it compatible with the present mechanism rather than a competitor. The question then becomes whether the diachronic/causal story adds anything to the synchronic description. For usage-based grammarians, the causal connection is constitutive: the grammar \emph{is} the frequency-driven pattern. For grammarians who treat synchronic and diachronic as separate enterprises, the causal story remains significant as an account of why this particular constructional pattern exists.
+
+Either way, the lexical account doesn't connect to the sociolinguistic facts. It treats the naming taboo and the bare singular pattern as coincidental. The frequency mechanism treats them as causally connected -- and that connection is the paper's core contribution.
+
+\subsection{Objection: causal directionality}
+
+A final objection concerns the direction of causation. The paper claims taboo $\to$ frequency $\to$ syntax, but an alternative direction is possible: syntax $\to$ social status $\to$ taboo. On this view, kinship terms that \emph{already had} proper-noun syntax (for whatever reason) acquired special social significance \emph{because} of their grammatical distinctiveness, and the taboo emerged to protect that significance.
+
+The feedback loop described in Section~\ref{sec:mechanism} -- where syntactic distinctiveness reinforces the social status that produced it -- makes these alternatives harder to distinguish synchronically. Both predict the same correlation between taboo strength and proper-noun distribution. What distinguishes them is diachronic: the present account predicts that the taboo should \emph{precede} proper-noun syntax historically; the reverse account predicts that proper-noun syntax should precede the taboo.
+
+The mechanism predicts that address norms should precede bare-argument licensing diachronically, but this prediction is unlikely to be resolvable from the English historical record. Both the naming taboo and bare kinship-term use probably predate the available corpora. The evidence has the additional misfortune of being primarily spoken, overwhelmingly produced by small children, and therefore exactly the kind of language that historical records don't preserve. The causal claim rests on synchronic distributional evidence -- the gradient's alignment with taboo strength, the correlation between vocative concentration and bare-argument rates -- and on the plausibility of the proposed pathway rather than on demonstrated historical sequence.
+
+\section{Conclusion}\label{sec:conclusion}
+
+Three contributions stand out. First, the paper bridges two literatures that have ignored each other. Sociolinguists studying address forms haven't examined determiner syntax; syntacticians studying bare nominals haven't considered the politics of the family. The bridge is \emph{CGEL}'s category/function distinction, which lets us say precisely what's gradient about kinship terms (proper-\emph{noun} entrenchment) and what's not (naming function). The connection proposed here invites further work at this interface.
+
+Second, the paper provides an explanatory mechanism, not just a description. Other treatments note that kinship terms can function as proper names; this paper explains \emph{why} -- and where semantic-uniqueness accounts leave the gradient unexplained (\mention{Cousin} denotes a unique individual in many families but doesn't license bare subjects). The naming taboo is the engine; the frequency is the transmission; the syntax is the sediment.
+
+Third, the paper offers falsifiable predictions, some already validated and others awaiting test. Corpus data from CHILDES confirm that parent terms show disproportionate vocative concentration (16--43\%) compared to extended kin terms (4--7\%), and that children drive the vocative skew (68\% of vocative uses come from child speakers, not caregivers). Vocative concentration correlates with bare-argument realization across terms (Spearman $\rho = 0.73$ [0.52, 0.85]). Untested predictions follow: across languages, the strength of the naming taboo should predict the robustness of proper-noun properties (with Malagasy teknonyms providing the sharpest test); within families, weakening of the taboo should track weakening of proper-noun syntax for the same term; and the mechanism should extend to adult adoption of kinship terms in in-law relationships.
+
+The entire apparatus of this paper -- sociolinguistic taboo, usage-based grammaticalization, corpus annotation, Bayesian measurement-error correction -- has been marshalled to explain a word that most children master before they can tie their shoes. That isn't a reason for embarrassment; it's the point. The most deeply entrenched grammatical patterns are precisely the ones that look too obvious to require explanation.
+
+Return to \emph{The Parent Trap}. When Annie says \enquote{I really have, Dad}, what's restored isn't a way of picking out a referent -- it's a license: the right to use that word, in that slot, with that person. The naming taboo made \mention{Dad} the only available term; a decade of absence didn't weaken its proper-name status. The syntax preserves the social relation that created it.
+
+\section*{Acknowledgments}
+
+[Acknowledgments removed for anonymous review.]
+
+\newpage
+
+\printbibliography
+
+\end{document}
