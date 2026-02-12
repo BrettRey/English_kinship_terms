@@ -13,7 +13,7 @@ WML = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
 REL = "http://schemas.openxmlformats.org/officeDocument/2006/relationships"
 
 SRC = "main-anon.docx"
-DST = "main-anon.docx"
+DST = "English_kinship_terms_taboo_to_syntax_anon.docx"
 
 # === PHASE 1: python-docx operations (formatting + captions) ===
 
@@ -25,19 +25,23 @@ from docx.enum.text import WD_LINE_SPACING
 os.system(
     "pandoc main-anon.tex --from latex --to docx --citeproc "
     "--bibliography=references.bib --csl=unified-linguistics.csl "
-    "-o main-anon.docx 2>&1"
+    f"-o {SRC} 2>&1"
 )
 print("Regenerated clean docx from tex")
 
-doc = Document(DST)
+doc = Document(SRC)
 
-# --- Fix 1: Double-spacing, 12pt Times New Roman ---
+# --- Fix 1: Double-spacing, 12pt Times New Roman (skip headings) ---
+HEADING_STYLES = {"Title", "Subtitle", "Abstract Title",
+                  "Heading 1", "Heading 2", "Heading 3", "Heading 4"}
+
 for p in doc.paragraphs:
     pf = p.paragraph_format
     pf.line_spacing_rule = WD_LINE_SPACING.DOUBLE
     for run in p.runs:
         run.font.name = "Times New Roman"
-        run.font.size = Pt(12)
+        if p.style.name not in HEADING_STYLES:
+            run.font.size = Pt(12)
 
 for table in doc.tables:
     for row in table.rows:
@@ -48,10 +52,62 @@ for table in doc.tables:
                     run.font.name = "Times New Roman"
                     run.font.size = Pt(12)
 
+# Set default body style
 style = doc.styles["Normal"]
 style.font.name = "Times New Roman"
 style.font.size = Pt(12)
 style.paragraph_format.line_spacing_rule = WD_LINE_SPACING.DOUBLE
+
+# Set heading styles: Times New Roman, bold, appropriate sizes
+from docx.shared import RGBColor
+for sname, sz, bold, italic in [
+    ("Title", 16, True, False),
+    ("Abstract Title", 12, True, False),
+    ("Heading 1", 14, True, False),
+    ("Heading 2", 12, True, True),
+    ("Heading 3", 12, True, False),
+]:
+    try:
+        s = doc.styles[sname]
+        s.font.name = "Times New Roman"
+        s.font.size = Pt(sz)
+        s.font.bold = bold
+        s.font.italic = italic
+        s.font.color.rgb = RGBColor(0, 0, 0)
+        s.paragraph_format.line_spacing_rule = WD_LINE_SPACING.DOUBLE
+    except KeyError:
+        pass
+
+# Clear run-level overrides on headings so they inherit style (keep TNR)
+for p in doc.paragraphs:
+    if p.style.name in HEADING_STYLES:
+        for run in p.runs:
+            run.font.size = None
+            run.font.bold = None
+            run.font.italic = None
+            run.font.color.rgb = None
+
+# Add first-line indent to body paragraphs (not headings, captions, quotes, lists)
+from docx.shared import Inches
+NO_INDENT = HEADING_STYLES | {"Table Caption", "Image Caption", "Captioned Figure",
+                               "Block Text", "List Number", "List Bullet",
+                               "First Paragraph", "Author", "Date"}
+first_after_heading = False
+for p in doc.paragraphs:
+    sn = p.style.name
+    if sn in HEADING_STYLES:
+        first_after_heading = True
+        continue
+    if sn not in NO_INDENT and p.text.strip():
+        if first_after_heading:
+            # First paragraph after a heading: no indent (standard style)
+            first_after_heading = False
+        else:
+            p.paragraph_format.first_line_indent = Inches(0.5)
+    elif not p.text.strip():
+        pass  # blank lines don't reset the flag
+    else:
+        first_after_heading = False
 
 print("Fix 1 done: double-spaced, 12pt Times New Roman")
 
@@ -77,6 +133,48 @@ for p in doc.paragraphs:
         print(f"  Figure {fig_num}: {text[:60]}")
 
 print(f"Fix 2 done: numbered {tab_num} tables and {fig_num} figures")
+
+# --- Fix 2b: Strip borders from example tables ---
+import re as _re
+from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
+
+example_tables = 0
+for table in doc.tables:
+    first_cell = table.rows[0].cells[0].text.strip()
+    if _re.match(r'\(\d+\)', first_cell):
+        # This is an example table — remove all borders
+        tbl = table._tbl
+        tblPr = tbl.find(qn('w:tblPr'))
+        if tblPr is None:
+            tblPr = OxmlElement('w:tblPr')
+            tbl.insert(0, tblPr)
+        existing = tblPr.find(qn('w:tblBorders'))
+        if existing is not None:
+            tblPr.remove(existing)
+        borders = OxmlElement('w:tblBorders')
+        for bname in ['top', 'left', 'bottom', 'right', 'insideH', 'insideV']:
+            b = OxmlElement(f'w:{bname}')
+            b.set(qn('w:val'), 'none')
+            b.set(qn('w:sz'), '0')
+            b.set(qn('w:space'), '0')
+            b.set(qn('w:color'), 'auto')
+            borders.append(b)
+        tblPr.append(borders)
+        # Also remove cell-level borders
+        for row in table.rows:
+            for cell in row.cells:
+                tcPr = cell._tc.find(qn('w:tcPr'))
+                if tcPr is not None:
+                    tcBorders = tcPr.find(qn('w:tcBorders'))
+                    if tcBorders is not None:
+                        tcPr.remove(tcBorders)
+        # Set narrow first column, wide second column
+        table.columns[0].width = Inches(0.6)
+        table.columns[1].width = Inches(5.4)
+        example_tables += 1
+
+print(f"Fix 2b done: stripped borders from {example_tables} example tables")
 
 # Save after python-docx operations
 doc.save(DST)
@@ -154,6 +252,48 @@ for sty in doc_xml.iter(f"{{{WML}}}rStyle"):
         sty.set(f"{{{WML}}}val", v.replace("Footnote", "Endnote"))
 
 print(f"Fix 3: moved {moved} footnotes → endnotes")
+
+# Set endnote numbering to arabic (decimal) in settings.xml
+if "word/settings.xml" in files:
+    settings_xml = ET.fromstring(files["word/settings.xml"])
+    # Find or create endnotePr
+    enpr = settings_xml.find(f"{{{WML}}}endnotePr")
+    if enpr is None:
+        enpr = ET.SubElement(settings_xml, f"{{{WML}}}endnotePr")
+    # Set numFmt to decimal
+    numfmt = enpr.find(f"{{{WML}}}numFmt")
+    if numfmt is None:
+        numfmt = ET.SubElement(enpr, f"{{{WML}}}numFmt")
+    numfmt.set(f"{{{WML}}}val", "decimal")
+    files["word/settings.xml"] = ET.tostring(settings_xml, xml_declaration=True, encoding="UTF-8")
+    print("  Set endnote numbering to arabic")
+
+# Ensure EndnoteReference style has superscript in styles.xml
+if "word/styles.xml" in files:
+    styles_xml = ET.fromstring(files["word/styles.xml"])
+    # Find or create EndnoteReference style
+    en_ref_style = None
+    for s in styles_xml.iter(f"{{{WML}}}style"):
+        if s.get(f"{{{WML}}}styleId") == "EndnoteReference":
+            en_ref_style = s
+            break
+    if en_ref_style is None:
+        # Create the style
+        en_ref_style = ET.SubElement(styles_xml, f"{{{WML}}}style")
+        en_ref_style.set(f"{{{WML}}}type", "character")
+        en_ref_style.set(f"{{{WML}}}styleId", "EndnoteReference")
+        name_el = ET.SubElement(en_ref_style, f"{{{WML}}}name")
+        name_el.set(f"{{{WML}}}val", "endnote reference")
+    # Ensure rPr with superscript
+    rpr = en_ref_style.find(f"{{{WML}}}rPr")
+    if rpr is None:
+        rpr = ET.SubElement(en_ref_style, f"{{{WML}}}rPr")
+    vertAlign = rpr.find(f"{{{WML}}}vertAlign")
+    if vertAlign is None:
+        vertAlign = ET.SubElement(rpr, f"{{{WML}}}vertAlign")
+    vertAlign.set(f"{{{WML}}}val", "superscript")
+    files["word/styles.xml"] = ET.tostring(styles_xml, xml_declaration=True, encoding="UTF-8")
+    print("  Set EndnoteReference style to superscript")
 
 # Update file contents
 files["word/document.xml"] = ET.tostring(doc_xml, xml_declaration=True, encoding="UTF-8")
