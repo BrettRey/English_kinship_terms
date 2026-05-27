@@ -1,10 +1,18 @@
 # STATUS.md - English Kinship Terms
 
-**Last updated:** 2026-02-10
+**Last updated:** 2026-05-27
 
 ## Current Phase
 
-**PREPRINT UPLOADED** - LingBuzz [lingbuzz/009751](https://ling.auf.net/lingbuzz/009751), February 2026
+**SUBMITTED** - Journal of English Linguistics (JEngL-26-0039), February 12, 2026. Preprint: LingBuzz [lingbuzz/009751](https://ling.auf.net/lingbuzz/009751)
+
+## 2026-05-27 PM Provenance Audit
+
+- Dirty state classified as submission/admin residue, not manuscript-source drift.
+- Tracked manuscript source and submission-generation files (`main.tex`, `references.bib`, `submission/main-anon.tex`, `submission/references.bib`, `submission/prepare_submission.py`, `submission/fix_docx.py`) are clean relative to `HEAD`.
+- `Reynolds_English_kinship_terms_taboo_to_syntax.pdf` is byte-identical to tracked `main.pdf`; `reynolds2025kinship.pdf` is an older pre-submission/preprint artifact.
+- Untracked `submission/main-anon.docx` is the intermediate DOCX produced by the submission script; tracked `submission/English_kinship_terms_taboo_to_syntax_anon.docx` remains the named anonymized JoEL manuscript artifact.
+- Untracked cover-letter/title-page DOCX/Markdown files and May 9 literature notes should be committed or parked in a routine hygiene pass, but they do not indicate a post-submission manuscript edit.
 
 ## Timeline
 
@@ -32,6 +40,14 @@
 3. **Literature strengthened** - Sloat 1969, Longobardi 1994, Hill 2022, Kripke 1980
 4. **Cross-cultural naming taboos** - Hawaiian kapu, Zulu hlonipha, Apache ghost-names
 5. **Repository public** - [github.com/BrettRey/English_kinship_terms](https://github.com/BrettRey/English_kinship_terms)
+
+### 2026-02-11 Session Notes
+- Fixed 6 fabricated/incorrect bib entries: Hill2022 DOI, IrvineGunner2018 (completely fabricated), Potsdam2010 (wrong paper), Bloch2006 (wrong publication), Traugott1993 (fabricated), Traugott2003 (chimera of two books)
+- Removed unverifiable Dziwirek2019; replaced citation with BrownFord1961
+- Added Figure 3 cross-reference in CHILDES results discussion
+- Submission pipeline: rewrote example conversion (tabular instead of inline) to fix pandoc eating example numbers
+- Updated submission/references.bib to match corrected main bib
+- PDF renamed and uploaded to LingBuzz
 
 ### 2026-02-10 Session Notes (session 2)
 - Cut Longobardi/DP paragraph from §6.4 entirely (paper doesn't need to engage with DP framework)
